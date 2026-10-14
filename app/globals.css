@@ -86,6 +86,10 @@
 .manuscript > * + * {
   margin-top: 1.25em;
 }
+/* Slightly increase spacing between consecutive manuscript paragraphs */
+.manuscript > p + p {
+  margin-top: 1.5em;
+}
 .manuscript h2 {
   font-size: 1.6rem;
   line-height: 1.3;
