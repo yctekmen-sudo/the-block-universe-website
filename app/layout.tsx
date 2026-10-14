@@ -1,18 +1,25 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
-import { Inter, Source_Serif_4 } from 'next/font/google'
+import { Inter, Noto_Sans_Math, Source_Serif_4 } from 'next/font/google'
 import 'katex/dist/katex.min.css'
 import './globals.css'
 
+const notoMath = Noto_Sans_Math({
+  subsets: ['math'],
+  weight: '400',
+  variable: '--font-math',
+  display: 'swap',
+})
+
 const sourceSerif = Source_Serif_4({
-  subsets: ['latin'],
+  subsets: ['latin', 'latin-ext', 'greek'],
   variable: '--font-source-serif',
   style: ['normal', 'italic'],
   display: 'swap',
 })
 
 const inter = Inter({
-  subsets: ['latin'],
+  subsets: ['latin', 'latin-ext', 'greek'],
   variable: '--font-inter',
   display: 'swap',
 })
@@ -52,7 +59,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${sourceSerif.variable} ${inter.variable}`}>
+    <html lang="en" className={`${sourceSerif.variable} ${inter.variable} ${notoMath.variable}`}>
       <body className="antialiased">
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}

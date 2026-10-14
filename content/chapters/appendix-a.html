@@ -1,0 +1,342 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Appendix
+A. CHSH and the Explicit Measurement-Dependent Local Hidden-Variable
+Model</title></head><body><article class="book-chapter"><h1 id="appendix-a.-chsh-and-the-explicit-measurement-dependent-local-hidden-variable-model"><strong>Appendix
+A. CHSH and the Explicit Measurement-Dependent Local Hidden-Variable
+Model</strong></h1><p>This appendix contains the technical development underlying the
+discussion in Section 4. It is intentionally separated from the main
+narrative so that the conceptual argument can proceed without requiring
+the reader to follow the full CHSH algebra. The appendix derives the
+CHSH bound for local hidden-variable models, identifies the precise role
+of measurement independence, and presents the explicit
+measurement-dependent local hidden-variable model used in the main
+text.</p><p>The appendix supplies the mathematical support for the conclusions
+summarized in Section 4. It does not by itself establish that the Block
+Universe is the physical mechanism responsible for measurement
+dependence; that remains an open physical question discussed in the main
+text.</p><h2 id="a.1-the-chsh-experiment"><strong>A.1 The CHSH
+Experiment</strong></h2><p>The CHSH formulation makes the logical structure of Bell's theorem
+especially transparent. Instead of considering a single measurement
+setting at each location, Alice has a choice between two settings,
+<em>a</em> and <em>a′</em>, while Bob has a choice between two settings,
+<em>b</em> and <em>b′</em>. Each measurement produces an outcome of
+either +1 or −1.</p><p>For any pair of settings, define the correlation</p><p>E(a,b) = ⟨AB⟩.</p><p>The CHSH combination is then</p><p>S = E(a,b) + E(a,b′) + E(a′,b) − E(a′,b′).</p><p>The remarkable feature of CHSH is that a local hidden-variable model
+satisfying measurement independence places a strict upper bound on this
+quantity.</p><h2 id="a.2-the-local-deterministic-chsh-bound"><strong>A.2 The Local
+Deterministic CHSH Bound</strong></h2><p>Begin with the deterministic special case:</p><p>A = A(a,λ),    B = B(b,λ),</p><p>where every outcome is either +1 or −1.</p><p>For a particular value of <em>λ</em>, define</p><p>S(λ) = A(a,λ)B(b,λ) + A(a,λ)B(b′,λ) + A(a′,λ)B(b,λ) −
+A(a′,λ)B(b′,λ).</p><p>Factor this expression:</p><p>S(λ) = A(a,λ)[B(b,λ)+B(b′,λ)] + A(a′,λ)[B(b,λ)-B(b′,λ)].</p><p>Because <em>B(b,λ)</em> and <em>B(b′,λ)</em> can each only be +1 or
+−1, one of the two bracketed terms must be zero and the other must be
+either +2 or −2. Therefore</p><p>|S(λ)| = 2.</p><p>This is an important point: the local algebra itself does not yet use
+measurement independence. The bound arises for each individual
+hidden-variable state.</p><h2 id="a.3-where-measurement-independence-enters-chsh"><strong>A.3
+Where Measurement Independence Enters CHSH</strong></h2><p>Under measurement independence, the same probability distribution
+<em>ρ(λ)</em> is used for all four setting combinations:</p><p>E(a,b) = ∫ dλ ρ(λ) A(a,λ)B(b,λ),</p><p>E(a,b′) = ∫ dλ ρ(λ) A(a,λ)B(b′,λ),</p><p>E(a′,b) = ∫ dλ ρ(λ) A(a′,λ)B(b,λ),</p><p>E(a′,b′) = ∫ dλ ρ(λ) A(a′,λ)B(b′,λ).</p><p>Because the same distribution appears in all four expressions, they
+can be combined:</p><p>S = ∫ dλ ρ(λ) S(λ).</p><p>Since <em>|S(λ)| = 2</em> for every <em>λ</em>, it follows that</p><p>|S| ≤ 2.</p><p>This is the CHSH inequality.</p><p>The exact point at which measurement independence enters is therefore
+extremely specific. It is <strong>not</strong> the algebraic identity
+that gives <em>|S(λ)|=2</em>. It is the assumption that the four
+experimentally different setting combinations can all be represented as
+averages over the <strong>same underlying distribution</strong>
+<em>ρ(λ)</em>.</p><p>If instead the distribution depends on the settings, we have</p><p>ρ(λ|a,b),   ρ(λ|a,b′),   ρ(λ|a′,b),   ρ(λ|a′,b′),</p><p>and the four terms cannot in general be combined into a single
+integral of <em>S(λ)</em>. The step producing <em>|S|≤2</em> is then
+unavailable.</p><p>Measurement independence → one common ρ(λ) → CHSH bound.</p><p>This is the mathematical opening on which the remainder of the
+proposal rests.</p><h2 id="a.4-the-quantum-prediction"><strong>A.4 The Quantum
+Prediction</strong></h2><p>For a pair of spin-½ particles prepared in the singlet state, quantum
+mechanics predicts the correlation</p><p>E<sub>QM</sub>(a,b) = −cos(θ<sub>ab</sub>),</p><p>where <em>θ<sub>ab</sub></em> is the angle between the measurement
+directions.</p><p>Choose, for example,</p><p>a = 0°,   a′ = 90°,   b = 45°,   b′ = −45°.</p><p>The corresponding quantum correlations give</p><p>|S<sub>QM</sub>| = 2√2.</p><p>Since</p><p>2√2 &gt; 2,</p><p>the quantum prediction violates the CHSH bound.</p><p>The experimental significance is straightforward: measurements
+reproduce correlations incompatible with the assumptions used to derive
+the local, measurement-independent CHSH inequality.</p><h2 id="a.5-deterministic-notation-does-not-require-deterministic-ontology"><strong>A.5
+Deterministic Notation Does Not Require Deterministic
+Ontology</strong></h2><p>At this stage it is important not to overinterpret the notation
+<em>A(a,λ)</em> and <em>B(b,λ)</em>. The deterministic treatment is
+mathematically convenient because it makes the CHSH logic transparent.
+The broader proposal does not require that nature be deterministic at
+the hidden-variable level.</p><p>A more general local stochastic model would instead specify
+conditional probabilities such as</p><p>P(A|a,λ),    P(B|b,λ).</p><p>Locality can then be represented by the factorization</p><p>P(A,B|a,b,λ) = P(A|a,λ)P(B|b,λ).</p><p>Measurement dependence concerns the relationship between <em>λ</em>
+and the settings, not whether the response functions themselves are
+deterministic. The proposal therefore remains compatible with genuinely
+stochastic underlying physics.</p><h2 id="a.6-the-constructive-question"><strong>A.6 The Constructive
+Question</strong></h2><p>The CHSH analysis has established the logical opening, but a logical
+opening is not yet a physical model. To make the proposal more
+substantial, we need to show that a measurement-dependent local
+hidden-variable construction can actually reproduce the quantum
+correlations.</p><p>Such constructions are known in the foundations of physics
+literature. A particularly simple example, associated with Brans and
+discussed explicitly by Michael Hall, uses a hidden variable with two
+binary components. The model is useful here not because it constitutes
+the complete physical theory being proposed, but because it demonstrates
+that relaxing measurement independence is mathematically sufficient to
+construct local response functions reproducing the singlet
+statistics.</p><h2 id="a.7-the-hidden-variable"><strong>A.7 The Hidden
+Variable</strong></h2><p>Let the hidden variable be</p><p>λ = (λ<sub>1</sub>, λ<sub>2</sub>),</p><p>where</p><p>λ<sub>1</sub>, λ<sub>2</sub> ∈ {+1,−1}.</p><p>There are therefore four possible values of <em>λ</em>.</p><p>Define the local measurement responses simply as</p><p>A(x,λ) = λ<sub>1</sub>,     B(y,λ) = λ<sub>2</sub>.</p><p>These response functions are manifestly local in the relevant sense:
+Alice's result depends on her local hidden-variable component and not on
+Bob's measurement direction, while Bob's result depends on his local
+hidden-variable component and not on Alice's measurement direction.</p><h2 id="a.8-the-setting-dependent-hidden-variable-distribution"><strong>A.8
+The Setting-Dependent Hidden-Variable Distribution</strong></h2><p>The essential ingredient is the distribution assigned to the hidden
+variable. Instead of assuming a setting-independent distribution,
+define</p><p>ρ(λ|x,y) = [1 − λ<sub>1</sub>λ<sub>2</sub>(x·y)] / 4.</p><p>Here <em>x</em> and <em>y</em> are the two measurement directions,
+represented as unit vectors.</p><p>This equation contains the entire departure from measurement
+independence. The local response functions remain simple. All of the
+angular dependence required to reproduce the quantum correlation is
+placed in the conditional distribution of the hidden variable.</p><h2 id="a.9-validity-of-the-probability-distribution"><strong>A.9
+Validity of the Probability Distribution</strong></h2><p>A probability distribution must be non-negative and must sum to
+one.</p><p>Because <em>λ<sub>1</sub>λ<sub>2</sub>=±1</em> and <em>−1≤x·y≤1</em>,
+the numerator satisfies</p><p>0 ≤ 1 − λ<sub>1</sub>λ<sub>2</sub>(x·y) ≤ 2.</p><p>Thus</p><p>ρ(λ|x,y) ≥ 0.</p><p>Summing over the four possible values of <em>λ</em> gives</p><p>Σλ ρ(λ|x,y) = [4 − (x·y)Σ<sub>λ</sub>λ<sub>1</sub>λ<sub>2</sub>]/4 =
+1,</p><p>because the four values contain equal numbers with
+<em>λ<sub>1</sub>λ<sub>2</sub>}=+1</em> and <em>−1</em>.</p><p>The construction is therefore a valid conditional probability
+distribution.</p><h2 id="a.10-the-local-marginals"><strong>A.10 The Local
+Marginals</strong></h2><p>A crucial property of the model is that Alice's marginal statistics
+remain independent of Bob's setting, and vice versa.</p><p>Since Alice's outcome is <em>A=λ1</em>, sum over <em>λ2</em>:</p><p>P(A=+1|x,y) = 1/2,    P(A=−1|x,y) = 1/2.</p><p>Likewise,</p><p>P(B=+1|x,y) = 1/2,    P(B=−1|x,y) = 1/2.</p><p>Thus, neither observer can infer the distant measurement setting
+merely by examining the local outcome statistics.</p><p>This is important conceptually. The model is measurement-dependent,
+but the dependence does not provide an operational faster-than-light
+signaling channel.</p><h2 id="a.11-reproducing-the-singlet-correlation"><strong>A.11
+Reproducing the Singlet Correlation</strong></h2><p>Because the outcomes are</p><p>A = λ<sub>1</sub>,    B = λ<sub>2</sub>,</p><p>their product is</p><p>AB = λ<sub>1</sub>λ<sub>2</sub>.</p><p>The predicted correlation is therefore</p><p>E(AB|x,y) = Σλ ρ(λ|x,y) λ<sub>1</sub>λ<sub>2</sub>.</p><p>Substituting the conditional distribution gives</p><p>E(AB|x,y) = Σλ [1 − λ<sub>1</sub>λ<sub>2</sub>(x·y)]
+λ<sub>1</sub>λ<sub>2</sub>/4.</p><p>The first term sums to zero because the four hidden-variable states
+contain equal numbers of positive and negative products. The second term
+gives</p><p>E(AB|x,y) = −x·y.</p><p>For unit measurement vectors this is exactly</p><p>E(AB|x,y) = −cos(θ<sub>xy</sub>),</p><p>which is the singlet correlation predicted by quantum mechanics.</p><h2 id="a.12-reproducing-the-full-singlet-joint-probabilities"><strong>A.12
+Reproducing the Full Singlet Joint Probabilities</strong></h2><p>The construction is stronger than reproducing only the average
+correlation. Since <em>A=λ<sub>1</sub></em> and
+<em>B=λ<sub>2</sub></em>, the joint probability of outcomes
+<em>a,b∈{±1}</em> is</p><p>P(A=a,B=b|x,y) = [1 − ab(x·y)]/4.</p><p>This is precisely the singlet-state joint probability distribution
+for spin measurements along directions <em>x</em> and <em>y</em>.</p><p>Thus, the simple model does not merely produce the correct value of
+<em>E(AB)</em>. It reproduces the complete two-outcome probability
+distribution for the singlet measurement.</p><h2 id="a.13-what-the-explicit-model-demonstrates"><strong>A.13 What the
+Explicit Model Demonstrates</strong></h2><p>The model demonstrates something very specific and important:</p><p>Local response functions + measurement dependence → exact singlet
+statistics.</p><p>It therefore establishes that Bell-violating correlations do not
+logically require the response functions themselves to contain a
+dependence on the distant measurement setting.</p><p>However, the model should not be described simply as an ordinary
+Bell-local hidden-variable theory. Bell locality, in the full sense
+relevant to the theorem, includes the statistical independence
+assumption. Because the distribution <em>ρ(λ|x,y)</em> depends on the
+settings, the model violates measurement independence.</p><p>The most precise description is therefore a
+<strong>measurement-dependent local hidden-variable model</strong>, or a
+model with <strong>local response functions</strong> and
+setting-dependent hidden-variable statistics.</p><h2 id="a.14-the-model-is-not-yet-the-block-universe"><strong>A.14 The
+Model Is Not Yet the Block Universe</strong></h2><p>The mathematical construction should not be confused with the
+physical interpretation proposed in this manuscript.</p><p>The equations above demonstrate that a particular conditional
+probability distribution can reproduce the singlet correlations while
+the response functions remain local. They do not, by themselves, explain
+<em>why</em> that conditional distribution has the required form.</p><p>That is where the Block Universe enters conceptually. The proposal is
+that the setting-dependent distribution may be understood not as a
+mysterious dynamical influence from a future measurement into the past,
+but as a property of the complete four-dimensional physical history.</p><p>The mathematical model shows that such correlations are possible. The
+Block Universe supplies the spacetime picture within which the existence
+of such correlations can be considered without automatically
+interpreting them as causal signals traveling backward through time.</p><h2 id="a.15-correlation-across-spacetime-is-not-interaction-across-spacetime"><strong>A.15
+Correlation Across Spacetime Is Not Interaction Across
+Spacetime</strong></h2><p>Suppose a complete physical history contains the source preparation,
+the hidden variable <em>λ</em>, Alice's eventual setting <em>x</em>,
+Bob's eventual setting <em>y</em>, and the corresponding outcomes.</p><p>H = {preparation, λ, x, y, A, B, measurement records, spacetime
+geometry, ...}</p><p>In a Block Universe description, these are not pieces of reality that
+must be created one after another. They are components of one
+four-dimensional history.</p><p>Consequently, a statistical relationship between <em>λ</em> and later
+settings does not automatically imply that the later settings physically
+caused <em>λ</em>. It may instead be a constraint on which complete
+histories occur with which probabilities.</p><p>Statistical dependence ≠ dynamical causation.</p><p>This distinction is central to the proposal. Without it, the
+rejection of measurement independence immediately appears to require
+retrocausal signaling. With it, the possibility of a globally correlated
+four-dimensional history becomes conceptually distinct from a signal
+propagating backward through time.</p><h2 id="a.16-does-this-mean-the-future-determines-the-past"><strong>A.16
+Does This Mean the Future Determines the Past?</strong></h2><p>That language is tempting but potentially misleading.</p><p>In the ordinary dynamical picture, one asks whether a later event
+causes an earlier event. The Block Universe picture does not require
+that question to have the same role. Instead, it asks whether the
+complete spacetime solution satisfies a set of global consistency
+conditions.</p><p>Consider an ordinary four-dimensional geometric object. Its distant
+parts can stand in exact mathematical relationships to one another
+without one part exerting a force on another. The relationship is a
+property of the whole object.</p><p>The proposal applies an analogous idea to physical histories. The
+correlation between a hidden variable and measurement settings is not
+necessarily a new causal process. It can instead be part of the
+structure selecting which complete physical history is realized.</p><p>This does not prove that nature actually works this way. It
+identifies the conceptual possibility that must be examined by a
+complete theory.</p><h2 id="a.17-ontic-randomness-does-not-require-statistical-independence"><strong>A.17
+Ontic Randomness Does Not Require Statistical Independence</strong></h2><p>Another important distinction concerns randomness.</p><p>If <em>λ</em> is genuinely random, it does not follow that <em>λ</em>
+must be statistically independent of every other variable in the
+universe. Randomness and independence are different mathematical
+concepts.</p><p>A variable can have a nontrivial probability distribution while
+remaining correlated with another variable. In the present construction,
+the hidden variable is not assigned a single fixed value in advance from
+the perspective of the observer. Instead, different complete histories
+occur with different probabilities, and those probabilities depend on
+the measurement settings that form part of the complete history.</p><p>Thus, the proposal does not have to say that quantum randomness is
+merely ignorance about a pre-existing deterministic state. It can retain
+genuine probabilistic structure while rejecting the stronger assumption
+that the random variable must be statistically independent of later
+measurement choices.</p><h2 id="a.18-the-entire-angular-dependence-resides-in-the-hidden-variable-distribution"><strong>A.18
+The Entire Angular Dependence Resides in the Hidden-Variable
+Distribution</strong></h2><p>The explicit model makes the structure particularly transparent.</p><p>The response functions are simply</p><p>A(x,λ)=λ<sub>1</sub>,    B(y,λ)=λ<sub>2</sub>.</p><p>They contain no dependence on the distant measurement direction.</p><p>All of the angular dependence required to reproduce the quantum
+correlation appears in</p><p>ρ(λ|x,y) = [1 − λ<sub>1</sub>λ<sub>2</sub>(x·y)]/4.</p><p>The quantum angular correlation is therefore represented as a
+property of the distribution of complete histories rather than as a
+nonlocal modification of a local response function.</p><h2 id="a.19-no-signaling-is-preserved"><strong>A.19 No-Signaling Is
+Preserved</strong></h2><p>The model's measurement dependence should not be confused with
+operational signaling.</p><p>Although the hidden-variable distribution depends jointly on
+<em>x</em> and <em>y</em>, the local marginal distributions remain</p><p>P(A=±1|x,y)=1/2,</p><p>P(B=±1|x,y)=1/2.</p><p>Therefore, Alice's local statistics do not reveal Bob's setting, and
+Bob's local statistics do not reveal Alice's setting.</p><p>This distinction is important for the proposed interpretation. The
+aim is not to introduce a hidden communication channel that transmits
+usable information faster than light. The aim is to account for the
+observed joint correlations without requiring such a channel.</p><h2 id="a.20-the-price-of-the-proposal-measurement-independence-is-a-real-assumption"><strong>A.20
+The Price of the Proposal: Measurement Independence Is a Real
+Assumption</strong></h2><p>The measurement-dependent construction does not make Bell's theorem
+disappear. On the contrary, it clarifies exactly what Bell's theorem
+tells us.</p><p>If measurement independence is imposed, the CHSH inequality follows
+for the local hidden-variable framework described above. Quantum
+mechanics violates that inequality. Therefore, a local hidden-variable
+account reproducing the quantum correlations must relax at least one of
+the assumptions entering the Bell derivation.</p><p>The present proposal chooses to relax measurement independence.</p><p>That is a substantive physical commitment, not a mathematical trick.
+The question is whether the resulting commitment can be given a natural
+physical interpretation and developed into a complete theory without
+sacrificing the empirical successes of quantum mechanics.</p><h2 id="a.21-the-central-proposal-sharpened"><strong>A.21 The Central
+Proposal, Sharpened</strong></h2><p>The proposal developed in this section can now be stated more
+precisely.</p><p>A local hidden-variable model may reproduce the exact singlet
+correlations if the hidden-variable distribution is allowed to depend
+statistically on the measurement settings:</p><p>ρ(λ|x,y) ≠ ρ(λ).</p><p>The local response functions may remain of the form</p><p>A=A(x,λ),    B=B(y,λ),</p><p>with no superluminal dependence of one local outcome on the distant
+setting.</p><p>The Block Universe interpretation proposed here is that the setting
+dependence may represent a correlation among components of one complete
+four-dimensional physical history rather than a dynamical influence
+propagating from the future into the past.</p><h2 id="a.22-the-observer-still-experiences-a-sequence"><strong>A.22 The
+Observer Still Experiences a Sequence</strong></h2><p>None of this changes the observer's ordinary experience of time.</p><p>Along Alice's worldline, there is still a sequence of physical
+states:</p><p>S1 → S2 → S3.</p><p>At one state, she prepares the experiment. At a later state, she
+encounters a particular measurement setting and records an outcome. At
+still later states, she remembers that outcome and incorporates it into
+subsequent reasoning.</p><p>The fact that the complete history contains the eventual outcome does
+not mean that Alice experiences that outcome before the measurement
+event. Her physical state at the earlier point does not ordinarily
+contain a usable record of the later result.</p><p>This preserves the distinction developed earlier between the
+four-dimensional existence of events and the sequential information
+structure of an embedded observer.</p><h2 id="a.23-what-the-block-universe-does-and-does-not-explain"><strong>A.23
+What the Block Universe Does and Does Not Explain</strong></h2><p>At this point the role of the Block Universe must be kept carefully
+bounded.</p><p>It provides a conceptual framework in which:</p><ul>
+<li><p>past and future events can be components of one four-dimensional
+history;</p></li>
+<li><p>statistical correlations need not automatically be interpreted as
+causal signals;</p></li>
+<li><p>measurement events can be treated as local physical events within
+the spacetime structure;</p></li>
+<li><p>the observer's sequential experience remains compatible with a
+complete spacetime description.</p></li>
+</ul><p>But the Block Universe does <strong>not</strong>, by itself, derive
+the specific probability distribution</p><p>ρ(λ|x,y) = [1 − λ<sub>1</sub>λ<sub>2</sub>(x·y)]/4.</p><p>Nor does it yet provide a dynamical or variational principle from
+which that distribution follows. That is one of the central unresolved
+problems for the proposed framework.</p><h2 id="a.24-the-joint-distribution-as-the-more-fundamental-object"><strong>A.24
+The Joint Distribution as the More Fundamental Object</strong></h2><p>The conventional measurement-independent picture begins with an
+underlying distribution</p><p>ρ(λ)</p><p>and then treats the measurement settings as independently selected
+variables.</p><p>The present proposal instead suggests that the more fundamental
+object may be a joint distribution over the complete set of relevant
+physical variables:</p><p>ρ(λ,x,y).</p><p>Measurement independence is precisely the factorization</p><p>ρ(λ,x,y)=ρ(λ)ρ(x,y).</p><p>The proposed framework allows the more general case</p><p>ρ(λ,x,y) ≠ ρ(λ)ρ(x,y).</p><p>Equivalently, provided the relevant probabilities are nonzero, one
+may express the dependence in either conditional direction:</p><p>P(λ|x,y) ≠ P(λ)</p><p>or</p><p>P(x,y|λ) ≠ P(x,y).</p><p>These are mathematically related descriptions of the same statistical
+dependence. Neither form, by itself, says which variable causally
+determines the other.</p><h2 id="a.25-the-question-of-who-chose-the-settings"><strong>A.25 The
+Question of “Who Chose the Settings?”</strong></h2><p>The obvious objection is immediate: if <em>λ</em> is correlated with
+Alice's and Bob's settings, does that mean Alice and Bob were not free
+to choose their settings?</p><p>The answer requires care because the word <em>free</em> can refer to
+different concepts.</p><p>Bell's mathematical assumption is statistical independence. It says
+that the hidden variable and the measurement settings are statistically
+independent. It does not contain a complete philosophical theory of
+human freedom.</p><p>Conversely, rejecting statistical independence does not by itself
+specify a philosophical account of free will. It says only that the
+complete physical variables entering the experiment cannot be factorized
+in the way assumed by the Bell derivation.</p><p>This distinction will become the central subject of the next section.
+The fact that the mathematical proposal raises a question about free
+choice is not an accidental complication. It is the natural conceptual
+consequence of taking measurement dependence seriously.</p><h2 id="a.26-is-the-correlation-conspiratorial"><strong>A.26 Is the
+Correlation “Conspiratorial”?</strong></h2><p>A common objection to measurement-dependent models is that the
+required correlation appears extraordinarily coordinated. If the
+measurement settings are selected by complicated physical
+processes—perhaps involving random-number generators, human decisions,
+astronomical observations, or other distant events—why should the hidden
+variable associated with the source be correlated with those
+choices?</p><p>Calling the correlation “conspiratorial,” however, is already an
+interpretive judgment. The mathematical statement itself is simply</p><p>P(λ|x,y) ≠ P(λ).</p><p>Whether that dependence represents an implausible conspiracy, a
+global boundary condition, a retrocausal mechanism, a superdeterministic
+constraint, or some other physical principle cannot be determined from
+the equation alone.</p><p>The Block Universe perspective motivates a different possibility:
+perhaps the apparently independent events are not fundamentally
+independent because the complete physical history is selected as a
+globally consistent four-dimensional structure.</p><p>Whether such an account can be made physically natural rather than
+merely logically possible is an open question.</p><h2 id="a.27-relation-to-retrocausal-and-superdeterministic-terminology"><strong>A.27
+Relation to Retrocausal and Superdeterministic Terminology</strong></h2><p>The framework developed here lies close to ideas that are sometimes
+described in the foundations of physics literature as
+<em>retrocausal</em>, <em>measurement-dependent</em>, or
+<em>superdeterministic</em>. These labels overlap but are not
+identical.</p><p>A retrocausal model typically introduces a causal influence from a
+later boundary condition or measurement choice into an earlier physical
+variable. A superdeterministic model generally permits correlations
+between hidden variables and measurement settings such that the usual
+statistical independence assumption fails. A measurement-dependent model
+is the broader mathematical category in which</p><p>P(λ|a,b) ≠ P(λ).</p><p>The present manuscript does not need to commit at this stage to any
+one of these labels. Its central claim is narrower: the Block Universe
+makes it conceptually possible to regard measurement dependence as a
+property of a complete spacetime history rather than automatically as a
+signal traveling backward in time.</p><h2 id="a.28-the-experimental-achievement-remains-intact"><strong>A.28
+The Experimental Achievement Remains Intact</strong></h2><p>Nothing in this proposal changes the empirical status of Bell
+experiments.</p><p>The experiments still demonstrate correlations that violate Bell
+inequalities. Quantum mechanics still predicts those correlations. The
+explicit measurement-dependent model reproduces the singlet
+probabilities.</p><p>The proposed reinterpretation therefore does not dispute the
+experimental result. It changes the question asked of the result.</p><p>Instead of asking:</p><p>“Which nonlocal influence produces the Bell correlation?”</p><p>the proposal asks:</p><p>“Can the Bell correlation be a constraint on the joint structure of a
+complete local physical history?”</p><p>The second question is the one that leads directly from quantum
+foundations back to the Block Universe.</p><h2 id="a.29-the-remaining-physical-questions"><strong>A.29 The
+Remaining Physical Questions</strong></h2><p>The explicit construction establishes an important mathematical
+possibility, but several major questions remain unanswered.</p><ul>
+<li><p><strong>What physical principle determines the joint
+distribution?</strong> Why should complete histories be weighted in
+precisely the way required by quantum mechanics?</p></li>
+<li><p><strong>How is the distribution embedded in spacetime?</strong> A
+complete theory must specify what physical object or law carries the
+relevant correlations.</p></li>
+<li><p><strong>Can the full Born rule be recovered?</strong> Reproducing
+the singlet state is not enough to establish a general theory of quantum
+mechanics.</p></li>
+<li><p><strong>Can more complicated entangled states be
+reproduced?</strong> A viable theory must extend beyond the simplest
+two-particle example.</p></li>
+<li><p><strong>Can relativistic covariance be maintained?</strong> The
+proposal must not depend on an arbitrary preferred frame.</p></li>
+<li><p><strong>Can the apparent freedom of experimental choices be
+explained consistently?</strong> This is the conceptual problem that
+naturally leads into Section 5.</p></li>
+</ul><p>These questions prevent the present argument from being presented as
+a finished alternative to quantum mechanics. What has been established
+is a coherent route by which one of Bell's assumptions can be relaxed
+while preserving local response functions and reproducing the singlet
+statistics.</p><h2 id="a.30-the-proposed-physical-ingredients"><strong>A.30 The
+Proposed Physical Ingredients</strong></h2><p>The framework developed in this section can now be summarized by its
+proposed ingredients:</p><ol type="1">
+<li><p>Four-dimensional spacetime described as a Block
+Universe.</p></li>
+<li><p>Local response functions A=A(x,λ) and B=B(y,λ).</p></li>
+<li><p>Quantum probabilities retained as genuine statistical
+structure.</p></li>
+<li><p>Hidden variables associated with individual physical
+histories.</p></li>
+<li><p>Measurement independence relaxed: ρ(λ|x,y) need not equal
+ρ(λ).</p></li>
+<li><p>Exact quantum correlations reproduced by the joint
+distribution.</p></li>
+<li><p>No operational superluminal signaling.</p></li>
+</ol><p>The central conceptual shift is from a picture in which each event is
+generated independently as time progresses to a picture in which the
+complete physical history is constrained as a whole.</p><h2 id="a.31-from-local-dynamics-to-global-consistency"><strong>A.31
+From Local Dynamics to Global Consistency</strong></h2><p>This shift does not necessarily require abandoning local physics.</p><p>A local dynamical law specifies how physical quantities behave in a
+neighborhood of spacetime. A global consistency condition can
+additionally constrain which complete solutions of those local laws are
+physically realized.</p><p>The distinction can be expressed schematically:</p><p><strong>Local dynamics</strong> → what relationships are permitted
+locally<br/>
+<br/>
+<strong>Global consistency</strong> → which complete spacetime histories
+are realized</p><p>The proposal is that Bell correlations may belong partly to the
+second category. The local response of each measurement device remains
+local, while the complete history in which the device operates may be
+globally constrained.</p><p>This is precisely the kind of distinction that the Block Universe
+makes conceptually natural: the universe is not fundamentally a sequence
+of independent three-dimensional states being created one after another.
+It is a four-dimensional physical structure whose different regions must
+jointly satisfy the laws and boundary conditions governing the
+whole.</p><section class="footnotes footnotes-end-of-document" id="footnotes" role="doc-endnotes">
+<hr/>
+<ol>
+<li id="fn1"><p>This manuscript was developed through extensive
+interactive discussions with OpenAI's ChatGPT, using models from the
+GPT-5 and GPT-6 families. ChatGPT assisted in exploring physical
+concepts, examining mathematical arguments, challenging assumptions, and
+organizing and drafting the manuscript.<a class="footnote-back" href="#fnref1" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></article></body></html>

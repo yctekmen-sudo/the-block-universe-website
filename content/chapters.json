@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "introduction",
+    "title": "Introduction",
+    "file": "chapters/introduction.html",
+    "subsections": 0,
+    "images": 0
+  },
+  {
+    "slug": "section-1",
+    "title": "1 From Relativity\nto the Block Universe",
+    "file": "chapters/section-1.html",
+    "subsections": 19,
+    "images": 1
+  },
+  {
+    "slug": "section-2",
+    "title": "2\nThe Block Universe and Direction of the Flow of Time",
+    "file": "chapters/section-2.html",
+    "subsections": 7,
+    "images": 0
+  },
+  {
+    "slug": "section-3",
+    "title": "3 The\nLaws of Physics in a Static Block Universe",
+    "file": "chapters/section-3.html",
+    "subsections": 1,
+    "images": 0
+  },
+  {
+    "slug": "section-4",
+    "title": "4 The Block\nUniverse and Quantum Mechanics",
+    "file": "chapters/section-4.html",
+    "subsections": 13,
+    "images": 0
+  },
+  {
+    "slug": "section-5",
+    "title": "5 The\nBlock Universe and Free Will",
+    "file": "chapters/section-5.html",
+    "subsections": 17,
+    "images": 0
+  },
+  {
+    "slug": "section-6",
+    "title": "6 The Block Universe\nand Time Travel",
+    "file": "chapters/section-6.html",
+    "subsections": 11,
+    "images": 1
+  },
+  {
+    "slug": "appendix-a",
+    "title": "Appendix\nA. CHSH and the Explicit Measurement-Dependent Local Hidden-Variable\nModel",
+    "file": "chapters/appendix-a.html",
+    "subsections": 31,
+    "images": 0
+  }
+]
