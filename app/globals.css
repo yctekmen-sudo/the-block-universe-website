@@ -1,0 +1,134 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-serif: var(--font-source-serif), 'Georgia', serif;
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+  --color-brand: var(--brand);
+  --color-brand-foreground: var(--brand-foreground);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-foreground: var(--foreground);
+  --color-background: var(--background);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+}
+
+:root {
+  color-scheme: light;
+  --background: oklch(0.982 0.007 85);
+  --foreground: oklch(0.22 0.012 60);
+  --card: oklch(0.995 0.004 85);
+  --card-foreground: oklch(0.22 0.012 60);
+  --popover: oklch(0.995 0.004 85);
+  --popover-foreground: oklch(0.22 0.012 60);
+  --primary: oklch(0.22 0.012 60);
+  --primary-foreground: oklch(0.982 0.007 85);
+  --secondary: oklch(0.95 0.01 85);
+  --secondary-foreground: oklch(0.22 0.012 60);
+  --muted: oklch(0.95 0.01 85);
+  --muted-foreground: oklch(0.48 0.012 60);
+  --accent: oklch(0.94 0.012 85);
+  --accent-foreground: oklch(0.22 0.012 60);
+  --brand: oklch(0.44 0.11 30);
+  --brand-foreground: oklch(0.982 0.007 85);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.88 0.012 80);
+  --input: oklch(0.88 0.012 80);
+  --ring: oklch(0.44 0.11 30);
+  --radius: 0.375rem;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+  body {
+    @apply bg-background text-foreground font-serif;
+  }
+  ::selection {
+    background: oklch(0.44 0.11 30 / 0.18);
+  }
+}
+
+/* Long-form manuscript typography */
+.manuscript {
+  font-family: var(--font-serif);
+  font-size: 1.1875rem;
+  line-height: 1.75;
+  color: var(--foreground);
+  font-feature-settings: 'kern', 'liga', 'onum';
+  hyphens: auto;
+}
+.manuscript > * + * {
+  margin-top: 1.25em;
+}
+.manuscript h2 {
+  font-size: 1.6rem;
+  line-height: 1.3;
+  font-weight: 600;
+  margin-top: 2.5em;
+  text-wrap: balance;
+}
+.manuscript h3 {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  font-weight: 600;
+  margin-top: 2em;
+}
+.manuscript a {
+  color: var(--brand);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+.manuscript blockquote {
+  border-left: 2px solid var(--border);
+  padding-left: 1.25em;
+  font-style: italic;
+  color: var(--muted-foreground);
+}
+.manuscript ul,
+.manuscript ol {
+  padding-left: 1.5em;
+}
+.manuscript ul {
+  list-style: disc;
+}
+.manuscript ol {
+  list-style: decimal;
+}
+.manuscript li + li {
+  margin-top: 0.4em;
+}
+.manuscript .katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.25em 0;
+}
+.manuscript .katex {
+  font-size: 1.05em;
+}
