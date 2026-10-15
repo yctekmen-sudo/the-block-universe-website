@@ -34,9 +34,6 @@ export default async function ChapterPage({ params }: PageProps<'/read/[slug]'>)
   return (
     <main className="px-5 py-12 sm:px-8 lg:py-20">
       <article className="mx-auto max-w-[750px]">
-        <p className="mb-4 font-sans text-xs font-semibold uppercase tracking-[0.2em] text-brand">
-          {chapter.label}
-        </p>
         <div className="manuscript book-chapter" dangerouslySetInnerHTML={{ __html: html }} />
         <ChapterPager prev={prev} next={next} />
       </article>
