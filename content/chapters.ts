@@ -60,4 +60,4 @@ export function getChapter(slug: string) {
   }
 }
 
-export const PDF_PATH = '/the-block-universe.pdf'
+export const PDF_PATH = "/The%20Block%20Universe.pdf"
