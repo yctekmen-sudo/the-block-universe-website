@@ -48,13 +48,14 @@ export function TocList({
             className="group flex items-baseline gap-5 py-5 transition-colors hover:text-brand"
           >
             <span className="w-6 shrink-0 font-sans text-sm tabular-nums text-muted-foreground">
-              {String(i + 1).padStart(2, '0')}
+              {i === chapters.length - 1 ? 'A' : String(i).padStart(2, '0')}
             </span>
             <span className="flex-1">
-              {c.title ? (
-                <span className="block font-sans text-xs font-medium uppercase tracking-widest text-muted-foreground">
-                  {c.label}
-                </span>
+              <span className="block text-xl leading-snug text-pretty">
+                {i > 0 && i < chapters.length - 1 ? `${i}. ` : ''}
+                {c.title ?? c.label}
+              </span>
+            </span>
               ) : null}
               <span className="mt-1 block text-xl leading-snug text-pretty">
                 {c.title ?? c.label}
