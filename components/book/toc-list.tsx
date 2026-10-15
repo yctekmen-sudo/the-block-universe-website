@@ -30,12 +30,14 @@ export function TocList({
                     : 'border-transparent text-muted-foreground hover:bg-accent/60 hover:text-foreground',
                 )}
               >
-                <span className="block font-medium">{c.label}</span>
-                {c.title ? (
-                  <span className="mt-0.5 block text-[0.8rem] opacity-80">
-                    {c.title}
-                  </span>
-                ) : null}
+
+                <span className="block font-medium">
+                  {/^Section \d+$/.test(c.label)
+                    ? `${c.label.replace('Section ', '')}. ${c.title ?? ''}`
+                    : c.label.startsWith('Appendix ')
+                      ? `${c.label}${c.title ? `: ${c.title}` : ''}`
+                      : c.title ?? c.label}
+                </span>
               </Link>
             </li>
           )
