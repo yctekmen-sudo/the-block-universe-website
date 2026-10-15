@@ -40,7 +40,13 @@ export const chapters: ChapterMeta[] = (manifest as ManifestEntry[]).map((entry)
 })
 
 export function chapterHeading(c: ChapterMeta) {
-  return c.title ? `${c.label}: ${c.title}` : c.label
+  if (c.label.startsWith('Section ')) {
+    return `${c.label.replace('Section ', '')}. ${c.title ?? ''}`.trim()
+  }
+  if (c.label.startsWith('Appendix ')) {
+    return c.title ? `${c.label}: ${c.title}` : c.label
+  }
+  return c.title ?? c.label
 }
 
 export function getChapter(slug: string) {
