@@ -51,12 +51,6 @@ export function TocList({
         const isAppendix = /^Appendix [A-Z]$/.test(c.label)
         const sectionNumber = isSection ? c.label.replace('Section ', '') : ''
 
-        const number = isSection
-          ? sectionNumber.padStart(2, '0')
-          : isAppendix
-            ? c.label.replace('Appendix ', '')
-            : '00'
-
         const title = isSection
           ? `${sectionNumber}. ${c.title ?? ''}`
           : isAppendix
@@ -67,11 +61,8 @@ export function TocList({
           <li key={c.slug}>
             <Link
               href={`/read/${c.slug}`}
-              className="group flex items-baseline gap-5 py-5 transition-colors hover:text-brand"
+              className="group flex items-baseline gap-3 py-5 transition-colors hover:text-brand"
             >
-              <span className="w-6 shrink-0 font-sans text-sm tabular-nums text-muted-foreground">
-                {number}
-              </span>
               <span className="flex-1">
                 <span className="block text-xl leading-snug text-pretty">
                   {title}
