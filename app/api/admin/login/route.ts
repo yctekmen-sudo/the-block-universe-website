@@ -2,6 +2,7 @@
 import { createHmac, timingSafeEqual } from "node:crypto";
 import { neon } from "@neondatabase/serverless";
 import { NextRequest, NextResponse } from "next/server";
+import { createAdminSession } from "@/lib/comment-admin-auth";
 
 export const runtime = "nodejs";
 
@@ -110,10 +111,7 @@ export async function POST(request: NextRequest) {
   }
 
   // Establish an administrator session.
-  const session = createHmac("sha256", secret)
-    .update("administrator-session-v1")
-    .digest("hex");
-
+  const session = createAdminSession(secret);
   const response = NextResponse.json({ success: true });
 
   response.cookies.set("comment_admin_session", session, {

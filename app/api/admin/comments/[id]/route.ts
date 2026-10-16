@@ -1,5 +1,5 @@
 
-import { createHmac, timingSafeEqual } from "node:crypto";
+import { verifyAdminSession } from "@/lib/comment-admin-auth";
 import { neon } from "@neondatabase/serverless";
 import { NextRequest, NextResponse } from "next/server";
 
@@ -29,20 +29,10 @@ export async function DELETE(
     );
   }
 
+
   const session = request.cookies.get("comment_admin_session")?.value;
 
-  const expectedSession = createHmac("sha256", secret)
-    .update("administrator-session-v1")
-    .digest("hex");
-
-  if (
-    !session ||
-    !/^[a-f0-9]{64}$/.test(session) ||
-    !timingSafeEqual(
-      Buffer.from(session, "hex"),
-      Buffer.from(expectedSession, "hex")
-    )
-  ) {
+  if (!verifyAdminSession(session, secret)) {
     return NextResponse.json(
       { error: "Administrator authentication required" },
       { status: 401 }
