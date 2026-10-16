@@ -44,6 +44,27 @@ export default function AdminCommentsPage() {
 
     void checkSession();
 
+    
+    async function handleLogout() {
+      setError("");
+
+      try {
+        const response = await fetch("/api/admin/logout", {
+          method: "POST",
+        });
+
+        if (!response.ok) {
+          throw new Error("Unable to sign out");
+        }
+
+        setLoggedIn(false);
+        setComments([]);
+        setSecret("");
+      } catch {
+        setError("Unable to sign out. Please try again.");
+      }
+    }
+
     return () => {
       cancelled = true;
     };
@@ -169,6 +190,14 @@ export default function AdminCommentsPage() {
       ) : (
         <div className="mt-8 space-y-4">
           <p>Administrator login successful.</p>
+
+        <button
+          type="button"
+          onClick={handleLogout}
+          className="rounded-md border px-4 py-2 text-sm hover:bg-muted"
+        >
+          Sign Out
+        </button>
 
         {commentsLoading ? (
           <p>Loading comments...</p>
