@@ -162,10 +162,20 @@ export async function POST(request: NextRequest) {
         headers: {
           "Content-Type": "application/x-www-form-urlencoded",
         },
+        
         body: new URLSearchParams({
           secret: secretKey,
           response: turnstileToken,
+          ...(request.headers.get("x-vercel-forwarded-for")
+            ? {
+                remoteip: request.headers
+                  .get("x-vercel-forwarded-for")!
+                  .split(",")[0]
+                  .trim(),
+              }
+            : {}),
         }),
+
         cache: "no-store",
       }
     );
