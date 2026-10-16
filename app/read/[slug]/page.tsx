@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import { ChapterPager } from '@/components/book/chapter-pager'
 import { chapterHeading, chapters, getChapter } from '@/content/chapters'
 import { loadChapterHtml } from '@/content/load-chapter-html'
+import { ReaderDiscussion } from '@/components/book/reader-discussion'
 
 export const dynamicParams = false
 
@@ -34,8 +35,11 @@ export default async function ChapterPage({ params }: PageProps<'/read/[slug]'>)
   return (
     <main className="px-5 py-12 sm:px-8 lg:py-20">
       <article className="mx-auto max-w-[750px]">
-        <div className="manuscript book-chapter" dangerouslySetInnerHTML={{ __html: html }} />
-        <ChapterPager prev={prev} next={next} />
+        
+      <div className="manuscript book-chapter" dangerouslySetInnerHTML={{ __html: html }} />
+      <ReaderDiscussion chapterId={slug} />
+      <ChapterPager prev={prev} next={next} />
+
       </article>
     </main>
   )

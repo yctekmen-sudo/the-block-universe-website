@@ -5,10 +5,26 @@ import { NextRequest, NextResponse } from "next/server";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
+
+const validChapters = new Set([
+  "introduction",
+  "section-1",
+  "section-2",
+  "section-3",
+  "section-4",
+  "section-5",
+  "section-6",
+  "appendix-a",
+]);
+
+function isValidChapter(value: unknown): value is string {
+  return typeof value === "string" && validChapters.has(value);
+}
+
 export async function GET(request: NextRequest) {
   const chapterId = request.nextUrl.searchParams.get("chapter");
 
-  if (!chapterId || !/^section-\d+$/.test(chapterId)) {
+  if (!isValidChapter(chapterId)) {
     return NextResponse.json(
       { error: "Invalid chapter" },
       { status: 400 }
@@ -101,8 +117,7 @@ export async function POST(request: NextRequest) {
     const { chapter, name, comment, turnstileToken } = body;
 
     if (
-      typeof chapter !== "string" ||
-      !/^section-\d+$/.test(chapter) ||
+      !isValidChapter(chapter) ||
       typeof name !== "string" ||
       typeof comment !== "string" ||
       typeof turnstileToken !== "string"
