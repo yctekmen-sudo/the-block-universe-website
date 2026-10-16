@@ -30,7 +30,7 @@ export async function POST(request: NextRequest) {
   }
 
   // Identify the visitor for rate limiting.
-  const ipAddress = request.headers.get("x-real-ip")?.trim();
+  const ipAddress = request.headers.get("x-vercel-forwarded-for")?.trim();
 
   if (!ipAddress) {
     return NextResponse.json(

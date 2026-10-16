@@ -74,10 +74,12 @@ export async function GET(request: NextRequest) {
 }
 
 
-async function checkCommentRateLimit(
-  sql: ReturnType<typeof neon>,
-  ipAddress: string
-): Promise<boolean> {
+
+  async function checkCommentRateLimit(
+    sql: ReturnType<typeof neon<false, false>>,
+    ipAddress: string
+  ): Promise<boolean> {
+
   const secret = process.env.COMMENT_IP_HASH_SECRET;
 
   if (!secret) {
@@ -202,7 +204,7 @@ if (
     const sql = neon(databaseUrl);
 
 
-const ipAddress = request.headers.get("x-real-ip")?.trim();
+const ipAddress = request.headers.get("x-vercel-forwarded-for")?.trim();
 
 if (!ipAddress) {
   return NextResponse.json(
