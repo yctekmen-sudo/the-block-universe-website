@@ -167,9 +167,10 @@ export async function POST(request: NextRequest) {
 
 
 
+
 const allowedHostnames = [
   "the-block-universe.vercel.app",
-  "the-block-universe-website-d12r4ql0d-cato-bf95.vercel.app",
+  "the-block-universe-website-git-feature-reader-64db4e-cato-bf95.vercel.app",
 ];
 
 if (
