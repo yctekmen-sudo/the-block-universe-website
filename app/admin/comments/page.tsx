@@ -1,7 +1,7 @@
 
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 type Comment = {
   id: number;
@@ -18,6 +18,36 @@ export default function AdminCommentsPage() {
   const [error, setError] = useState("");
   const [comments, setComments] = useState<Comment[]>([]);
   const [commentsLoading, setCommentsLoading] = useState(false);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    async function checkSession() {
+      try {
+        const response = await fetch("/api/admin/comments", {
+          cache: "no-store",
+        });
+
+        if (!response.ok) return;
+
+        const data = await response.json();
+
+        if (!cancelled) {
+          setComments(data.comments);
+          setLoggedIn(true);
+        }
+      } catch {
+        // No active session, or the server is unavailable.
+        // Leave the login form visible.
+      }
+    }
+
+    void checkSession();
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   async function handleLogin(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
