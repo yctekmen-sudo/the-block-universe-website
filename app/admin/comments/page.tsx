@@ -45,7 +45,13 @@ export default function AdminCommentsPage() {
     void checkSession();
 
     
-    async function handleLogout() {
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+      async function handleLogout() {
       setError("");
 
       try {
@@ -64,11 +70,6 @@ export default function AdminCommentsPage() {
         setError("Unable to sign out. Please try again.");
       }
     }
-
-    return () => {
-      cancelled = true;
-    };
-  }, []);
 
   async function handleLogin(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
