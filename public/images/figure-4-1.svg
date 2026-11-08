@@ -98,7 +98,7 @@
 <line x1="50" y1="834" x2="1621" y2="834" stroke="#DDE6F0" stroke-width="1.4" stroke-linecap="round"/>
 <text x="51" y="873" font-family="Liberation Serif, Georgia, serif" font-size="24" fill="#10213D" font-weight="bold">Figure 4.1.</text>
 <text x="197" y="873" font-family="Liberation Serif, Georgia, serif" font-size="24" fill="#10213D" font-style="italic">Superposition, entanglement, and classical correlation.</text>
-<text x="51" y="918" font-family="Liberation Serif, Georgia, serif" font-size="23" fill="#10213D">(A) A single system may be in a superposition without being entangled. (B) An entangled pure state is a coherent, non-factorizable joint state; its two terms are not</text>
-<text x="51" y="953" font-family="Liberation Serif, Georgia, serif" font-size="23" fill="#10213D">preassigned classical pair types. (C) A classically correlated mixed state can instead be a probabilistic mixture of product states, and is therefore separable. The</text>
-<text x="51" y="988" font-family="Liberation Serif, Georgia, serif" font-size="23" fill="#10213D">pair basis order is (A, B). R and B denote the abstract basis labels used in Section 4.2; colored symbols are visual aids, not particle trajectories.</text>
+<text x="51" y="918" font-family="Liberation Serif, Georgia, serif" font-size="23" fill="#10213D">(A) A single system may be in a superposition without being entangled. (B) An entangled pure state is a coherent, non-factorizable joint state; its two terms</text>
+<text x="51" y="953" font-family="Liberation Serif, Georgia, serif" font-size="23" fill="#10213D">are not preassigned classical pair types. (C) A classically correlated mixed state can instead be a probabilistic mixture of product states, and is therefore</text>
+<text x="51" y="988" font-family="Liberation Serif, Georgia, serif" font-size="23" fill="#10213D">separable. The pair basis order is (A, B). R and B denote the abstract basis labels used in Section 4.2; colored symbols are visual aids, not particle trajectories.</text>
 </svg>
