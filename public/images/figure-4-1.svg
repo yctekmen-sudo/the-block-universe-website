@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="1070" viewBox="0 0 1672 1070" role="img" aria-labelledby="figure-title figure-desc">
+<title id="figure-title">Figure 4.1: Superposition, entanglement, and classical correlation</title>
+<desc id="figure-desc">Three-panel physics diagram. Panel A illustrates a coherent superposition within one system. Panel B shows a non-factorizable entangled pure state of systems A and B, as a coherent sum of RB and BR joint basis terms. Panel C shows a separable mixed state, a statistical mixture of RB and BR product states, each with probability one half. R and B are the abstract basis labels used in manuscript Section 4.2.</desc>
+<rect x="0" y="0" width="1672" height="1070" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1.5"/>
+<text x="48" y="55" font-family="Arial, Helvetica, sans-serif" font-size="31" fill="#10213D" font-weight="bold">Superposition, entanglement, and classical correlation</text>
+<text x="50" y="89" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#536680">One-system superposition, entanglement, and classical correlation are different quantum-state structures</text>
+<rect x="48" y="119" width="506" height="626" rx="14" fill="#FFFFFF" stroke="#C5D0DE" stroke-width="1.7"/>
+<rect x="49" y="120" width="504" height="63" rx="13" fill="#EAF1F9" stroke="none" stroke-width="1.5"/>
+<rect x="49" y="168" width="504" height="15" rx="0" fill="#EAF1F9" stroke="none" stroke-width="1.5"/>
+<text x="72" y="161" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#10213D" font-weight="bold">A. Superposition: one system</text>
+<rect x="583" y="119" width="506" height="626" rx="14" fill="#FFFFFF" stroke="#C5D0DE" stroke-width="1.7"/>
+<rect x="584" y="120" width="504" height="63" rx="13" fill="#EAF1F9" stroke="none" stroke-width="1.5"/>
+<rect x="584" y="168" width="504" height="15" rx="0" fill="#EAF1F9" stroke="none" stroke-width="1.5"/>
+<text x="607" y="161" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#10213D" font-weight="bold">B. Entanglement: joint pure state</text>
+<rect x="1118" y="119" width="506" height="626" rx="14" fill="#FFFFFF" stroke="#C5D0DE" stroke-width="1.7"/>
+<rect x="1119" y="120" width="504" height="63" rx="13" fill="#EAF1F9" stroke="none" stroke-width="1.5"/>
+<rect x="1119" y="168" width="504" height="15" rx="0" fill="#EAF1F9" stroke="none" stroke-width="1.5"/>
+<text x="1142" y="161" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#10213D" font-weight="bold">C. Classical correlation: mixed state</text>
+<text x="301" y="218" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#536680" text-anchor="middle">One quantum system</text>
+<rect x="80" y="232" width="442" height="69" rx="9" fill="#F7FAFD" stroke="#E0E7F0" stroke-width="1.5"/>
+<text x="301" y="277" font-family="DejaVu Sans, sans-serif" font-size="30" fill="#10213D" text-anchor="middle">|ψ⟩ = (|R⟩ + |B⟩) / √2</text>
+<rect x="188" y="325" width="226" height="30" rx="15" fill="#EEF5FC" stroke="none" stroke-width="1.5"/>
+<text x="301.0" y="346" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#1C65BD" font-weight="bold" text-anchor="middle">One pure quantum state</text>
+<rect x="181" y="373" width="240" height="67" rx="10" fill="#F4F8FD" stroke="#BFD2E7" stroke-width="1.6"/>
+<text x="301" y="416" font-family="DejaVu Sans, sans-serif" font-size="33" fill="#1C65BD" text-anchor="middle">|ψ⟩</text>
+<path d="M301 440 V463 M301 463 H188 V485 M301 463 H413 V485" fill="none" stroke="#6D46B5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="88" y="499" width="205" height="119" rx="11" fill="#FFFFFF" stroke="#C9D6E4" stroke-width="1.5"/>
+<rect x="309" y="499" width="205" height="119" rx="11" fill="#FFFFFF" stroke="#C9D6E4" stroke-width="1.5"/>
+<circle cx="191" cy="545" r="28" fill="#C6533F" stroke="none" stroke-width="1"/>
+<circle cx="411" cy="545" r="28" fill="#1C65BD" stroke="none" stroke-width="1"/>
+<text x="191" y="554" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#FFFFFF" font-weight="bold" text-anchor="middle">R</text>
+<text x="411" y="554" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#FFFFFF" font-weight="bold" text-anchor="middle">B</text>
+<text x="191" y="596" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#10213D" text-anchor="middle">|R⟩</text>
+<text x="411" y="596" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#10213D" text-anchor="middle">|B⟩</text>
+<text x="301" y="556" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#6D46B5" font-weight="bold" text-anchor="middle">+</text>
+<text x="301" y="656" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#10213D" text-anchor="middle">Two basis components in one state</text>
+<text x="301" y="683" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#536680" text-anchor="middle">No second subsystem is required.</text>
+<text x="301" y="717" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#6D46B5" font-weight="bold" text-anchor="middle">Coherent sum of amplitudes</text>
+<text x="836" y="218" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#536680" text-anchor="middle">Two subsystems A and B, one joint state</text>
+<rect x="613" y="233" width="446" height="69" rx="9" fill="#F7FAFD" stroke="#E0E7F0" stroke-width="1.5"/>
+<text x="836" y="278" font-family="DejaVu Sans, sans-serif" font-size="27" fill="#10213D" text-anchor="middle">|Ψ⟩ = (|RB⟩ + |BR⟩) / √2</text>
+<rect x="692" y="322" width="290" height="30" rx="15" fill="#F4F0FC" stroke="none" stroke-width="1.5"/>
+<text x="837.0" y="343" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#6D46B5" font-weight="bold" text-anchor="middle">Coherent joint superposition</text>
+<rect x="610" y="367" width="452" height="275" rx="12" fill="#F4F0FC" stroke="#B8A6DD" stroke-width="1.8"/>
+<rect x="759" y="374" width="157" height="30" rx="15" fill="#FFFFFF" stroke="none" stroke-width="1.5"/>
+<text x="837.5" y="395" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#536680" font-weight="bold" text-anchor="middle">basis order: (A, B)</text>
+<rect x="652" y="420" width="368" height="82" rx="10" fill="#FFFFFF" stroke="#D7C8EC" stroke-width="1.4"/>
+<circle cx="754" cy="455" r="28" fill="#C6533F" stroke="#FFFFFF" stroke-width="2.5"/>
+<text x="754" y="464" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#FFFFFF" font-weight="bold" text-anchor="middle">R</text>
+<text x="754" y="501" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#536680" text-anchor="middle">A</text>
+<circle cx="918" cy="455" r="28" fill="#1C65BD" stroke="#FFFFFF" stroke-width="2.5"/>
+<text x="918" y="464" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#FFFFFF" font-weight="bold" text-anchor="middle">B</text>
+<text x="918" y="501" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#536680" text-anchor="middle">B</text>
+<text x="836" y="462" font-family="DejaVu Sans, sans-serif" font-size="30" fill="#6D46B5" text-anchor="middle">⊗</text>
+<rect x="652" y="532" width="368" height="82" rx="10" fill="#FFFFFF" stroke="#D7C8EC" stroke-width="1.4"/>
+<circle cx="754" cy="567" r="28" fill="#1C65BD" stroke="#FFFFFF" stroke-width="2.5"/>
+<text x="754" y="576" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#FFFFFF" font-weight="bold" text-anchor="middle">B</text>
+<text x="754" y="613" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#536680" text-anchor="middle">A</text>
+<circle cx="918" cy="567" r="28" fill="#C6533F" stroke="#FFFFFF" stroke-width="2.5"/>
+<text x="918" y="576" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#FFFFFF" font-weight="bold" text-anchor="middle">R</text>
+<text x="918" y="613" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#536680" text-anchor="middle">B</text>
+<text x="836" y="574" font-family="DejaVu Sans, sans-serif" font-size="30" fill="#6D46B5" text-anchor="middle">⊗</text>
+<text x="836" y="524" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#6D46B5" font-weight="bold" text-anchor="middle">+</text>
+<text x="836" y="675" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#10213D" text-anchor="middle">Not factorizable as |ψ_A⟩ ⊗ |ψ_B⟩</text>
+<text x="836" y="710" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#6D46B5" font-weight="bold" text-anchor="middle">One entangled pure state—not a mixture</text>
+<text x="1371" y="218" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#536680" text-anchor="middle">Correlated outcomes; no entanglement</text>
+<rect x="1148" y="231" width="446" height="81" rx="9" fill="#F7FAFD" stroke="#E0E7F0" stroke-width="1.5"/>
+<text x="1371" y="266" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#10213D" text-anchor="middle">ρ_AB = ½|RB⟩⟨RB|</text>
+<text x="1371" y="298" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#10213D" text-anchor="middle">+ ½|BR⟩⟨BR|</text>
+<rect x="1272" y="328" width="200" height="30" rx="15" fill="#EFF9F7" stroke="none" stroke-width="1.5"/>
+<text x="1372.0" y="349" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#007E74" font-weight="bold" text-anchor="middle">Statistical mixture</text>
+<rect x="1162" y="383" width="419" height="111" rx="10" fill="#FFFFFF" stroke="#B9DCD7" stroke-width="1.6"/>
+<rect x="1173" y="392" width="108" height="30" rx="15" fill="#EFF9F7" stroke="none" stroke-width="1.5"/>
+<text x="1227.0" y="413" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#007E74" font-weight="bold" text-anchor="middle">50% of pairs</text>
+<circle cx="1323" cy="428" r="28" fill="#C6533F" stroke="#FFFFFF" stroke-width="2.5"/>
+<text x="1323" y="437" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#FFFFFF" font-weight="bold" text-anchor="middle">R</text>
+<text x="1323" y="474" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#536680" text-anchor="middle">A</text>
+<circle cx="1468" cy="428" r="28" fill="#1C65BD" stroke="#FFFFFF" stroke-width="2.5"/>
+<text x="1468" y="437" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#FFFFFF" font-weight="bold" text-anchor="middle">B</text>
+<text x="1468" y="474" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#536680" text-anchor="middle">B</text>
+<text x="1394" y="437" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#536680" text-anchor="middle">&amp;</text>
+<rect x="1162" y="531" width="419" height="111" rx="10" fill="#FFFFFF" stroke="#B9DCD7" stroke-width="1.6"/>
+<rect x="1173" y="540" width="108" height="30" rx="15" fill="#EFF9F7" stroke="none" stroke-width="1.5"/>
+<text x="1227.0" y="561" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#007E74" font-weight="bold" text-anchor="middle">50% of pairs</text>
+<circle cx="1323" cy="576" r="28" fill="#1C65BD" stroke="#FFFFFF" stroke-width="2.5"/>
+<text x="1323" y="585" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#FFFFFF" font-weight="bold" text-anchor="middle">B</text>
+<text x="1323" y="622" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#536680" text-anchor="middle">A</text>
+<circle cx="1468" cy="576" r="28" fill="#C6533F" stroke="#FFFFFF" stroke-width="2.5"/>
+<text x="1468" y="585" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#FFFFFF" font-weight="bold" text-anchor="middle">R</text>
+<text x="1468" y="622" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#536680" text-anchor="middle">B</text>
+<text x="1394" y="585" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#536680" text-anchor="middle">&amp;</text>
+<text x="1371" y="519" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#007E74" font-weight="bold" text-anchor="middle">OR</text>
+<text x="1371" y="675" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#10213D" text-anchor="middle">Each alternative is a product state.</text>
+<text x="1371" y="710" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#007E74" font-weight="bold" text-anchor="middle">A separable, classically correlated ensemble</text>
+<rect x="48" y="762" width="1576" height="46" rx="9" fill="#F4F7FB" stroke="#E0E7F0" stroke-width="1"/>
+<text x="836" y="791" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#10213D" text-anchor="middle">Key distinction: superposition concerns components of a state; entanglement concerns the separability of subsystems.</text>
+<line x1="50" y1="834" x2="1621" y2="834" stroke="#DDE6F0" stroke-width="1.4" stroke-linecap="round"/>
+<text x="51" y="873" font-family="Liberation Serif, Georgia, serif" font-size="24" fill="#10213D" font-weight="bold">Figure 4.1.</text>
+<text x="197" y="873" font-family="Liberation Serif, Georgia, serif" font-size="24" fill="#10213D" font-style="italic">Superposition, entanglement, and classical correlation.</text>
+<text x="51" y="918" font-family="Liberation Serif, Georgia, serif" font-size="23" fill="#10213D">(A) A single system may be in a superposition without being entangled. (B) An entangled pure state is a coherent, non-factorizable joint state; its two terms are not</text>
+<text x="51" y="953" font-family="Liberation Serif, Georgia, serif" font-size="23" fill="#10213D">preassigned classical pair types. (C) A classically correlated mixed state can instead be a probabilistic mixture of product states, and is therefore separable. The</text>
+<text x="51" y="988" font-family="Liberation Serif, Georgia, serif" font-size="23" fill="#10213D">pair basis order is (A, B). R and B denote the abstract basis labels used in Section 4.2; colored symbols are visual aids, not particle trajectories.</text>
+</svg>
