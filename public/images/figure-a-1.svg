@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="1156" viewBox="0 0 1672 1156" role="img" aria-labelledby="figtitle figdesc">
+<title id="figtitle">Figure A.1: Logical structure of the CHSH inequality</title>
+<desc id="figdesc">The CHSH experiment has two separate model assumptions: Bell-local response factorization and measurement independence. Local deterministic algebra yields absolute S(lambda) equals 2 for each hidden-variable state, independently of measurement independence. A common hidden-variable distribution permits a single average, yielding the CHSH bound absolute S at most 2. Quantum singlet states yield 2 square root 2, exceeding the bound, so the full assumption set is excluded but no unique assumption is singled out.</desc>
+<defs>
+<marker id="arrow-blue" viewBox="0 0 10 10" markerWidth="9" markerHeight="9" refX="8.5" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10Z" fill="#1C65BD"/></marker>
+<marker id="arrow-teal" viewBox="0 0 10 10" markerWidth="9" markerHeight="9" refX="8.5" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10Z" fill="#00877D"/></marker>
+<marker id="arrow-slate" viewBox="0 0 10 10" markerWidth="9" markerHeight="9" refX="8.5" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10Z" fill="#8192A7"/></marker>
+<marker id="arrow-navy" viewBox="0 0 10 10" markerWidth="9" markerHeight="9" refX="8.5" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10Z" fill="#10213D"/></marker>
+</defs>
+<rect x="0" y="0" width="1672" height="1156" rx="0" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0"/>
+<text x="49" y="53" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#10213D" font-weight="bold">The CHSH inequality: which assumptions enter, and where?</text>
+<text x="50" y="91" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#536680">Bell-local factorization and measurement independence are distinct mathematical conditions.</text>
+<rect x="49" y="122" width="1574" height="125" rx="12" fill="#F7FAFD" stroke="#D8E4F0" stroke-width="1.6"/>
+<rect x="49" y="122" width="1574" height="49" rx="12" fill="#EAF1F9" stroke="#EAF1F9" stroke-width="0"/>
+<rect x="49" y="159" width="1574" height="12" rx="0" fill="#EAF1F9" stroke="#EAF1F9" stroke-width="0"/>
+<text x="77" y="155" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#10213D" font-weight="bold">CHSH setup — two settings per observer, binary outcomes</text>
+<text x="80" y="198" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#10213D">Alice: a or a′    ·    Bob: b or b′    ·    A, B ∈ {+1, −1}</text>
+<text x="80" y="232" font-family="DejaVu Sans, sans-serif" font-size="26" fill="#10213D">S = E(a,b) + E(a,b′) + E(a′,b) − E(a′,b′)</text>
+<rect x="49" y="271" width="759" height="177" rx="13" fill="#FFFFFF" stroke="#BDD4EE" stroke-width="1.8"/>
+<rect x="50" y="272" width="757" height="52" rx="12" fill="#EAF1F9" stroke="#EAF1F9" stroke-width="0"/>
+<rect x="50" y="309" width="757" height="15" rx="0" fill="#EAF1F9" stroke="#EAF1F9" stroke-width="0"/>
+<text x="76" y="305" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#1C65BD" font-weight="bold">ASSUMPTION 1</text>
+<text x="242" y="305" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#10213D" font-weight="bold">Bell-local factorization</text>
+<text x="80" y="363" font-family="DejaVu Sans, sans-serif" font-size="26" fill="#1C65BD">P(A,B | a,b,λ) = P(A | a,λ) P(B | b,λ)</text>
+<text x="80" y="405" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#536680">Once λ is specified, outcome probabilities factor</text>
+<text x="80" y="431" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#536680">into local response probabilities.</text>
+<rect x="838" y="271" width="785" height="177" rx="13" fill="#FFFFFF" stroke="#AFE0D8" stroke-width="1.8"/>
+<rect x="839" y="272" width="783" height="52" rx="12" fill="#EAF6F4" stroke="#EAF6F4" stroke-width="0"/>
+<rect x="839" y="309" width="783" height="15" rx="0" fill="#EAF6F4" stroke="#EAF6F4" stroke-width="0"/>
+<text x="867" y="305" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#00877D" font-weight="bold">ASSUMPTION 2</text>
+<text x="1033" y="305" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#10213D" font-weight="bold">Measurement independence</text>
+<text x="871" y="363" font-family="DejaVu Sans, sans-serif" font-size="30" fill="#00877D">ρ(λ | a,b) = ρ(λ)</text>
+<text x="871" y="405" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#536680">The same distribution of λ applies to all four</text>
+<text x="871" y="431" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#536680">choices of measurement settings.</text>
+<path d="M 425 448 V 484" fill="none" stroke="#1C65BD" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-blue)"/>
+<path d="M 1229 448 V 484" fill="none" stroke="#00877D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="49" y="492" width="759" height="166" rx="12" fill="#FFFFFF" stroke="#D6E2F1" stroke-width="1.6"/>
+<text x="78" y="530" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#1C65BD" font-weight="bold">STEP 1 — local deterministic algebra</text>
+<text x="81" y="588" font-family="DejaVu Sans, sans-serif" font-size="35" fill="#10213D" font-weight="bold">|S(λ)| = 2</text>
+<text x="81" y="628" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#536680">For each λ; this step does NOT use</text>
+<text x="81" y="650" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#536680">measurement independence.</text>
+<rect x="838" y="492" width="785" height="166" rx="12" fill="#FFFFFF" stroke="#CBEBE5" stroke-width="1.6"/>
+<text x="868" y="530" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#00877D" font-weight="bold">STEP 2 — average over one common distribution</text>
+<text x="868" y="588" font-family="DejaVu Sans, sans-serif" font-size="31" fill="#10213D">S = ∫ dλ ρ(λ) S(λ)</text>
+<text x="868" y="628" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#536680">This is where measurement independence</text>
+<text x="868" y="650" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#536680">enters the CHSH bound.</text>
+<path d="M 425 658 V 695 H 362 V 724" fill="none" stroke="#1C65BD" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-blue)"/>
+<path d="M 1232 658 V 685 H 684 V 724" fill="none" stroke="#00877D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="49" y="730" width="759" height="124" rx="12" fill="#F4F8FE" stroke="#9CC2F0" stroke-width="1.8"/>
+<text x="79" y="765" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#1C65BD" font-weight="bold">CHSH bound under these assumptions</text>
+<text x="79" y="818" font-family="DejaVu Sans, sans-serif" font-size="43" fill="#10213D" font-weight="bold">|S| ≤ 2</text>
+<rect x="838" y="730" width="785" height="124" rx="12" fill="#F7F3FD" stroke="#D3C2EE" stroke-width="1.8"/>
+<text x="867" y="765" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#6D46B5" font-weight="bold">Quantum singlet prediction</text>
+<text x="869" y="818" font-family="DejaVu Sans, sans-serif" font-size="40" fill="#10213D" font-weight="bold">|S_QM| = 2√2  &gt;  2</text>
+<rect x="49" y="879" width="1574" height="66" rx="10" fill="#F4F7FB" stroke="#DFE7F0" stroke-width="1.2"/>
+<text x="81" y="907" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#10213D" font-weight="bold">Experimental violation excludes the full assumption set,</text>
+<text x="81" y="936" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#10213D">but does not by itself identify which assumption must fail.</text>
+<path d="M 52 962 H 1621" fill="none" stroke="#DDE6F0" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="52" y="1002" font-family="Liberation Serif, Georgia, serif" font-size="24" fill="#10213D" font-weight="bold">Figure A.1.</text>
+<text x="202" y="1002" font-family="Liberation Serif, Georgia, serif" font-size="24" fill="#10213D" font-style="italic">Logical structure of the CHSH inequality.</text>
+<text x="52" y="1042" font-family="Liberation Serif, Georgia, serif" font-size="24" fill="#10213D">For binary ±1 outcomes, the local deterministic algebra gives |S(λ)| = 2 for each hidden-variable state without using measurement independence.</text>
+<text x="52" y="1074" font-family="Liberation Serif, Georgia, serif" font-size="24" fill="#10213D">That assumption enters when all four correlations are averaged using the same distribution ρ(λ), yielding |S| ≤ 2. Quantum singlet correlations</text>
+<text x="52" y="1106" font-family="Liberation Serif, Georgia, serif" font-size="24" fill="#10213D">can reach |S| = 2√2, excluding models satisfying the full set of CHSH assumptions, but not isolating a unique assumption to reject.</text>
+</svg>
