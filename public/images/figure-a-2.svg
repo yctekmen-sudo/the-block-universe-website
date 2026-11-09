@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="1165" viewBox="0 0 1672 1165" role="img" aria-labelledby="figtitle figdesc">
+<title id="figtitle">Figure A.2: Quantum singlet correlation and an illustrative Bell-local measurement-independent model</title>
+<desc id="figdesc">Graph of correlation against relative measurement angle from zero to 180 degrees. The quantum singlet prediction is minus cosine theta, shown in blue. A specific Bell-local measurement-independent model using uniform random hidden directions and opposite sign responses predicts minus one plus two theta over pi, shown in orange. Both coincide at 0, 90 and 180 degrees; their deviations are visible at intermediate angles. A separate box lists the model and explains it is not the universal local correlation curve. For the four CHSH settings a=0, a prime=90, b=45, b prime=-45 degrees, the absolute CHSH value is two square root two for quantum and two for this local example.</desc>
+<rect width="1672" height="1165" fill="#FFFFFF"/>
+<text x="49" y="55" fill="#10213D" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold">Singlet correlations: quantum prediction versus a local example</text>
+<text x="50" y="92" fill="#536680" font-family="Arial, Helvetica, sans-serif" font-size="20">A quantitative comparison of two specified models — not a universal curve for local hidden variables</text>
+<rect x="48" y="127" width="1035" height="686" rx="14" fill="#FFFFFF" stroke="#C5D0DE" stroke-width="1.6"/>
+<rect x="48" y="127" width="1035" height="55" rx="13" fill="#EAF1F9" stroke="#EAF1F9" stroke-width="0"/>
+<rect x="49" y="167" width="1033" height="15" rx="0" fill="#EAF1F9" stroke="#EAF1F9" stroke-width="0"/>
+<text x="76" y="165" fill="#10213D" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="bold">A. Correlation as a function of relative angle</text>
+<rect x="1107" y="127" width="517" height="686" rx="14" fill="#FFFFFF" stroke="#C5D0DE" stroke-width="1.6"/>
+<rect x="1107" y="127" width="517" height="55" rx="13" fill="#EAF1F9" stroke="#EAF1F9" stroke-width="0"/>
+<rect x="1108" y="167" width="515" height="15" rx="0" fill="#EAF1F9" stroke="#EAF1F9" stroke-width="0"/>
+<text x="1133" y="165" fill="#10213D" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="bold">B. Models and assumptions</text>
+<rect x="150" y="228" width="885" height="422" rx="3" fill="#FAFCFF" stroke="#E0E7F0" stroke-width="1"/>
+<line x1="150.0" y1="228" x2="150.0" y2="650" stroke="#D9E4F0" stroke-width="1.2"/>
+<line x1="297.5" y1="228" x2="297.5" y2="650" stroke="#D9E4F0" stroke-width="1.2"/>
+<line x1="371.25" y1="228" x2="371.25" y2="650" stroke="#D9E4F0" stroke-width="1.2" stroke-dasharray="6 7"/>
+<line x1="445.0" y1="228" x2="445.0" y2="650" stroke="#D9E4F0" stroke-width="1.2"/>
+<line x1="592.5" y1="228" x2="592.5" y2="650" stroke="#D9E4F0" stroke-width="1.2"/>
+<line x1="740.0" y1="228" x2="740.0" y2="650" stroke="#D9E4F0" stroke-width="1.2"/>
+<line x1="813.75" y1="228" x2="813.75" y2="650" stroke="#D9E4F0" stroke-width="1.2" stroke-dasharray="6 7"/>
+<line x1="887.5" y1="228" x2="887.5" y2="650" stroke="#D9E4F0" stroke-width="1.2"/>
+<line x1="1035.0" y1="228" x2="1035.0" y2="650" stroke="#D9E4F0" stroke-width="1.2"/>
+<line x1="150" y1="650.0" x2="1035" y2="650.0" stroke="#D9E4F0" stroke-width="1.1"/>
+<line x1="150" y1="544.5" x2="1035" y2="544.5" stroke="#D9E4F0" stroke-width="1.1"/>
+<line x1="150" y1="439.0" x2="1035" y2="439.0" stroke="#C1CEDD" stroke-width="1.7"/>
+<line x1="150" y1="333.5" x2="1035" y2="333.5" stroke="#D9E4F0" stroke-width="1.1"/>
+<line x1="150" y1="228.0" x2="1035" y2="228.0" stroke="#D9E4F0" stroke-width="1.1"/>
+<line x1="150" y1="228" x2="150" y2="650" stroke="#10213D" stroke-width="2.8"/>
+<line x1="150" y1="650" x2="1035" y2="650" stroke="#10213D" stroke-width="2.8"/>
+<text x="150.0" y="688" fill="#10213D" font-family="Arial, Helvetica, sans-serif" font-size="17" text-anchor="middle">0°</text>
+<text x="297.5" y="688" fill="#10213D" font-family="Arial, Helvetica, sans-serif" font-size="17" text-anchor="middle">30°</text>
+<text x="371.2" y="688" fill="#10213D" font-family="Arial, Helvetica, sans-serif" font-size="17" text-anchor="middle">45°</text>
+<text x="445.0" y="688" fill="#10213D" font-family="Arial, Helvetica, sans-serif" font-size="17" text-anchor="middle">60°</text>
+<text x="592.5" y="688" fill="#10213D" font-family="Arial, Helvetica, sans-serif" font-size="17" text-anchor="middle">90°</text>
+<text x="740.0" y="688" fill="#10213D" font-family="Arial, Helvetica, sans-serif" font-size="17" text-anchor="middle">120°</text>
+<text x="813.8" y="688" fill="#10213D" font-family="Arial, Helvetica, sans-serif" font-size="17" text-anchor="middle">135°</text>
+<text x="887.5" y="688" fill="#10213D" font-family="Arial, Helvetica, sans-serif" font-size="17" text-anchor="middle">150°</text>
+<text x="1035.0" y="688" fill="#10213D" font-family="Arial, Helvetica, sans-serif" font-size="17" text-anchor="middle">180°</text>
+<text x="131" y="657.0" fill="#10213D" font-family="Arial, Helvetica, sans-serif" font-size="20" text-anchor="end">-1</text>
+<text x="131" y="551.5" fill="#10213D" font-family="Arial, Helvetica, sans-serif" font-size="20" text-anchor="end">-0.5</text>
+<text x="131" y="446.0" fill="#10213D" font-family="Arial, Helvetica, sans-serif" font-size="20" text-anchor="end">0</text>
+<text x="131" y="340.5" fill="#10213D" font-family="Arial, Helvetica, sans-serif" font-size="20" text-anchor="end">0.5</text>
+<text x="131" y="235.0" fill="#10213D" font-family="Arial, Helvetica, sans-serif" font-size="20" text-anchor="end">1</text>
+<text x="592.5" y="735" fill="#10213D" font-family="Arial, Helvetica, sans-serif" font-size="22" text-anchor="middle">Relative analyzer angle  θ</text>
+<text x="78" y="218" fill="#10213D" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold">E(θ)</text>
+<polyline points="150.000,650.000 154.917,649.968 159.833,649.871 164.750,649.711 169.667,649.486 174.583,649.197 179.500,648.844 184.417,648.427 189.333,647.947 194.250,647.402 199.167,646.794 204.083,646.123 209.000,645.389 213.917,644.592 218.833,643.732 223.750,642.810 228.667,641.826 233.583,640.780 238.500,639.673 243.417,638.504 248.333,637.275 253.250,635.985 258.167,634.636 263.083,633.227 268.000,631.758 272.917,630.231 277.833,628.646 282.750,627.002 287.667,625.302 292.583,623.545 297.500,621.731 302.417,619.862 307.333,617.938 312.250,615.959 317.167,613.927 322.083,611.841 327.000,609.703 331.917,607.512 336.833,605.270 341.750,602.978 346.667,600.635 351.583,598.244 356.500,595.804 361.417,593.316 366.333,590.781 371.250,588.200 376.167,585.573 381.083,582.902 386.000,580.187 390.917,577.428 395.833,574.628 400.750,571.787 405.667,568.905 410.583,565.983 415.500,563.023 420.417,560.025 425.333,556.990 430.250,553.919 435.167,550.813 440.083,547.673 445.000,544.500 449.917,541.295 454.833,538.058 459.750,534.792 464.667,531.496 469.583,528.172 474.500,524.821 479.417,521.444 484.333,518.042 489.250,514.616 494.167,511.166 499.083,507.695 504.000,504.203 508.917,500.690 513.833,497.159 518.750,493.611 523.667,490.046 528.583,486.465 533.500,482.869 538.417,479.261 543.333,475.640 548.250,472.008 553.167,468.366 558.083,464.714 563.000,461.056 567.917,457.390 572.833,453.719 577.750,450.043 582.667,446.364 587.583,442.682 592.500,439.000 597.417,435.318 602.333,431.636 607.250,427.957 612.167,424.281 617.083,420.610 622.000,416.944 626.917,413.286 631.833,409.634 636.750,405.992 641.667,402.360 646.583,398.739 651.500,395.131 656.417,391.535 661.333,387.954 666.250,384.389 671.167,380.841 676.083,377.310 681.000,373.797 685.917,370.305 690.833,366.834 695.750,363.384 700.667,359.958 705.583,356.556 710.500,353.179 715.417,349.828 720.333,346.504 725.250,343.208 730.167,339.942 735.083,336.705 740.000,333.500 744.917,330.327 749.833,327.187 754.750,324.081 759.667,321.010 764.583,317.975 769.500,314.977 774.417,312.017 779.333,309.095 784.250,306.213 789.167,303.372 794.083,300.572 799.000,297.813 803.917,295.098 808.833,292.427 813.750,289.800 818.667,287.219 823.583,284.684 828.500,282.196 833.417,279.756 838.333,277.365 843.250,275.022 848.167,272.730 853.083,270.488 858.000,268.297 862.917,266.159 867.833,264.073 872.750,262.041 877.667,260.062 882.583,258.138 887.500,256.269 892.417,254.455 897.333,252.698 902.250,250.998 907.167,249.354 912.083,247.769 917.000,246.242 921.917,244.773 926.833,243.364 931.750,242.015 936.667,240.725 941.583,239.496 946.500,238.327 951.417,237.220 956.333,236.174 961.250,235.190 966.167,234.268 971.083,233.408 976.000,232.611 980.917,231.877 985.833,231.206 990.750,230.598 995.667,230.053 1000.583,229.573 1005.500,229.156 1010.417,228.803 1015.333,228.514 1020.250,228.289 1025.167,228.129 1030.083,228.032 1035.000,228.000" stroke="#1C65BD" stroke-width="5.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="150.000,650.000 154.917,647.656 159.833,645.311 164.750,642.967 169.667,640.622 174.583,638.278 179.500,635.933 184.417,633.589 189.333,631.244 194.250,628.900 199.167,626.556 204.083,624.211 209.000,621.867 213.917,619.522 218.833,617.178 223.750,614.833 228.667,612.489 233.583,610.144 238.500,607.800 243.417,605.456 248.333,603.111 253.250,600.767 258.167,598.422 263.083,596.078 268.000,593.733 272.917,591.389 277.833,589.044 282.750,586.700 287.667,584.356 292.583,582.011 297.500,579.667 302.417,577.322 307.333,574.978 312.250,572.633 317.167,570.289 322.083,567.944 327.000,565.600 331.917,563.256 336.833,560.911 341.750,558.567 346.667,556.222 351.583,553.878 356.500,551.533 361.417,549.189 366.333,546.844 371.250,544.500 376.167,542.156 381.083,539.811 386.000,537.467 390.917,535.122 395.833,532.778 400.750,530.433 405.667,528.089 410.583,525.744 415.500,523.400 420.417,521.056 425.333,518.711 430.250,516.367 435.167,514.022 440.083,511.678 445.000,509.333 449.917,506.989 454.833,504.644 459.750,502.300 464.667,499.956 469.583,497.611 474.500,495.267 479.417,492.922 484.333,490.578 489.250,488.233 494.167,485.889 499.083,483.544 504.000,481.200 508.917,478.856 513.833,476.511 518.750,474.167 523.667,471.822 528.583,469.478 533.500,467.133 538.417,464.789 543.333,462.444 548.250,460.100 553.167,457.756 558.083,455.411 563.000,453.067 567.917,450.722 572.833,448.378 577.750,446.033 582.667,443.689 587.583,441.344 592.500,439.000 597.417,436.656 602.333,434.311 607.250,431.967 612.167,429.622 617.083,427.278 622.000,424.933 626.917,422.589 631.833,420.244 636.750,417.900 641.667,415.556 646.583,413.211 651.500,410.867 656.417,408.522 661.333,406.178 666.250,403.833 671.167,401.489 676.083,399.144 681.000,396.800 685.917,394.456 690.833,392.111 695.750,389.767 700.667,387.422 705.583,385.078 710.500,382.733 715.417,380.389 720.333,378.044 725.250,375.700 730.167,373.356 735.083,371.011 740.000,368.667 744.917,366.322 749.833,363.978 754.750,361.633 759.667,359.289 764.583,356.944 769.500,354.600 774.417,352.256 779.333,349.911 784.250,347.567 789.167,345.222 794.083,342.878 799.000,340.533 803.917,338.189 808.833,335.844 813.750,333.500 818.667,331.156 823.583,328.811 828.500,326.467 833.417,324.122 838.333,321.778 843.250,319.433 848.167,317.089 853.083,314.744 858.000,312.400 862.917,310.056 867.833,307.711 872.750,305.367 877.667,303.022 882.583,300.678 887.500,298.333 892.417,295.989 897.333,293.644 902.250,291.300 907.167,288.956 912.083,286.611 917.000,284.267 921.917,281.922 926.833,279.578 931.750,277.233 936.667,274.889 941.583,272.544 946.500,270.200 951.417,267.856 956.333,265.511 961.250,263.167 966.167,260.822 971.083,258.478 976.000,256.133 980.917,253.789 985.833,251.444 990.750,249.100 995.667,246.756 1000.583,244.411 1005.500,242.067 1010.417,239.722 1015.333,237.378 1020.250,235.033 1025.167,232.689 1030.083,230.344 1035.000,228.000" stroke="#D97818" stroke-width="5" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="14 10"/>
+<circle cx="371.25" cy="588.1995308303615" r="7" fill="#1C65BD" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="371.25" cy="544.5" r="7" fill="#D97818" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="813.75" cy="289.80046916963846" r="7" fill="#1C65BD" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="813.75" cy="333.5" r="7" fill="#D97818" stroke="#FFFFFF" stroke-width="2"/>
+<line x1="177" y1="777" x2="241" y2="777" stroke="#1C65BD" stroke-width="5"/>
+<text x="253" y="784" fill="#10213D" font-family="Arial, Helvetica, sans-serif" font-size="21">Quantum singlet  −cos θ</text>
+<line x1="624" y1="777" x2="689" y2="777" stroke="#D97818" stroke-width="5" stroke-dasharray="14 10"/>
+<text x="700" y="784" fill="#10213D" font-family="Arial, Helvetica, sans-serif" font-size="21">Illustrative local model</text>
+<rect x="1130" y="208" width="466" height="120" rx="10" fill="#F3F7FD" stroke="#D6E2F1" stroke-width="1"/>
+<text x="1150" y="241" fill="#1C65BD" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold">Quantum singlet</text>
+<text x="1150" y="276" fill="#10213D" font-family="DejaVu Sans, Arial, sans-serif" font-size="27">E_QM(θ) = −cos θ</text>
+<text x="1150" y="308" fill="#536680" font-family="Arial, Helvetica, sans-serif" font-size="18">Spin-½ singlet state</text>
+<rect x="1130" y="347" width="466" height="183" rx="10" fill="#FFF9F1" stroke="#F0D0A5" stroke-width="1"/>
+<text x="1150" y="379" fill="#D97818" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold">Example Bell-local model</text>
+<text x="1150" y="410" fill="#10213D" font-family="DejaVu Sans, Arial, sans-serif" font-size="24">E_L(θ) = −1 + 2θ/π</text>
+<text x="1150" y="443" fill="#536680" font-family="Arial, Helvetica, sans-serif" font-size="18">λ: uniformly distributed direction</text>
+<text x="1150" y="472" fill="#10213D" font-family="DejaVu Sans, Arial, sans-serif" font-size="20">A = sgn(a·λ)</text>
+<text x="1150" y="499" fill="#10213D" font-family="DejaVu Sans, Arial, sans-serif" font-size="20">B = −sgn(b·λ)</text>
+<text x="1131" y="558" fill="#10213D" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="bold">The example satisfies:</text>
+<text x="1144" y="594" fill="#536680" font-family="Arial, Helvetica, sans-serif" font-size="18">• Local deterministic responses</text>
+<text x="1144" y="625" fill="#536680" font-family="Arial, Helvetica, sans-serif" font-size="18">• Measurement independence</text>
+<text x="1144" y="656" fill="#536680" font-family="Arial, Helvetica, sans-serif" font-size="18">• Perfect anti-correlation at θ = 0</text>
+<rect x="1130" y="688" width="466" height="94" rx="10" fill="#F4F7FB" stroke="#DCE5F0" stroke-width="1"/>
+<text x="1150" y="716" fill="#10213D" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="bold">Important:</text>
+<text x="1150" y="744" fill="#536680" font-family="Arial, Helvetica, sans-serif" font-size="18">This triangular curve is one local model,</text>
+<text x="1150" y="769" fill="#536680" font-family="Arial, Helvetica, sans-serif" font-size="18">not the prediction of every local theory.</text>
+<rect x="48" y="836" width="1576" height="122" rx="12" fill="#F3F7FB" stroke="#DCE5F0" stroke-width="1.5"/>
+<text x="76" y="873" fill="#10213D" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold">CHSH at a = 0°, a′ = 90°, b = 45°, b′ = −45°</text>
+<text x="80" y="920" fill="#1C65BD" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="bold">Quantum  |S| = 2√2 ≈ 2.828</text>
+<text x="860" y="920" fill="#D97818" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="bold">Local example  |S| = 2</text>
+<line x1="50" y1="985" x2="1623" y2="985" stroke="#DDE6F0" stroke-width="1.5"/>
+<text x="52" y="1023" fill="#10213D" font-family="Liberation Serif, Georgia, serif" font-size="25" font-weight="bold">Figure A.2.</text>
+<text x="206" y="1023" fill="#10213D" font-family="Liberation Serif, Georgia, serif" font-size="24" font-style="italic">Quantum singlet correlations and one Bell-local, measurement-independent example.</text>
+<text x="52" y="1063" fill="#10213D" font-family="Liberation Serif, Georgia, serif" font-size="22">(A) The singlet predicts E(θ) = −cos θ; a specified local model with a uniformly random hidden direction predicts E(θ) = −1 + 2θ/π</text>
+<text x="52" y="1095" fill="#10213D" font-family="Liberation Serif, Georgia, serif" font-size="22">for 0 ≤ θ ≤ π. This comparison does not define a unique “classical” curve. (B) For the settings used in Appendix A.2, the quantum</text>
+<text x="52" y="1127" fill="#10213D" font-family="Liberation Serif, Georgia, serif" font-size="22">CHSH magnitude is 2√2, while the illustrative local model reaches 2. The figure compares predictions, not mechanisms.</text>
+</svg>
