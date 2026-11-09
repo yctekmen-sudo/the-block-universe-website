@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="1230" version="1.1" viewBox="0 0 1672 1230" width="1672">
-  <title>Figure 1.1. Minkowski spacetime and the relativity of simultaneity</title>
-  <desc>Reference frame A has orthogonal orange axes x and ct. Observer B has blue boosted axes meeting at 75 degrees, C has green boosted axes meeting at 60 degrees. All three frames share the marked origin. Event E lies on B present (blue x prime axis), a dashed orange future time slice of A, and a dashed green past time slice of C. Grey light cone lines form 45 degree angles from the origin. Observer D is at rest relative to A, with a purple vertical worldline passing through E; D locally observes E.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="1230" version="1.1" viewBox="0 0 1672 1230" width="1672" role="img" aria-labelledby="figure-title figure-description">
+  <title id="figure-title">Figure 1.1. Minkowski spacetime and the relativity of simultaneity</title>
+  <desc id="figure-description">Reference frame A has orthogonal orange axes x and ct. Observer B has blue boosted axes meeting at 75 degrees, C has green boosted axes meeting at 60 degrees. All three frames share the marked origin. Event E lies on B present (blue x prime axis), a dashed orange future time slice of A, and a dashed green past time slice of C. Grey light cone lines form 45 degree angles from the origin. Observer D is at rest relative to A, with a purple vertical worldline passing through E; D locally observes E.</desc>
   <defs>
     <marker id="arrowOrangeA" markerHeight="11" markerUnits="userSpaceOnUse" markerWidth="11" orient="auto" refX="9" refY="5">
       <path d="M 0 0 L 10 5 L 0 10 Z" fill="#D97818"/>
