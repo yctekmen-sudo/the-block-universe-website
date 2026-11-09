@@ -52,15 +52,15 @@
 <line x1="468" y1="713" x2="520" y2="713" stroke="#008b80" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="11 9" />
 <text x="547" y="708" font-family="Tinos, Times New Roman, serif" font-size="21" fill="#050505" font-weight="normal" font-style="normal" text-anchor="start" >Spacelike separation</text>
 <text x="547" y="735" font-family="Tinos, Times New Roman, serif" font-size="21" fill="#050505" font-weight="normal" font-style="normal" text-anchor="start" >(co-reality link)</text>
-<line x1="767" y1="713" x2="818" y2="713" stroke="#008c13" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="11 9" />
+<line x1="767" y1="713" x2="818" y2="713" stroke="#f16e05" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="11 9" />
 <text x="839" y="721" font-family="Tinos, Times New Roman, serif" font-size="21" fill="#050505" font-weight="normal" font-style="normal" text-anchor="start" >Simultaneity slice F1</text>
-<line x1="1068" y1="713" x2="1118" y2="713" stroke="#f16e05" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="11 9" />
+<line x1="1068" y1="713" x2="1118" y2="713" stroke="#008b80" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="11 9" />
 <text x="1141" y="721" font-family="Tinos, Times New Roman, serif" font-size="21" fill="#050505" font-weight="normal" font-style="normal" text-anchor="start" >Simultaneity slice F2</text>
 <line x1="1363" y1="713" x2="1414" y2="713" stroke="#777777" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="11 9" />
 <text x="1451" y="706" font-family="Tinos, Times New Roman, serif" font-size="22" fill="#050505" font-weight="normal" font-style="normal" text-anchor="start" >Light cone of P</text>
-<text x="1451" y="733" font-family="Tinos, Times New Roman, serif" font-size="21" fill="#050505" font-weight="normal" font-style="normal" text-anchor="start" >( |Δt| = |Δx| )</text>
+<text x="1451" y="733" font-family="Tinos, Times New Roman, serif" font-size="21" fill="#050505" font-weight="normal" font-style="normal" text-anchor="start" >( c|Δt| = |Δx| )</text>
 <text x="28" y="797" font-family="Tinos, Times New Roman, serif" font-size="27" fill="#090909"><tspan font-weight="bold" font-style="normal">Figure 1.2. </tspan><tspan font-weight="normal" font-style="italic">The extension from local physical reality to a complete four-dimensional history.</tspan><tspan font-weight="normal" font-style="normal"> (A) An event E on observer D’s worldline and a</tspan></text>
-<text x="28" y="830" font-family="Tinos, Times New Roman, serif" font-size="27" fill="#090909"><tspan font-weight="normal" font-style="normal">nearby event B that is spacelike-separated from E, which can be simultaneous with E in a suitable inertial frame. (B) A spacelike chain P – R – Q</tspan></text>
+<text x="28" y="830" font-family="Tinos, Times New Roman, serif" font-size="27" fill="#090909"><tspan font-weight="normal" font-style="normal">nearby event Y, occupied by observer B, spacelike-separated from E and simultaneous with E in a suitable frame. (B) A spacelike chain P – R – Q</tspan></text>
 <text x="28" y="861" font-family="Tinos, Times New Roman, serif" font-size="27" fill="#090909"><tspan font-weight="normal" font-style="normal">in which P and Q are timelike-separated, while P – R and R – Q are spacelike-separated. By connecting such pairs and </tspan><tspan font-weight="normal" font-style="italic">adopting transitivity of</tspan></text>
 <text x="28" y="893" font-family="Tinos, Times New Roman, serif" font-size="27" fill="#090909"><tspan font-weight="normal" font-style="italic">co-reality, the construction extends to a complete four-dimensional history.</tspan></text>
 </svg>
