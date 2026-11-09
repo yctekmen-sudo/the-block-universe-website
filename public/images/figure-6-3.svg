@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="1150" viewBox="0 0 1672 1150" role="img" aria-labelledby="title desc">
+<title id="title">Figure 6.3 — State consistency along a closed timelike curve</title>
+<desc id="desc">Panel A depicts a closed future-directed timelike worldline with an event E visited after one proper-time circuit T, but representing the very same spacetime event. Panel B depicts consistency requiring a state S to map through a full-circuit evolution F_T back into that same state, whereas a mismatched return state does not describe a single-valued physical traveler. Geometric closure alone does not guarantee a physically admissible traveler.</desc>
+<defs>
+<marker id="arrowBlue" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10Z" fill="#1C65BD"/></marker>
+<marker id="arrowTeal" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10Z" fill="#00877D"/></marker>
+<marker id="arrowOrange" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10Z" fill="#D97818"/></marker>
+</defs>
+<rect width="1672" height="1150" fill="#FFFFFF"/>
+<text x="48" y="53" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold" fill="#10213D">Self-consistency along a closed timelike curve</text>
+<text x="50" y="92" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#536680">A closed spacetime path and a realizable physical traveler are different requirements</text>
+<!-- Panel A -->
+<rect x="48" y="126" width="756" height="710" rx="14" fill="#FFFFFF" stroke="#C5D0DE" stroke-width="1.7"/>
+<path d="M62 127H790Q803 127 803 140V189H49V140Q49 127 62 127Z" fill="#EAF1F9"/>
+<text x="74" y="170" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="bold" fill="#10213D">A. A geometrically closed worldline</text>
+<text x="74" y="217" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#536680">A causal schematic of a globally closed path</text>
+<!-- ellipse and arrow patches -->
+<ellipse cx="419" cy="472" rx="266" ry="196" fill="#F5F9FD" stroke="#D9E6F3" stroke-width="2"/>
+<ellipse cx="419" cy="472" rx="266" ry="196" fill="none" stroke="#1C65BD" stroke-width="7"/>
+<path d="M 579 313 Q 626 341 653 386" fill="none" stroke="#1C65BD" stroke-width="5" stroke-linecap="round" marker-end="url(#arrowBlue)"/>
+<path d="M 653 562 Q 624 607 576 636" fill="none" stroke="#1C65BD" stroke-width="5" stroke-linecap="round" marker-end="url(#arrowBlue)"/>
+<path d="M 255 631 Q 207 603 183 562" fill="none" stroke="#1C65BD" stroke-width="5" stroke-linecap="round" marker-end="url(#arrowBlue)"/>
+<path d="M 185 383 Q 217 332 267 310" fill="none" stroke="#1C65BD" stroke-width="5" stroke-linecap="round" marker-end="url(#arrowBlue)"/>
+<circle cx="419" cy="276" r="12" fill="#D97818" stroke="#FFFFFF" stroke-width="3"/>
+<text x="443" y="270" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="bold" fill="#10213D">E</text>
+<text x="443" y="297" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#536680">same spacetime event</text>
+<rect x="251" y="411" width="336" height="118" rx="12" fill="#FFFFFF" stroke="#D1DCEC" stroke-width="1.8"/>
+<text x="419" y="451" font-family="DejaVu Sans, Arial, sans-serif" font-size="29" font-weight="bold" text-anchor="middle" fill="#10213D">γ(τ + T) = γ(τ)</text>
+<text x="419" y="488" font-family="Arial, Helvetica, sans-serif" font-size="19" text-anchor="middle" fill="#536680">T &gt; 0 is elapsed proper time</text>
+<text x="419" y="514" font-family="Arial, Helvetica, sans-serif" font-size="18" text-anchor="middle" fill="#536680">around one complete circuit</text>
+<text x="74" y="711" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#10213D" font-weight="bold">Proper time increases along the arrows.</text>
+<text x="74" y="743" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#536680">Returning to E does not create another event or copy.</text>
+<text x="74" y="777" font-family="Arial, Helvetica, sans-serif" font-size="17" font-style="italic" fill="#536680">Global causal schematic; not one Minkowski coordinate chart</text>
+<!-- Panel B -->
+<rect x="830" y="126" width="794" height="710" rx="14" fill="#FFFFFF" stroke="#C5D0DE" stroke-width="1.7"/>
+<path d="M844 127H1610Q1623 127 1623 140V189H831V140Q831 127 844 127Z" fill="#EAF1F9"/>
+<text x="856" y="170" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="bold" fill="#10213D">B. The traveler's state must also match</text>
+<text x="858" y="217" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#536680">A single event cannot carry conflicting physical states</text>
+<!-- valid state mapping -->
+<rect x="855" y="245" width="742" height="251" rx="13" fill="#F2FAF8" stroke="#B8DDD5" stroke-width="1.6"/>
+<text x="884" y="280" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#007E74">Consistent periodic state</text>
+<rect x="882" y="322" width="180" height="78" rx="11" fill="#FFFFFF" stroke="#8AC6B8" stroke-width="2"/>
+<text x="972" y="353" font-family="Arial, Helvetica, sans-serif" font-size="19" text-anchor="middle" fill="#536680">State at E</text>
+<text x="972" y="386" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="bold" text-anchor="middle" fill="#10213D">S</text>
+<line x1="1069" y1="361" x2="1237" y2="361" stroke="#00877D" stroke-width="4" marker-end="url(#arrowTeal)"/>
+<text x="1150" y="342" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#007E74" text-anchor="middle">one circuit F<tspan baseline-shift="sub" font-size="14">T</tspan></text>
+<rect x="1244" y="322" width="322" height="78" rx="11" fill="#FFFFFF" stroke="#8AC6B8" stroke-width="2"/>
+<text x="1405" y="353" font-family="Arial, Helvetica, sans-serif" font-size="19" text-anchor="middle" fill="#536680">State at the same E</text>
+<text x="1405" y="386" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="bold" text-anchor="middle" fill="#007E74">S</text>
+<text x="885" y="446" font-family="DejaVu Sans, Arial, sans-serif" font-size="28" font-weight="bold" fill="#007E74">F<tspan baseline-shift="sub" font-size="20">T</tspan><tspan baseline-shift="baseline">(S) = S</tspan></text>
+<text x="1095" y="446" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#536680">The state is a fixed point of the circuit.</text>
+<!-- invalid state mapping -->
+<rect x="855" y="520" width="742" height="257" rx="13" fill="#FFF8F0" stroke="#E6C6A2" stroke-width="1.6"/>
+<text x="884" y="555" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#AD661A">Inconsistent state assignment</text>
+<rect x="882" y="597" width="180" height="78" rx="11" fill="#FFFFFF" stroke="#D9B589" stroke-width="2"/>
+<text x="972" y="628" font-family="Arial, Helvetica, sans-serif" font-size="19" text-anchor="middle" fill="#536680">State at E</text>
+<text x="972" y="660" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="bold" text-anchor="middle" fill="#10213D">S</text>
+<line x1="1069" y1="636" x2="1237" y2="636" stroke="#D97818" stroke-width="4" marker-end="url(#arrowOrange)"/>
+<text x="1150" y="617" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#AD661A" text-anchor="middle">one circuit F<tspan baseline-shift="sub" font-size="14">T</tspan></text>
+<rect x="1244" y="597" width="322" height="78" rx="11" fill="#FFFFFF" stroke="#D9B589" stroke-width="2"/>
+<text x="1405" y="628" font-family="Arial, Helvetica, sans-serif" font-size="19" text-anchor="middle" fill="#536680">Claimed state at E</text>
+<text x="1405" y="660" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="bold" text-anchor="middle" fill="#AD661A">S′ ≠ S</text>
+<text x="885" y="722" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#AD661A">Two different states at one event are not allowed.</text>
+<text x="885" y="751" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#536680">This proposed periodic material history cannot be realized as stated.</text>
+<!-- key insight -->
+<rect x="48" y="862" width="1576" height="95" rx="12" fill="#F4F7FB" stroke="#DFE7F0" stroke-width="1.4"/>
+<text x="74" y="902" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#10213D">Key distinction:</text>
+<text x="251" y="902" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#10213D">A closed geometric curve need not support a self-consistent, physically realizable traveler.</text>
+<text x="74" y="936" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#536680">The condition applies to genuinely periodic physical states, not every open-worldline journey to an earlier era.</text>
+<!-- caption -->
+<path d="M 50 981 H 1622" stroke="#DDE6F0" stroke-width="1.4"/>
+<text x="52" y="1020" font-family="Liberation Serif, Georgia, serif" font-size="24" font-weight="bold" fill="#10213D">Figure 6.3.</text>
+<text x="201" y="1020" font-family="Liberation Serif, Georgia, serif" font-size="24" font-style="italic" fill="#10213D">State consistency along a closed timelike curve.</text>
+<text x="52" y="1060" font-family="Liberation Serif, Georgia, serif" font-size="24" fill="#10213D">(A) A future-directed timelike worldline returns to the same spacetime event E after proper time T &gt; 0. (B) A realized traveler</text>
+<text x="52" y="1092" font-family="Liberation Serif, Georgia, serif" font-size="24" fill="#10213D">on a genuinely periodic path must have a single-valued internal state S, requiring F<tspan baseline-shift="sub" font-size="17">T</tspan><tspan baseline-shift="baseline">(S) = S. A mismatched return state</tspan></text>
+<text x="52" y="1124" font-family="Liberation Serif, Georgia, serif" font-size="24" fill="#10213D">would be inconsistent; geometric closure alone does not establish that a physical traveler can complete the circuit.</text>
+</svg>
