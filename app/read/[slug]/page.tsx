@@ -4,6 +4,7 @@ import { ChapterPager } from '@/components/book/chapter-pager'
 import { chapterHeading, chapters, getChapter } from '@/content/chapters'
 import { loadChapterHtml } from '@/content/load-chapter-html'
 import { ReaderDiscussion } from '@/components/book/reader-discussion'
+import { FigureViewer } from '@/components/book/figure-viewer'
 
 export const dynamicParams = false
 
@@ -37,6 +38,7 @@ export default async function ChapterPage({ params }: PageProps<'/read/[slug]'>)
       <article className="mx-auto max-w-[750px]">
         
       <div className="manuscript book-chapter" dangerouslySetInnerHTML={{ __html: html }} />
+      <FigureViewer />
       <ReaderDiscussion chapterId={slug} />
       <ChapterPager prev={prev} next={next} />
 
