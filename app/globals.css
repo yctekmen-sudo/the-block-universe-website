@@ -169,6 +169,13 @@
 .manuscript p:has(> img:only-child) {
   text-align: center;
 }
+.manuscript .figure-container img[role='button'] {
+  cursor: zoom-in;
+}
+.manuscript .figure-container img[role='button']:focus-visible {
+  outline: 3px solid var(--brand);
+  outline-offset: 4px;
+}
 .manuscript sub,
 .manuscript sup {
   font-size: 0.72em;
