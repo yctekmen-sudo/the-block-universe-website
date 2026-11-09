@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Figure 4.5. Measurement independence versus measurement dependence</title>
+<desc id="desc">Two side-by-side panels compare setting-independent and setting-dependent hidden-variable distributions. Both panels retain local response functions. Dashed purple links in the right panel represent statistical correlation rather than causal influence.</desc>
+<rect width="1200" height="720" fill="#ffffff"/>
+<rect x="24" y="16" width="1152" height="66" rx="14" fill="#24365f"/>
+<text x="600" y="58" fill="#ffffff" font-family="Georgia,serif" font-weight="bold" font-size="30" text-anchor="middle">Measurement Independence vs. Measurement Dependence</text>
+<rect x="24" y="96" width="565" height="555" rx="15" fill="#f1f7ff" stroke="#3870ad" stroke-width="2"/>
+<rect x="611" y="96" width="565" height="555" rx="15" fill="#faf3ff" stroke="#793ba3" stroke-width="2"/>
+<path d="M24 111 Q24 96 39 96 H574 Q589 96 589 111 V146 H24Z" fill="#2868a7"/>
+<path d="M611 111 Q611 96 626 96 H1161 Q1176 96 1176 111 V146 H611Z" fill="#743293"/>
+<g font-family="Georgia,serif" text-anchor="middle" fill="#fff" font-size="22" font-weight="bold">
+<text x="306" y="128">(a) Measurement Independence</text><text x="894" y="128">(b) Measurement Dependence</text></g>
+<g font-family="Georgia,serif" text-anchor="middle" fill="#17233e">
+<text x="306" y="200" font-size="29" font-style="italic">ρ(λ | a,b) = ρ(λ)</text>
+<text x="306" y="229" font-size="16">Same hidden-variable distribution for all settings</text>
+<text x="894" y="200" font-size="29" font-style="italic">ρ(λ | a,b) may vary with a,b</text>
+<text x="894" y="229" font-size="16">The distribution can be correlated with the settings</text></g>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#27364f"/></marker></defs>
+<g stroke="#27364f" stroke-width="2.6" fill="none" marker-end="url(#arrow)">
+<path d="M306 323 L210 399"/><path d="M306 323 L402 399"/>
+<path d="M130 422 H178"/><path d="M482 422 H435"/>
+<path d="M894 363 L800 424"/><path d="M894 363 L990 424"/>
+<path d="M720 447 H766"/><path d="M1063 447 H1024"/></g>
+<g font-family="Georgia,serif" text-anchor="middle" font-size="23" fill="#17233e">
+<circle cx="306" cy="300" r="35" fill="#e9def9" stroke="#354666" stroke-width="2"/><text x="306" y="307" font-style="italic">λ</text>
+<rect x="178" y="399" width="66" height="45" rx="9" fill="#dfebfb" stroke="#354666" stroke-width="2"/><text x="211" y="428" font-style="italic">A</text>
+<rect x="368" y="399" width="66" height="45" rx="9" fill="#dfebfb" stroke="#354666" stroke-width="2"/><text x="401" y="428" font-style="italic">B</text>
+<rect x="72" y="399" width="58" height="45" rx="9" fill="#ffffff" stroke="#354666" stroke-width="2"/><text x="101" y="428" font-style="italic">a</text>
+<rect x="482" y="399" width="58" height="45" rx="9" fill="#ffffff" stroke="#354666" stroke-width="2"/><text x="511" y="428" font-style="italic">b</text>
+<circle cx="894" cy="339" r="29" fill="#e9def9" stroke="#354666" stroke-width="2"/><text x="894" y="347" font-style="italic">λ</text>
+<rect x="766" y="424" width="67" height="45" rx="9" fill="#dfebfb" stroke="#354666" stroke-width="2"/><text x="799" y="453" font-style="italic">A</text>
+<rect x="957" y="424" width="67" height="45" rx="9" fill="#dfebfb" stroke="#354666" stroke-width="2"/><text x="990" y="453" font-style="italic">B</text>
+<rect x="662" y="424" width="58" height="45" rx="9" fill="#ffffff" stroke="#354666" stroke-width="2"/><text x="691" y="453" font-style="italic">a</text>
+<rect x="1063" y="424" width="58" height="45" rx="9" fill="#ffffff" stroke="#354666" stroke-width="2"/><text x="1092" y="453" font-style="italic">b</text>
+<rect x="803" y="267" width="182" height="40" rx="9" fill="#f1e1f9" stroke="#793ba3" stroke-width="2"/><text x="894" y="293" font-size="19" font-style="italic">ρ(λ | a,b)</text></g>
+<g stroke="#793ba3" stroke-width="3" stroke-dasharray="7 6" fill="none">
+<path d="M691 424 V287 H803"/><path d="M1092 424 V287 H985"/></g>
+<path d="M894 307 V309" stroke="#27364f" stroke-width="2"/>
+<g font-family="Arial,sans-serif" font-size="14" fill="#743293" text-anchor="middle"><text x="736" y="279">statistical</text><text x="736" y="295">correlation</text><text x="1048" y="279">statistical</text><text x="1048" y="295">correlation</text></g>
+<g font-family="Georgia,serif" fill="#1b2a45" font-size="19">
+<text x="65" y="512">Local responses:</text><text x="65" y="543" font-style="italic">A = A(a,λ),   B = B(b,λ)</text>
+<text x="65" y="586">With independence, CHSH bound |S| ≤ 2.</text>
+<text x="647" y="512">Local responses still:</text><text x="647" y="543" font-style="italic">A = A(a,λ),   B = B(b,λ)</text>
+<text x="647" y="586">The CHSH bound need not hold.</text></g>
+<rect x="625" y="606" width="538" height="33" rx="8" fill="#f0e2f8"/>
+<text x="894" y="627" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="#593079">Dashed links: correlation, not causal influence</text>
+<rect x="24" y="663" width="1152" height="45" rx="11" fill="#fff4e3" stroke="#e3c6a0"/>
+<text x="600" y="691" fill="#26314a" font-family="Georgia,serif" text-anchor="middle" font-size="19">Key distinction: setting-independent distribution vs. setting-correlated distribution</text>
+</svg>
