@@ -1,7 +1,7 @@
 'use client'
 
 import { useCallback, useEffect, useRef, useState } from 'react'
-import type { KeyboardEvent, PointerEvent, WheelEvent } from 'react'
+import type { KeyboardEvent as ReactKeyboardEvent, PointerEvent, WheelEvent } from 'react'
 import { Minus, Plus, RotateCcw, X } from 'lucide-react'
 
 type Figure = { src: string; alt: string; label: string }
@@ -98,7 +98,7 @@ export function FigureViewer() {
       image.setAttribute('title', 'Enlarge figure')
 
       const onClick = () => openFigure(image)
-      const onKeyDown = (event: globalThis.KeyboardEvent) => {
+      const onKeyDown = (event: KeyboardEvent) => {
         if (event.key === 'Enter' || event.key === ' ') {
           event.preventDefault()
           openFigure(image)
@@ -209,7 +209,7 @@ export function FigureViewer() {
     changeZoom(event.deltaY < 0 ? 1.15 : 1 / 1.15)
   }
 
-  function onDialogKeyDown(event: KeyboardEvent<HTMLDialogElement>) {
+  function onDialogKeyDown(event: ReactKeyboardEvent<HTMLDialogElement>) {
     if (event.key === '+' || event.key === '=') changeZoom(1.5)
     if (event.key === '-') changeZoom(1 / 1.5)
     if (event.key === '0') reset()
