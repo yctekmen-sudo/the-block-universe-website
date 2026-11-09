@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 760" role="img" aria-labelledby="title description">
+<title id="title">Figure 4.6: Ontically Random Hidden Variables in the Block Universe</title>
+<desc id="description">Two-panel diagram. Left: identical initial physical conditions can produce genuinely random outcomes A, B, or C with probabilities 0.5, 0.3, and 0.2. Right: the actual spacetime history includes one realized outcome B and its later observational record. A definite history does not require deterministic laws.</desc>
+<defs><linearGradient id="navy" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#15274a"/><stop offset="1" stop-color="#2b426f"/></linearGradient><linearGradient id="blue" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#07518c"/><stop offset="1" stop-color="#2475b5"/></linearGradient><linearGradient id="purple" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#5a247f"/><stop offset="1" stop-color="#813bac"/></linearGradient><marker id="arrow" viewBox="0 0 10 10" markerWidth="8" markerHeight="8" refX="9" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#652899"/></marker><marker id="blackArrow" viewBox="0 0 10 10" markerWidth="8" markerHeight="8" refX="9" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#151515"/></marker></defs>
+<rect width="1500" height="760" fill="#fff"/>
+<rect x="130" y="10" width="1240" height="64" rx="13" fill="url(#navy)"/>
+<text x="750" y="54" fill="#fff" text-anchor="middle" font-family="Georgia,serif" font-weight="bold" font-size="35">Figure 4.6: Ontically Random Hidden Variables in the Block Universe</text>
+<rect x="10" y="92" width="730" height="492" rx="14" fill="#f8fbff" stroke="#2b73b1" stroke-width="2"/>
+<rect x="760" y="92" width="730" height="492" rx="14" fill="#fcf9ff" stroke="#8140ab" stroke-width="2"/>
+<path d="M10 107Q10 92 25 92H725Q740 92 740 107V148H10Z" fill="url(#blue)"/>
+<path d="M760 107Q760 92 775 92H1475Q1490 92 1490 107V148H760Z" fill="url(#purple)"/>
+<g font-family="Georgia,serif" font-size="27" fill="#fff" font-weight="bold" text-anchor="middle"><text x="375" y="130">Stochastic Physical Laws</text><text x="1125" y="130">One Actual History in Spacetime</text></g>
+<rect x="29" y="163" width="692" height="105" rx="13" fill="#e4f0fe"/>
+<rect x="779" y="163" width="692" height="105" rx="13" fill="#f2e7fb"/>
+<g font-family="Georgia,serif" font-size="22" fill="#17223d" text-anchor="middle">
+<text x="375" y="195">The same physical conditions can lead to</text>
+<text x="375" y="226">different outcomes with definite probabilities.</text>
+<text x="1125" y="195">The complete history contains one realized outcome</text>
+<text x="1125" y="226">and the observer's subsequent record.</text></g>
+<rect x="39" y="353" width="190" height="126" rx="12" fill="#e6f2ff" stroke="#2e68a7" stroke-width="2"/>
+<text x="134" y="389" font-family="Georgia,serif" fill="#1b2a40" font-size="24" text-anchor="middle">Same initial</text>
+<text x="134" y="422" font-family="Georgia,serif" fill="#1b2a40" font-size="24" text-anchor="middle">physical</text>
+<text x="134" y="455" font-family="Georgia,serif" fill="#1b2a40" font-size="24" text-anchor="middle">conditions</text>
+<g fill="none" stroke="#642692" stroke-width="3.5" marker-end="url(#arrow)"><path d="M229 414H263V327H332"/><path d="M229 414H332"/><path d="M229 414H263V501H332"/></g>
+<g fill="#edf5ff" stroke="#2e68a7" stroke-width="2"><rect x="332" y="298" width="223" height="57" rx="11"/><rect x="332" y="387" width="223" height="57" rx="11"/><rect x="332" y="477" width="223" height="57" rx="11"/></g>
+<g font-family="Georgia,serif" fill="#17233d" font-size="26" text-anchor="middle"><text x="443" y="335">A   (p = 0.5)</text><text x="443" y="424">B   (p = 0.3)</text><text x="443" y="514">C   (p = 0.2)</text></g>
+<path d="M576 296q27 0 27 24v88q0 9 16 10q-16 1-16 10v84q0 22-27 22" fill="none" stroke="#303047" stroke-width="3"/>
+<rect x="625" y="354" width="100" height="126" rx="12" fill="#f4eafb" stroke="#7837a7" stroke-width="2"/>
+<g font-family="Georgia,serif" font-size="20" text-anchor="middle" fill="#1b2a40"><text x="675" y="384">Possible</text><text x="675" y="410">outcomes</text><text x="675" y="447" font-style="italic">not three</text><text x="675" y="471" font-style="italic">actual worlds</text></g>
+<path d="M824 526H1430" stroke="#171717" stroke-width="3" marker-end="url(#blackArrow)"/><path d="M824 526V295" stroke="#171717" stroke-width="3" marker-end="url(#blackArrow)"/>
+<text x="1441" y="546" font-family="Georgia,serif" font-size="27" font-style="italic">x</text><text x="801" y="296" font-family="Georgia,serif" font-size="27" font-style="italic">t</text>
+<path d="M825 526L965 320L1461 284L1322 517Z" fill="#f1e7fb" stroke="#c5a6e1" stroke-width="1.5" opacity="0.9"/>
+<path d="M885 504L1078 414L1293 337" fill="none" stroke="#602389" stroke-width="4" marker-end="url(#arrow)"/>
+<g fill="#722e9f" stroke="#4b1b78" stroke-width="2"><circle cx="885" cy="504" r="10"/><circle cx="1078" cy="414" r="10"/><circle cx="1293" cy="337" r="10"/></g>
+<g font-family="Georgia,serif" fill="#1d1e3b"><text x="876" y="543" font-size="21">Initial event</text><text x="1092" y="400" font-size="25" font-weight="bold">B</text><text x="1092" y="429" font-size="19">(actual outcome)</text><text x="1311" y="329" font-size="23" font-weight="bold">Record</text><text x="1311" y="355" font-size="19">(observer)</text><text x="1184" y="486" font-size="22" font-style="italic" fill="#652899">One definite history</text><text x="1184" y="512" font-size="20" font-style="italic" fill="#652899">in spacetime</text></g>
+<rect x="10" y="603" width="1480" height="144" rx="16" fill="#fff5e7" stroke="#efcf9d"/>
+<rect x="37" y="634" width="250" height="76" rx="12" fill="#fbe1ba"/>
+<text x="162" y="682" font-family="Georgia,serif" fill="#1a1c30" text-anchor="middle" font-size="27" font-weight="bold">Key takeaway</text>
+<path d="M312 627V727" stroke="#854d40" stroke-width="2"/>
+<g font-family="Georgia,serif" fill="#1c2034" font-size="25"><text x="344" y="650">A complete Block Universe history contains definite events, but this does not</text><text x="344" y="686">imply deterministic laws. Ontically random dynamics can be compatible with</text><text x="344" y="722">one realized outcome in the actual spacetime history.</text></g>
+</svg>
