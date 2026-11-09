@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="820" viewBox="0 0 1500 820" role="img" aria-labelledby="title desc">
+<title id="title">Figure 4.8: Dissolving the Measurement Problem</title>
+<desc id="desc">Left: assuming the wavefunction fully describes physical reality produces a question about how superposition becomes one recorded outcome. Right: treating the wavefunction as a statistical description, while one actual four-dimensional history has definite measurement outcomes and records, removes the demand for physical collapse. Quantum predictions are unchanged.</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" markerWidth="8" markerHeight="8" refX="9" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10Z" fill="#364767"/></marker>
+<marker id="purplearrow" viewBox="0 0 10 10" markerWidth="8" markerHeight="8" refX="9" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10Z" fill="#6c389c"/></marker>
+</defs>
+<rect width="1500" height="820" fill="#fff"/>
+<rect x="95" y="14" width="1310" height="72" rx="14" fill="#1b315a"/>
+<text x="750" y="60" text-anchor="middle" font-size="38" font-weight="bold" font-family="Georgia,serif" fill="white">Figure 4.8: Dissolving the Measurement Problem</text>
+<rect x="20" y="107" width="717" height="585" rx="18" fill="#f2f8ff" stroke="#2468aa" stroke-width="2"/>
+<rect x="762" y="107" width="717" height="585" rx="18" fill="#faf5ff" stroke="#7d40a9" stroke-width="2"/>
+<path d="M20 124Q20 107 37 107H720Q737 107 737 124V164H20Z" fill="#095c9e"/>
+<path d="M762 124Q762 107 779 107H1462Q1479 107 1479 124V164H762Z" fill="#743a9e"/>
+<g fill="white" text-anchor="middle" font-family="Georgia,serif" font-weight="bold" font-size="28"><text x="378" y="145">A. Wavefunction as Complete Reality</text><text x="1120" y="145">B. Statistical Block Universe Interpretation</text></g>
+<g text-anchor="middle" font-family="Georgia,serif" fill="#1a2b45" font-size="23"><text x="378" y="203">If superposition is physically complete,</text><text x="378" y="232">how does a single outcome emerge?</text><text x="1120" y="203">The wavefunction describes outcome statistics;</text><text x="1120" y="232">the actual history contains definite events.</text></g>
+<rect x="87" y="277" width="582" height="97" rx="15" fill="#e3efff" stroke="#618cba" stroke-width="2"/>
+<text x="378" y="314" text-anchor="middle" font-family="Georgia,serif" font-size="26" fill="#1b2945">Mathematical superposition</text>
+<text x="378" y="352" text-anchor="middle" font-family="Georgia,serif" font-size="27" font-style="italic" fill="#1b2945">Superposed alternatives: A and B</text>
+<path d="M378 377V440" stroke="#364767" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="120" y="445" width="516" height="106" rx="15" fill="#fff" stroke="#8ea9cb" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="378" y="484" text-anchor="middle" font-family="Georgia,serif" font-size="29" fill="#253450">Physical collapse?</text>
+<text x="378" y="521" text-anchor="middle" font-family="Georgia,serif" font-size="23" fill="#253450">Why only one actual outcome?</text>
+<rect x="90" y="582" width="576" height="73" rx="12" fill="#e9f2fe"/>
+<text x="378" y="611" text-anchor="middle" font-family="Georgia,serif" font-size="22" fill="#23496f">An extra mechanism seems necessary</text>
+<text x="378" y="640" text-anchor="middle" font-family="Georgia,serif" font-size="22" fill="#23496f">under this ontological assumption.</text>
+<rect x="818" y="275" width="285" height="85" rx="13" fill="#e8d9f5" stroke="#9265b8" stroke-width="2"/>
+<g font-family="Georgia,serif" text-anchor="middle" fill="#3b255d"><text x="960" y="310" font-size="23">Quantum formalism</text><text x="960" y="342" font-size="19">Probabilities, correlations</text></g>
+<rect x="1161" y="275" width="265" height="85" rx="13" fill="#e8d9f5" stroke="#9265b8" stroke-width="2"/>
+<g font-family="Georgia,serif" text-anchor="middle" fill="#3b255d"><text x="1294" y="310" font-size="23">Actual 4D history</text><text x="1294" y="342" font-size="19">Definite events</text></g>
+<path d="M960 365V412" fill="none" stroke="#6c389c" stroke-width="3" marker-end="url(#purplearrow)"/>
+<path d="M1294 365V412" fill="none" stroke="#6c389c" stroke-width="3" marker-end="url(#purplearrow)"/>
+<rect x="817" y="417" width="284" height="87" rx="14" fill="#fff" stroke="#a48dc1" stroke-width="1.8"/>
+<text x="959" y="450" font-family="Georgia,serif" text-anchor="middle" font-size="24" fill="#33254d">Statistical predictions</text>
+<text x="959" y="482" font-family="Georgia,serif" text-anchor="middle" font-size="22" fill="#33254d">remain unchanged</text>
+<rect x="1160" y="417" width="270" height="87" rx="14" fill="#fff" stroke="#a48dc1" stroke-width="1.8"/>
+<text x="1295" y="448" font-family="Georgia,serif" text-anchor="middle" font-size="22" fill="#33254d">Measurement event</text>
+<text x="1295" y="477" font-family="Georgia,serif" text-anchor="middle" font-size="22" fill="#33254d">and observer record</text>
+<path d="M1101 459H1157" stroke="#6c389c" stroke-width="3" stroke-dasharray="8 7"/>
+<rect x="821" y="542" width="607" height="113" rx="14" fill="#f0e5fa" stroke="#b89ad3"/>
+<g text-anchor="middle" font-family="Georgia,serif" fill="#4a2571"><text x="1124" y="584" font-size="27" font-weight="bold">No physical collapse is required</text><text x="1124" y="620" font-size="23">Only the mathematical description updates</text><text x="1124" y="647" font-size="22">when a new record becomes available.</text></g>
+<rect x="20" y="707" width="1459" height="100" rx="15" fill="#fff5e7" stroke="#e2bd86"/>
+<rect x="45" y="725" width="252" height="65" rx="12" fill="#f8dfb5"/>
+<text x="171" y="764" text-anchor="middle" font-family="Georgia,serif" font-size="27" font-weight="bold" fill="#372b29">Key distinction</text>
+<path d="M322 719V795" stroke="#a17a60" stroke-width="2"/>
+<g font-family="Georgia,serif" font-size="24" fill="#25263c"><text x="349" y="751">The measurement problem depends on interpreting the wavefunction as complete</text><text x="349" y="785">physical reality. Changing that interpretation does not change quantum predictions.</text></g>
+</svg>
