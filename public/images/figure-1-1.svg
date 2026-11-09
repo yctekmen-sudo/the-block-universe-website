@@ -53,7 +53,7 @@
 <circle cx="996" cy="460" r="8" fill="#008875" stroke="white" stroke-width="2"/>
 <circle cx="991" cy="413" r="8" fill="#7653b2" stroke="white" stroke-width="2"/>
 <text x="634" y="552" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#7653b2">another inertial frame</text>
-<text x="909" y="370" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#008875" font-weight="bold">this frame: t = 0</text>
+<text x="909" y="370" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#7653b2" font-weight="bold">this frame: t = 0</text>
 <rect x="595" y="715" width="482" height="91" rx="12" fill="#f3faf8" stroke="none" stroke-width="1"/>
 <text x="615" y="749" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#18314f">Simultaneity slices differ between</text>
 <text x="615" y="777" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#18314f">relatively moving inertial frames.</text>
