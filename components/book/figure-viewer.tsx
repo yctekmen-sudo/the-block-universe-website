@@ -4,7 +4,7 @@ import { useCallback, useEffect, useRef, useState } from 'react'
 import type { KeyboardEvent as ReactKeyboardEvent, PointerEvent, WheelEvent } from 'react'
 import { Minus, Plus, RotateCcw, X } from 'lucide-react'
 
-type Figure = { src: string; alt: string; label: string }
+type Figure = { src: string; alt: string; label: string; caption: string }
 type Point = { x: number; y: number }
 type View = { scale: number; x: number; y: number }
 type Gesture =
@@ -75,7 +75,7 @@ export function FigureViewer() {
     gesture.current = null
     viewRef.current = INITIAL_VIEW
     setView(INITIAL_VIEW)
-    setFigure({ src: image.currentSrc || image.src, alt, label })
+    setFigure({ src: image.currentSrc || image.src, alt, label, caption })
   }, [])
 
   useEffect(() => {
@@ -205,7 +205,7 @@ export function FigureViewer() {
   }
 
   function onWheel(event: WheelEvent<HTMLDivElement>) {
-    event.preventDefault()
+    // The modal locks background scrolling; React wheel listeners may be passive.
     changeZoom(event.deltaY < 0 ? 1.15 : 1 / 1.15)
   }
 
@@ -278,6 +278,7 @@ export function FigureViewer() {
           )}
         </div>
         <footer className="border-t border-white/20 px-4 py-3 text-center text-xs text-slate-300 sm:text-sm">
+          {figure?.caption && <p className="mx-auto max-w-4xl pb-2 text-sm text-white">{figure.caption}</p>}
           Zoom with + / − or pinch; drag to pan; press 0 to reset and Escape to close.
         </footer>
       </div>
