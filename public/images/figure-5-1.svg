@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="1362" viewBox="0 0 1672 1362" role="img" aria-labelledby="fig-title fig-desc">
+<title id="fig-title">Figure 5.1: Conceptual map of free-will interpretations in the Block Universe</title>
+<desc id="fig-desc">A conceptual map, not a mutually exclusive classification tree. The Block Universe is one actual four-dimensional history. Deterministic and indeterministic physical laws are both compatible. Compatibilism and physical sourcehood describe agency within the history. Libertarian ultimate authorship and nonphysical agency raise further questions that the Block Universe alone does not resolve. A bottom strip distinguishes deliberative will, perceived free will, and fundamental free will.</desc>
+<rect x="0" y="0" width="1672" height="1362" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="49" y="56" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#10213D" font-weight="bold" text-anchor="start">Free will in the Block Universe: different questions</text>
+<text x="50" y="94" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#536680" text-anchor="start">Physical laws, internal agency, and additional metaphysical claims are distinct dimensions</text>
+<rect x="48" y="120" width="1576" height="145" rx="14" fill="#EAF1F9" stroke="#C5D0DE" stroke-width="1.7"/>
+<rect x="74" y="151" width="87" height="83" rx="13" fill="#FFFFFF" stroke="#B9CBE1" stroke-width="1.4"/>
+<text x="117" y="207" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#1C65BD" font-weight="bold" text-anchor="middle">4D</text>
+<text x="191" y="170" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#1C65BD" font-weight="bold" text-anchor="start">BLOCK UNIVERSE ONTOLOGY</text>
+<text x="191" y="208" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#10213D" text-anchor="start">One complete actual four-dimensional history contains the observer, deliberation, and realized choice.</text>
+<text x="191" y="239" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#536680" text-anchor="start">It does not itself choose the laws of physics or explain why this particular history is actual.</text>
+<text x="50" y="312" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#1C65BD" font-weight="bold" text-anchor="start">A.  WHAT DO THE PHYSICAL LAWS ALLOW?</text>
+<line x1="588" y1="303" x2="1623" y2="303" stroke="#D4DFEB" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="48" y="335" width="764" height="160" rx="12" fill="#FFFFFF" stroke="#C5D0DE" stroke-width="1.65"/>
+<rect x="50" y="337" width="8" height="156" rx="3" fill="#1C65BD" stroke="none" stroke-width="0"/>
+<text x="79" y="375" font-family="Arial, Helvetica, sans-serif" font-size="25" fill="#10213D" font-weight="bold" text-anchor="start">Physicalist — deterministic</text>
+<text x="79" y="412" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#536680" text-anchor="start">Given a complete state and laws, only one successor is permitted.</text>
+<line x1="77" y1="430" x2="785" y2="430" stroke="#DFE7F0" stroke-width="1" stroke-linecap="round"/>
+<rect x="76" y="444" width="398.79999999999995" height="36" rx="18" fill="#EAF7F4" stroke="none" stroke-width="0"/>
+<text x="88" y="469" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#007E74" font-weight="bold" text-anchor="start">Compatible with the Block Universe</text>
+<rect x="860" y="335" width="764" height="160" rx="12" fill="#FFFFFF" stroke="#C5D0DE" stroke-width="1.65"/>
+<rect x="862" y="337" width="8" height="156" rx="3" fill="#1C65BD" stroke="none" stroke-width="0"/>
+<text x="891" y="375" font-family="Arial, Helvetica, sans-serif" font-size="25" fill="#10213D" font-weight="bold" text-anchor="start">Physicalist — indeterministic</text>
+<text x="891" y="412" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#536680" text-anchor="start">Laws may allow several outcomes; the actual history realizes one.</text>
+<line x1="889" y1="430" x2="1597" y2="430" stroke="#DFE7F0" stroke-width="1" stroke-linecap="round"/>
+<rect x="888" y="444" width="398.79999999999995" height="36" rx="18" fill="#EAF7F4" stroke="none" stroke-width="0"/>
+<text x="900" y="469" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#007E74" font-weight="bold" text-anchor="start">Compatible with the Block Universe</text>
+<text x="50" y="553" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#007E74" font-weight="bold" text-anchor="start">B.  WHAT COUNTS AS A PERSON’S AGENCY?</text>
+<line x1="600" y1="544" x2="1623" y2="544" stroke="#D4DFEB" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="48" y="576" width="764" height="160" rx="12" fill="#FFFFFF" stroke="#C5D0DE" stroke-width="1.65"/>
+<rect x="50" y="578" width="8" height="156" rx="3" fill="#007E74" stroke="none" stroke-width="0"/>
+<text x="79" y="616" font-family="Arial, Helvetica, sans-serif" font-size="25" fill="#10213D" font-weight="bold" text-anchor="start">Compatibilist</text>
+<text x="79" y="653" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#536680" text-anchor="start">An action flows from the person’s own reasons, values, and deliberation.</text>
+<line x1="77" y1="671" x2="785" y2="671" stroke="#DFE7F0" stroke-width="1" stroke-linecap="round"/>
+<rect x="76" y="685" width="342.79999999999995" height="36" rx="18" fill="#EAF7F4" stroke="none" stroke-width="0"/>
+<text x="88" y="710" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#007E74" font-weight="bold" text-anchor="start">Compatible as physical agency</text>
+<rect x="860" y="576" width="764" height="160" rx="12" fill="#FFFFFF" stroke="#C5D0DE" stroke-width="1.65"/>
+<rect x="862" y="578" width="8" height="156" rx="3" fill="#007E74" stroke="none" stroke-width="0"/>
+<text x="891" y="616" font-family="Arial, Helvetica, sans-serif" font-size="25" fill="#10213D" font-weight="bold" text-anchor="start">Sourcehood</text>
+<text x="891" y="653" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#536680" text-anchor="start">The person remains a distinct causal system within a larger history.</text>
+<line x1="889" y1="671" x2="1597" y2="671" stroke="#DFE7F0" stroke-width="1" stroke-linecap="round"/>
+<rect x="888" y="685" width="387.59999999999997" height="36" rx="18" fill="#EAF7F4" stroke="none" stroke-width="0"/>
+<text x="900" y="710" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#007E74" font-weight="bold" text-anchor="start">Compatible as embodied sourcehood</text>
+<text x="50" y="794" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#6D46B5" font-weight="bold" text-anchor="start">C.  WHAT STRONGER CLAIMS ARE BEING MADE?</text>
+<line x1="625" y1="785" x2="1623" y2="785" stroke="#D4DFEB" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="48" y="817" width="764" height="160" rx="12" fill="#FFFFFF" stroke="#C5D0DE" stroke-width="1.65"/>
+<rect x="50" y="819" width="8" height="156" rx="3" fill="#6D46B5" stroke="none" stroke-width="0"/>
+<text x="79" y="857" font-family="Arial, Helvetica, sans-serif" font-size="25" fill="#10213D" font-weight="bold" text-anchor="start">Libertarian free will</text>
+<text x="79" y="894" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#536680" text-anchor="start">Alternative histories and ultimate authorship raise further questions.</text>
+<line x1="77" y1="912" x2="785" y2="912" stroke="#DFE7F0" stroke-width="1" stroke-linecap="round"/>
+<rect x="76" y="926" width="443.59999999999997" height="36" rx="18" fill="#FFF5E8" stroke="none" stroke-width="0"/>
+<text x="88" y="951" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#AD661A" font-weight="bold" text-anchor="start">Not prohibited; further account needed</text>
+<rect x="860" y="817" width="764" height="160" rx="12" fill="#FFFFFF" stroke="#C5D0DE" stroke-width="1.65"/>
+<rect x="862" y="819" width="8" height="156" rx="3" fill="#6D46B5" stroke="none" stroke-width="0"/>
+<text x="891" y="857" font-family="Arial, Helvetica, sans-serif" font-size="25" fill="#10213D" font-weight="bold" text-anchor="start">Dualist / non-physical agency</text>
+<text x="891" y="894" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#536680" text-anchor="start">A nonphysical agent is proposed as an additional source of choice.</text>
+<line x1="889" y1="912" x2="1597" y2="912" stroke="#DFE7F0" stroke-width="1" stroke-linecap="round"/>
+<rect x="888" y="926" width="454.79999999999995" height="36" rx="18" fill="#FFF5E8" stroke="none" stroke-width="0"/>
+<text x="900" y="951" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#AD661A" font-weight="bold" text-anchor="start">Not excluded; interaction theory needed</text>
+<rect x="48" y="1008" width="1576" height="127" rx="12" fill="#F4F7FB" stroke="#DFE7F0" stroke-width="1.2"/>
+<text x="70" y="1037" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#1C65BD" font-weight="bold" text-anchor="start">THREE TERMS USED IN THE MANUSCRIPT</text>
+<text x="70" y="1077" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#10213D" font-weight="bold" text-anchor="start">Deliberative will</text>
+<text x="70" y="1108" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#536680" text-anchor="start">Physical processes of evaluation and choice.</text>
+<text x="584" y="1077" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#10213D" font-weight="bold" text-anchor="start">Perceived free will</text>
+<text x="584" y="1108" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#536680" text-anchor="start">The subjective experience of control.</text>
+<text x="1095" y="1077" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#10213D" font-weight="bold" text-anchor="start">Fundamental free will</text>
+<text x="1095" y="1108" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#536680" text-anchor="start">An extra power to select what is actual.</text>
+<line x1="556" y1="1052" x2="556" y2="1120" stroke="#CFD8E5" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="1066" y1="1052" x2="1066" y2="1120" stroke="#CFD8E5" stroke-width="1.4" stroke-linecap="round"/>
+<text x="50" y="1167" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#536680" font-style="italic" text-anchor="start">The groupings compare different questions; they are not mutually exclusive branches.</text>
+<line x1="50" y1="1190" x2="1622" y2="1190" stroke="#DDE6F0" stroke-width="1.4" stroke-linecap="round"/>
+<text x="51" y="1230" font-family="Liberation Serif, Georgia, serif" font-size="24" fill="#10213D" font-weight="bold" text-anchor="start">Figure 5.1.</text>
+<text x="199" y="1230" font-family="Liberation Serif, Georgia, serif" font-size="24" fill="#10213D" font-style="italic" text-anchor="start">A conceptual map of free-will interpretations.</text>
+<text x="51" y="1270" font-family="Liberation Serif, Georgia, serif" font-size="24" fill="#10213D" text-anchor="start">Deterministic and indeterministic laws are compatible with one actual four-dimensional history. Compatibilism and sourcehood describe agency within it.</text>
+<text x="51" y="1301" font-family="Liberation Serif, Georgia, serif" font-size="24" fill="#10213D" text-anchor="start">Libertarian ultimate authorship and nonphysical agency raise additional questions not settled by the Block Universe; the categories are not mutually exclusive.</text>
+</svg>
