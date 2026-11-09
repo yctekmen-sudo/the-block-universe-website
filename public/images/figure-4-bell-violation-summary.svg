@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 760" role="img" aria-labelledby="fig-title fig-desc">
+<title id="fig-title">Why Bell Inequalities Can Be Violated</title>
+<desc id="fig-desc">Three-panel summary: Bell locality and measurement independence imply the CHSH bound of two; quantum correlations can reach two square root two; violations show that the full assumptions cannot all hold, and measurement dependence is one possible alternative to rejecting Bell locality.</desc>
+<defs>
+<linearGradient id="navy" x2="0" y2="1"><stop stop-color="#17294f"/><stop offset="1" stop-color="#273f6e"/></linearGradient>
+<linearGradient id="blue" x2="0" y2="1"><stop stop-color="#09548f"/><stop offset="1" stop-color="#2b77b0"/></linearGradient>
+<linearGradient id="purple" x2="0" y2="1"><stop stop-color="#66328e"/><stop offset="1" stop-color="#8f52b4"/></linearGradient>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#3e4583"/></marker>
+</defs>
+<rect width="1500" height="760" fill="#fff"/>
+<rect x="134" y="12" width="1232" height="66" rx="13" fill="url(#navy)"/>
+<text x="750" y="57" fill="white" text-anchor="middle" font-family="Georgia,serif" font-weight="bold" font-size="37">Why Bell Inequalities Can Be Violated</text>
+<rect x="12" y="94" width="478" height="559" rx="15" fill="#f6faff" stroke="#2a70ad" stroke-width="2"/>
+<rect x="510" y="94" width="478" height="559" rx="15" fill="#fbf7ff" stroke="#7941a2" stroke-width="2"/>
+<rect x="1008" y="94" width="480" height="559" rx="15" fill="#f9fbff" stroke="#2a70ad" stroke-width="2"/>
+<path d="M12 109 Q12 94 27 94 H475 Q490 94 490 109 V145 H12Z" fill="url(#blue)"/>
+<path d="M510 109 Q510 94 525 94 H973 Q988 94 988 109 V145 H510Z" fill="url(#purple)"/>
+<path d="M1008 109 Q1008 94 1023 94 H1473 Q1488 94 1488 109 V145 H1008Z" fill="url(#blue)"/>
+<g fill="#fff" text-anchor="middle" font-family="Georgia,serif" font-size="26" font-weight="bold"><text x="251" y="128">Bell's Framework</text><text x="749" y="128">Quantum Correlations</text><text x="1248" y="128">What the Violation Implies</text></g>
+<g fill="#172440" font-family="Georgia,serif" font-size="23">
+<text x="35" y="187">The CHSH bound follows when the</text><text x="35" y="215">relevant assumptions hold together:</text>
+<rect x="29" y="242" width="444" height="225" rx="13" fill="#e8f1fc" stroke="#91b3d9"/>
+<text x="47" y="277" font-weight="bold" fill="#124b89">1. Bell locality</text><text x="59" y="306" font-size="19">Outcomes have local responses:</text>
+<text x="65" y="338" font-size="21" font-style="italic">A = A(a, λ),  B = B(b, λ)</text>
+<text x="47" y="384" font-weight="bold" fill="#124b89">2. Measurement independence</text>
+<text x="59" y="415" font-size="19">The distribution is setting-independent:</text>
+<text x="65" y="446" font-size="21" font-style="italic">ρ(λ | a,b) = ρ(λ)</text>
+<text x="59" y="495" font-size="19">Together with standard outcome assumptions:</text>
+<rect x="93" y="513" width="314" height="82" rx="13" fill="#dceafb" stroke="#6e9cd0"/>
+<text x="250" y="548" font-weight="bold" font-size="21" text-anchor="middle">CHSH inequality</text>
+<text x="250" y="580" font-size="27" text-anchor="middle">|S| ≤ 2</text>
+</g>
+<g fill="#172440" font-family="Georgia,serif" text-anchor="middle">
+<text x="749" y="186" font-size="22">For suitable measurement settings,</text><text x="749" y="217" font-size="22">quantum mechanics predicts</text>
+<rect x="619" y="241" width="260" height="67" rx="13" fill="#f0e1fa" stroke="#8f53b2"/>
+<text x="749" y="285" font-size="31" fill="#66318d">|S| = 2√2 ≈ 2.828</text>
+</g>
+<g stroke="#262c3c" stroke-width="2.3"><path d="M595 556V350M595 556H924"/><path d="M588 487H924" stroke-dasharray="9 7"/></g>
+<g font-family="Arial,sans-serif" fill="#172440" font-size="18"><text x="565" y="359">3</text><text x="562" y="494">2</text><text x="566" y="558">0</text></g>
+<rect x="639" y="487" width="93" height="69" fill="#afc8ef" stroke="#5277b1"/>
+<rect x="791" y="378" width="93" height="178" fill="#c79be3" stroke="#8755ae"/>
+<g font-family="Georgia,serif" font-size="21" text-anchor="middle" fill="#172440"><text x="684" y="478">2</text><text x="837" y="369">2.828</text><text x="684" y="587">CHSH bound</text><text x="837" y="587">Quantum</text><text x="749" y="628" font-size="19">Experiments observe violations above 2;</text><text x="749" y="647" font-size="18">2.828 is the quantum maximum, not a fixed measurement.</text></g>
+<g font-family="Georgia,serif" fill="#172440">
+<text x="1032" y="186" font-size="22">A violation rules out the conjunction,</text><text x="1032" y="216" font-size="22">not one assumption in isolation.</text>
+<rect x="1032" y="244" width="431" height="144" rx="13" fill="#e9f1fc" stroke="#8baed4"/>
+<text x="1050" y="280" font-size="25" fill="#153a73" font-weight="bold">Option 1: Reject Bell locality</text><text x="1050" y="316" font-size="20">Consider nonlocal relationships</text><text x="1050" y="344" font-size="20">between separated outcomes.</text>
+<rect x="1032" y="406" width="431" height="193" rx="13" fill="#f5ebfc" stroke="#b68ace"/>
+<text x="1050" y="442" font-size="24" fill="#6a3190" font-weight="bold">Option 2: Relax measurement</text><text x="1050" y="470" font-size="24" fill="#6a3190" font-weight="bold">independence</text>
+<text x="1050" y="507" font-size="20">Allow setting–hidden-variable</text><text x="1050" y="535" font-size="20">correlations while retaining</text><text x="1050" y="563" font-size="20">local response functions.</text>
+</g>
+<rect x="12" y="669" width="1476" height="77" rx="14" fill="#fff4e6" stroke="#e4c8a2"/>
+<rect x="32" y="685" width="239" height="44" rx="12" fill="#fbe1bc"/>
+<text x="151" y="714" font-family="Georgia,serif" font-weight="bold" font-size="23" text-anchor="middle">Key distinction</text>
+<text x="299" y="700" font-family="Georgia,serif" font-size="22" fill="#172440">Bell violations reject the joint assumptions; they do not, by themselves,</text>
+<text x="299" y="729" font-family="Georgia,serif" font-size="22" fill="#172440">show whether locality or measurement independence must be abandoned.</text>
+</svg>
