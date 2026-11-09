@@ -73,8 +73,7 @@
 </div>
 <p>Thus, except at <span class="math">x = 0</span>, the events that B considers simultaneous with the origin do not generally satisfy <span class="math">t = 0</span> in A's frame. This is the mathematical expression of the relativity of simultaneity.</p>
 <div class="figure-container">
-<img alt="Minkowski spacetime diagram showing the simultaneity slices of observers A, B, and C" src="/images/image1.jpg"/>
-<div class="figure-caption">Figure 1.1: Minkowski spacetime diagram illustrating tilted axes and different hypersurfaces of simultaneity for inertial observers in relative motion. The vertical coordinate should be understood as ct when interpreting geometric angles.</div>
+<img alt="Figure 1.1: Minkowski spacetime diagram with orange axes for A, blue axes for B, green axes for C, and observer D's purple worldline passing through event E. E lies on A's future slice, B's present slice, and C's past slice. Full legend and caption are inside the SVG." src="/images/figure-1-1.svg" loading="lazy"/>
 </div>
 <h3>Diagram Analysis</h3>
 <ol>
@@ -84,7 +83,7 @@
 <li>Observer A uses the unprimed <span class="math">x</span> and <span class="math">t</span> coordinates.</li>
 <li>Observer B uses the primed <span class="math">x'</span> and <span class="math">t'</span> coordinates.</li>
 <li>Observer C uses the double-primed <span class="math">x''</span> and <span class="math">t''</span> coordinates.</li>
-<li>Observer D is local to event X (explained in later subsections).</li>
+<li>Observer D is local to event E (explained in later subsections).</li>
 </ul>
 </li>
 <li>
@@ -94,26 +93,26 @@
 <li>
 <strong>Hypersurfaces of simultaneity:</strong>
 <ul>
-<li><strong>Black horizontal lines:</strong> A's constant-<span class="math">t</span> surfaces.</li>
-<li><strong>Red inclined lines:</strong> B's constant-<span class="math">t'</span> surfaces.</li>
-<li><strong>Blue more steeply inclined lines:</strong> C's constant-<span class="math">t''</span> surfaces.</li>
+<li><strong>Orange horizontal dashed line:</strong> A's positive constant-<span class="math">t</span> (future) time slice.</li>
+<li><strong>Blue <span class="math">x'</span> axis:</strong> B's <span class="math">t' = 0</span> (present) time slice.</li>
+<li><strong>Green inclined dashed line:</strong> C's negative constant-<span class="math">t''</span> (past) time slice.</li>
 </ul>
 </li>
 </ol>
-<h2>1.5 Event X: How the Same Distant Event Can Be Future, Present, or Past</h2>
-<p>Now consider a distant event X, separated from the common origin by a spatial distance <span class="math">d &gt; 0</span>. Choose X so that it is <strong>spacelike separated</strong> from the origin. This qualification is essential: only spacelike-separated events can have their temporal ordering or simultaneity relation changed by a change of inertial frame.</p>
-<p>Suppose the velocity parameters are chosen so that X lies on B's hypersurface of simultaneity. Then:</p>
+<h2>1.5 Event E: How the Same Distant Event Can Be Future, Present, or Past</h2>
+<p>Now consider a distant event E, separated from the common origin by a spatial distance <span class="math">d &gt; 0</span>. Choose E so that it is <strong>spacelike separated</strong> from the origin. This qualification is essential: only spacelike-separated events can have their temporal ordering or simultaneity relation changed by a change of inertial frame.</p>
+<p>Suppose the velocity parameters are chosen so that E lies on B's hypersurface of simultaneity. Then:</p>
 <ol>
-<li><strong>Observer B:</strong> Event X satisfies <span class="math">t' = 0</span>. B therefore assigns X the same coordinate time as the origin. In the precise relativistic sense, X is <strong>simultaneous</strong> with B's present event.</li>
-<li><strong>Observer A:</strong> The same event X has <span class="math">t &gt; 0</span>. A therefore assigns X a later time than the origin: X lies in A's <strong>future</strong>.</li>
-<li><strong>Observer C:</strong> For a sufficiently different relative velocity, the same event can have <span class="math">t'' &lt; 0</span>. C therefore assigns X an earlier time than the origin: X lies in C's <strong>past</strong>.</li>
+<li><strong>Observer B:</strong> Event E satisfies <span class="math">t' = 0</span>. B therefore assigns E the same coordinate time as the origin. In the precise relativistic sense, E is <strong>simultaneous</strong> with B's present event.</li>
+<li><strong>Observer A:</strong> The same event E has <span class="math">t &gt; 0</span>. A therefore assigns E a later time than the origin: E lies in A's <strong>future</strong>.</li>
+<li><strong>Observer C:</strong> For a sufficiently different relative velocity, the same event can have <span class="math">t'' &lt; 0</span>. C therefore assigns E an earlier time than the origin: E lies in C's <strong>past</strong>.</li>
 </ol>
 <p>Nothing contradictory has happened. The three observers are using different inertial coordinate systems to describe the same two spacetime events. The disagreement arises because simultaneity for spatially separated events is not invariant.</p>
 <div class="important">
 <strong>What is—and is not—relative:</strong> For spacelike-separated events, observers can disagree about which happens first or whether they are simultaneous. For timelike- or lightlike-separated events, the causal ordering is invariant: all inertial observers agree on which event can causally precede the other.
     </div>
 <h2>1.6 Why There Is No Universal “Now”</h2>
-<p>The Event X example reveals the central conceptual consequence of special relativity. If A, B, and C are all inertial observers and none is physically privileged, there is no frame-independent rule that identifies one particular distant hypersurface as <em>the</em> present moment of the universe.</p>
+<p>The Event E example reveals the central conceptual consequence of special relativity. If A, B, and C are all inertial observers and none is physically privileged, there is no frame-independent rule that identifies one particular distant hypersurface as <em>the</em> present moment of the universe.</p>
 <p>In other words, the following question has no observer-independent answer within special relativity:</p>
 <blockquote>
 <strong>“Which events happening at distant locations are occurring right now?”</strong>
@@ -125,37 +124,37 @@
         There is no single, observer-independent three-dimensional hypersurface of distant events that all inertial observers must identify as the present. Each inertial frame defines its own hypersurfaces of simultaneity.
     </div>
 <h2 id="from-local-reality-to-observer-independent-existence"><strong>1.7 From Local Reality to Observer-Independent Existence</strong></h2>
-<p>Consider a physical event X and an observer D located at X when it occurs. For D, the event is locally real. No inference about distant events, delayed signals, or philosophical interpretation is required to establish this starting point.</p>
-<p>Now introduce another observer, B. Suppose initially that B and D coincide at X. Since they encounter the same local event, there is no question that X is physically real for both.</p>
-<p>Now imagine, instead, that B is located at an infinitesimally small spatial separation from X, on the same simultaneity hypersurface in an inertial frame. This is a comparison of hypothetical observer locations, not a description of B physically traveling from X.</p>
-<p>We ask a simple question: Does X cease to exist merely because B is no longer located at X?</p>
+<p>Consider a physical event E and an observer D located at E when it occurs. For D, the event is locally real. No inference about distant events, delayed signals, or philosophical interpretation is required to establish this starting point.</p>
+<p>Now introduce another observer, B. Suppose initially that B and D coincide at E. Since they encounter the same local event, there is no question that E is physically real for both.</p>
+<p>Now imagine, instead, that B is located at an infinitesimally small spatial separation from E, on the same simultaneity hypersurface in an inertial frame. This is a comparison of hypothetical observer locations, not a description of B physically traveling from E.</p>
+<p>We ask a simple question: Does E cease to exist merely because B is no longer located at E?</p>
 <p>We adopt the principle that it does not. The physical reality of an event is independent of which observer considers it.</p>
 <p>The separation between B and D can be increased, and the construction repeated across arbitrarily small increments. In this way, local physical reality is extended across spatially separated events without requiring a privileged observer.</p>
 <p>Special relativity now supplies the decisive additional ingredient: the relativity of simultaneity.</p>
-<p>By changing B's inertial frame, an event X that was simultaneous with B's present can instead be assigned to B's coordinate past or future, provided the two events are spacelike separated. Nothing about X changes under this transformation. Only the temporal coordinates assigned to it change.</p>
-<p>If X is physically real for D, and physical existence is observer-independent, X cannot cease to exist for B merely because B's frame assigns it to the past or future.</p>
+<p>By changing B's inertial frame, an event E that was simultaneous with B's present can instead be assigned to B's coordinate past or future, provided the two events are spacelike separated. Nothing about E changes under this transformation. Only the temporal coordinates assigned to it change.</p>
+<p>If E is physically real for D, and physical existence is observer-independent, E cannot cease to exist for B merely because B's frame assigns it to the past or future.</p>
 <p>The local argument rests on the following ontological principle:</p>
 <p><strong>The physical reality of an event does not depend on the identity of the observer or the inertial reference frame used to describe it.</strong></p>
-<p>This is a claim about physical existence, not merely about knowledge. It is stronger than saying that B can later establish that X occurred. The claim is that the physical status of X does not depend on who describes it. At this stage, the argument concerns local and spacelike-separated comparisons; the extension to events throughout spacetime is established in Section 1.8 using transitivity of co-reality.</p>
+<p>This is a claim about physical existence, not merely about knowledge. It is stronger than saying that B can later establish that E occurred. The claim is that the physical status of E does not depend on who describes it. At this stage, the argument concerns local and spacelike-separated comparisons; the extension to events throughout spacetime is established in Section 1.8 using transitivity of co-reality.</p>
 <p>There is an important restriction: the temporal order of timelike- or lightlike-separated events cannot be reversed by a Lorentz transformation. The argument does not claim otherwise. To establish the result for events separated in time as well as space, we must extend the construction beyond a single pair of spacelike-separated events.</p>
 <h2 id="constructing-the-four-dimensional-block-universe"><strong>1.8 Constructing the Four-Dimensional Block Universe</strong></h2>
 <p>Consider two events P and Q anywhere in Minkowski spacetime, including events that are timelike separated. Even if P and Q cannot be simultaneous in any single inertial frame, we can connect them through intermediate events that are spacelike separated from their neighbors.</p>
 <p>To see this, use a one-dimensional spatial coordinate for simplicity. Let P have coordinates (t = 0, x = 0), and let Q have coordinates (t = T, x = 0). Choose an intermediate event R with coordinates (t = T/2, x = L), where L is sufficiently large that L &gt; c|T|/2. Then both P–R and R–Q are spacelike separations. Each pair can be simultaneous in some inertial frame, although the two frames need not be the same. Spatial translations and rotations, or the same construction with additional intermediate events, extend this reasoning to arbitrary pairs of events in Minkowski spacetime.</p>
 <p>The physical significance is that no single simultaneity slice has to contain the entire chain. Each adjacent spacelike pair can be treated using the local-reality construction of Section 1.7. If co-reality is transitive—if P is real together with R, and R is real together with Q, then P and Q belong to the same physical reality—the construction connects events across the full four-dimensional spacetime.</p>
 <div class="figure-container">
-<img src="/images/figure-1-2.svg" alt="Figure 1.2. Panel A: local event X and a hypothetical spacelike-separated observer location. Panel B: timelike-separated events P and Q connected through spacelike-separated event R using two distinct simultaneity slices. Legend and full caption appear in the figure." loading="lazy"/>
+<img src="/images/figure-1-2.svg" alt="Figure 1.2. Panel A: local event E and a hypothetical spacelike-separated observer location. Panel B: timelike-separated events P and Q connected through spacelike-separated event R using two distinct simultaneity slices. Legend and full caption appear in the figure." loading="lazy"/>
 </div>
 <p>This transitivity is not an additional dynamical law. It makes explicit what is meant here by one observer-independent physical reality: reality is not partitioned into mutually incompatible sets that depend on which observer or simultaneity frame is chosen. Nevertheless, it is an ontological commitment, and it should not be mistaken for a mathematical theorem of the Lorentz transformations alone.</p>
 <p>We can now state the reasoning in its complete form:</p>
 <ol>
-<li>A physical event X is locally real for an observer D at X.</li>
-<li>We adopt observer-independent physical reality for the spacelike-separated comparisons of Section 1.7: a change of observer or inertial frame does not change the physical reality of X.</li>
+<li>A physical event E is locally real for an observer D at E.</li>
+<li>We adopt observer-independent physical reality for the spacelike-separated comparisons of Section 1.7: a change of observer or inertial frame does not change the physical reality of E.</li>
 <li>Special relativity makes distant simultaneity frame-dependent. A spacelike-separated event can be labeled past, present, or future relative to B's local event without changing the event itself.</li>
 <li>Chains of spacelike-separated events, together with transitivity of co-reality, connect arbitrary events, including those separated by timelike intervals.</li>
 <li>Therefore, physical existence is not restricted to one advancing three-dimensional present. The events of the actual history form a four-dimensional physical reality: the Block Universe.</li>
 </ol>
 <p>The spacelike-chain construction and transitivity of co-reality now support the stronger conclusion:</p>
-<p><strong>If an event X is physically real for its local observer D, then X is also part of physical reality for any other observer B, independently of B's spacetime location or inertial reference frame.</strong></p>
+<p><strong>If an event E is physically real for its local observer D, then E is also part of physical reality for any other observer B, independently of B's spacetime location or inertial reference frame.</strong></p>
 <p>The Block Universe is thus the conclusion of the construction, not its starting assumption. Special relativity supplies the spacetime geometry; the premise of observer-independent existence, understood to include co-reality and its transitivity, supplies the ontological bridge.</p>
 <p>A presentist can reject that bridge, or introduce a preferred foliation defining an objective present. Such a foliation is logically conceivable, but special relativity does not identify one. The disagreement is therefore over ontology, not over the Lorentz transformation or the observed relativity of simultaneity.</p>
 <p>Here, <em>static</em> does not mean that matter, fields, or geometrical relationships remain unchanged from one time coordinate to another. It means that the actual four-dimensional history does not require an external time in which the universe as a whole advances from one present to the next.</p>
@@ -175,8 +174,8 @@
 <li>Newtonian mechanics permits a universal simultaneity relation through its absolute time parameter; presentism is a possible, but not compulsory, interpretation of that framework.</li>
 <li>Special relativity replaces absolute simultaneity with frame-dependent simultaneity within Minkowski spacetime.</li>
 <li>For spacelike-separated events, inertial observers may disagree about which event is earlier or whether the events are simultaneous. Timelike and lightlike causal ordering remains invariant.</li>
-<li>We begin with a locally real event X and adopt the ontological premise that its physical existence is independent of the observer's location and inertial frame. This is stronger than merely saying that X occurred or that information about X may later arrive.</li>
-<li>Applying this premise to relativity of simultaneity shows that X's physical existence cannot depend on whether another observer assigns it to the coordinate past, present, or future.</li>
+<li>We begin with a locally real event E and adopt the ontological premise that its physical existence is independent of the observer's location and inertial frame. This is stronger than merely saying that E occurred or that information about E may later arrive.</li>
+<li>Applying this premise to relativity of simultaneity shows that E's physical existence cannot depend on whether another observer assigns it to the coordinate past, present, or future.</li>
 <li>Chains of spacelike-separated events and the transitivity of physical co-reality extend the construction to the actual four-dimensional history, including timelike-separated events.</li>
 <li>On this stated ontological premise, the resulting physical reality is the Block Universe. Special relativity alone does not prove the premise, but it provides the structure through which the conclusion is derived.</li>
 </ol>
