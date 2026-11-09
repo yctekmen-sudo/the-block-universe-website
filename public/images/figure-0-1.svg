@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="1170" viewBox="0 0 1672 1170" role="img" aria-labelledby="title desc">
+<title id="title">Figure 0.1: Roadmap of the Block Universe argument</title>
+<desc id="desc">Section 1 develops an observer-independent block universe argument from relativity. The central framework is then used to examine the direction of time in Section 2, physical laws in Section 3, quantum mechanics in Section 4, free will in Section 5, and time travel in Section 6. These are interpretive applications, not derivations of new laws.</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#93A3B8"/></marker>
+</defs>
+<rect width="1672" height="1170" fill="#FFFFFF"/>
+
+<text x="48" y="56" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold" font-style="normal" fill="#10213D">A roadmap of the Block Universe argument</text>
+<text x="50" y="94" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="normal" font-style="normal" fill="#536680">One ontological framework; five interpretive questions</text>
+<rect x="48" y="121" width="1576" height="170" rx="14" fill="#F4F7FB" stroke="#C5D0DE" stroke-width="1.5"/>
+<rect x="68" y="141" width="1536" height="49" rx="10" fill="#EAF1F9" stroke="#EAF1F9" stroke-width="0"/>
+<text x="90" y="175" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" font-style="normal" fill="#1C65BD">FOUNDATION  •  SECTION 1</text>
+<text x="88" y="224" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="bold" font-style="normal" fill="#10213D">Relativity of simultaneity + observer-independent physical reality</text>
+<text x="89" y="264" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal" font-style="normal" fill="#536680">With transitivity of co-reality, the argument extends from local events to a complete history.</text>
+<path d="M836 291 V 324" stroke="#93A3B8" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="415" y="334" width="842" height="128" rx="13" fill="#EAF1F9" stroke="#8EAED1" stroke-width="2"/>
+<text x="836" y="377" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="bold" font-style="normal" fill="#1C65BD">THE BLOCK UNIVERSE</text>
+<text x="836" y="410" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="bold" font-style="normal" fill="#10213D">One actual four-dimensional physical history</text>
+<text x="836" y="441" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#536680">A perspective on existence, not a new law of motion</text>
+<path d="M836 462 V 506 M220 506 H1452" stroke="#93A3B8" stroke-width="2.4" fill="none"/>
+<path d="M298 506 V 527" stroke="#93A3B8" stroke-width="2.4" fill="none" marker-end="url(#arrow)"/>
+<path d="M836 506 V 527" stroke="#93A3B8" stroke-width="2.4" fill="none" marker-end="url(#arrow)"/>
+<path d="M1374 506 V 527" stroke="#93A3B8" stroke-width="2.4" fill="none" marker-end="url(#arrow)"/>
+<path d="M836 741 V 756 H567 V769 M836 756 H1105 V769" stroke="#93A3B8" stroke-width="2.4" fill="none"/>
+<path d="M567 755 V 770" stroke="#93A3B8" stroke-width="2.4" fill="none" marker-end="url(#arrow)"/>
+<path d="M1105 755 V 770" stroke="#93A3B8" stroke-width="2.4" fill="none" marker-end="url(#arrow)"/>
+<rect x="48" y="535" width="500" height="206" rx="12" fill="#FFFFFF" stroke="#C5D0DE" stroke-width="1.5"/>
+<rect x="49" y="536" width="498" height="50" rx="11" fill="#EAF1F9" stroke="#EAF1F9" stroke-width="0"/>
+<rect x="49" y="537" width="8" height="203" rx="3" fill="#00877D"/>
+<text x="73" y="570" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" font-style="normal" fill="#00877D">SECTION 2</text>
+<text x="73" y="629" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="bold" font-style="normal" fill="#10213D">Direction of time</text>
+<text x="73" y="674" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal" font-style="normal" fill="#536680">Asymmetric records and memory</text>
+<text x="73" y="702" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal" font-style="normal" fill="#536680">within a complete physical history</text>
+<rect x="586" y="535" width="500" height="206" rx="12" fill="#FFFFFF" stroke="#C5D0DE" stroke-width="1.5"/>
+<rect x="587" y="536" width="498" height="50" rx="11" fill="#EAF1F9" stroke="#EAF1F9" stroke-width="0"/>
+<rect x="587" y="537" width="8" height="203" rx="3" fill="#1C65BD"/>
+<text x="611" y="570" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" font-style="normal" fill="#1C65BD">SECTION 3</text>
+<text x="611" y="629" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="bold" font-style="normal" fill="#10213D">Laws of physics</text>
+<text x="611" y="674" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal" font-style="normal" fill="#536680">Physical laws as relations</text>
+<text x="611" y="702" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal" font-style="normal" fill="#536680">within the four-dimensional history</text>
+<rect x="1124" y="535" width="500" height="206" rx="12" fill="#FFFFFF" stroke="#C5D0DE" stroke-width="1.5"/>
+<rect x="1125" y="536" width="498" height="50" rx="11" fill="#EAF1F9" stroke="#EAF1F9" stroke-width="0"/>
+<rect x="1125" y="537" width="8" height="203" rx="3" fill="#6D46B5"/>
+<text x="1149" y="570" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" font-style="normal" fill="#6D46B5">SECTION 4</text>
+<text x="1149" y="629" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="bold" font-style="normal" fill="#10213D">Quantum mechanics</text>
+<text x="1149" y="674" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal" font-style="normal" fill="#536680">Measurements, correlations,</text>
+<text x="1149" y="702" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal" font-style="normal" fill="#536680">and the status of collapse</text>
+<rect x="317" y="777" width="500" height="206" rx="12" fill="#FFFFFF" stroke="#C5D0DE" stroke-width="1.5"/>
+<rect x="318" y="778" width="498" height="50" rx="11" fill="#EAF1F9" stroke="#EAF1F9" stroke-width="0"/>
+<rect x="318" y="779" width="8" height="203" rx="3" fill="#D97818"/>
+<text x="342" y="812" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" font-style="normal" fill="#D97818">SECTION 5</text>
+<text x="342" y="871" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="bold" font-style="normal" fill="#10213D">Free will</text>
+<text x="342" y="916" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal" font-style="normal" fill="#536680">Deliberation and agency</text>
+<text x="342" y="944" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal" font-style="normal" fill="#536680">within the actual history</text>
+<rect x="855" y="777" width="500" height="206" rx="12" fill="#FFFFFF" stroke="#C5D0DE" stroke-width="1.5"/>
+<rect x="856" y="778" width="498" height="50" rx="11" fill="#EAF1F9" stroke="#EAF1F9" stroke-width="0"/>
+<rect x="856" y="779" width="8" height="203" rx="3" fill="#00877D"/>
+<text x="880" y="812" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" font-style="normal" fill="#00877D">SECTION 6</text>
+<text x="880" y="871" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="bold" font-style="normal" fill="#10213D">Time travel</text>
+<text x="880" y="916" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal" font-style="normal" fill="#536680">Causal loops and consistency</text>
+<text x="880" y="944" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal" font-style="normal" fill="#536680">of physically realizable histories</text>
+<rect x="48" y="1004" width="1576" height="66" rx="10" fill="#F4F7FB" stroke="#DFE7F0" stroke-width="1.3"/>
+<text x="68" y="1031" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" font-style="normal" fill="#10213D">Reading key:</text>
+<text x="214" y="1031" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="normal" font-style="normal" fill="#10213D">The later chapters explore consequences and interpretations, not proofs that the Block Universe resolves each question.</text>
+<text x="68" y="1058" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" font-style="normal" fill="#536680">The manuscript distinguishes established physics, proposed interpretations, and unresolved issues.</text>
+<line x1="51" y1="1083" x2="1621" y2="1083" stroke="#DDE6F0" stroke-width="1.3"/>
+<text x="51" y="1120" text-anchor="start" font-family="Liberation Serif, Georgia, serif" font-size="24" font-weight="bold" font-style="normal" fill="#10213D">Figure 0.1.</text>
+<text x="193" y="1120" text-anchor="start" font-family="Liberation Serif, Georgia, serif" font-size="24" font-weight="normal" font-style="italic" fill="#10213D">Roadmap of the Block Universe argument.</text>
+<text x="51" y="1150" text-anchor="start" font-family="Liberation Serif, Georgia, serif" font-size="22" font-weight="normal" font-style="normal" fill="#10213D">Relativity motivates the ontological framework; the subsequent sections examine its scope and limitations across five foundational topics.</text>
+</svg>
