@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="820" viewBox="0 0 1500 820">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10Z" fill="#5d2a92"/></marker><marker id="axis" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10Z" fill="#24314b"/></marker></defs>
+<rect width="1500" height="820" fill="white"/>
+<rect x="90" y="18" width="1320" height="70" rx="14" fill="#1e315e"/>
+<text x="750" y="65" text-anchor="middle" font-family="Georgia,serif" font-weight="bold" font-size="37" fill="white">Figure 4.7: Measurement Along an Observer's Worldline</text>
+<rect x="18" y="107" width="716" height="568" rx="17" stroke="#2b69a9" stroke-width="2" fill="#f5f9ff"/>
+<rect x="766" y="107" width="716" height="568" rx="17" stroke="#7338a5" stroke-width="2" fill="#faf7ff"/>
+<path d="M18 124Q18 107 35 107H717Q734 107 734 124V165H18Z" fill="#0c5b9c"/><path d="M766 124Q766 107 783 107H1465Q1482 107 1482 124V165H766Z" fill="#713a9e"/>
+<g font-family="Georgia,serif" font-weight="bold" fill="white" font-size="26" text-anchor="middle"><text x="376" y="145">(a) Conventional Collapse Description</text><text x="1124" y="145">(b) Block Universe Description</text></g>
+<g font-family="Georgia,serif" fill="#202a41" font-size="22" text-anchor="middle"><text x="376" y="213">Measurement is often represented as</text><text x="376" y="244">a sudden change in the quantum state.</text><text x="1124" y="213">Measurement is a local physical event and record</text><text x="1124" y="244">within one complete spacetime history.</text></g>
+<rect x="75" y="296" width="245" height="92" rx="13" fill="#e4efff" stroke="#3978b4" stroke-width="2"/><rect x="423" y="296" width="245" height="92" rx="13" fill="#e9ddf7" stroke="#7942a0" stroke-width="2"/>
+<g font-family="Georgia,serif" text-anchor="middle" fill="#202a41"><text x="198" y="333" font-size="26">Quantum state</text><text x="198" y="367" font-size="30" font-style="italic">|ψ⟩</text><text x="545" y="333" font-size="26">Recorded result</text><text x="545" y="367" font-size="26" font-style="italic">|outcome⟩</text></g>
+<line x1="321" y1="342" x2="412" y2="342" stroke="#5d2a92" stroke-width="4" marker-end="url(#arrow)"/>
+<text x="367" y="290" font-family="Georgia,serif" font-size="23" text-anchor="middle" fill="#67368f">collapse?</text>
+<rect x="70" y="451" width="606" height="133" rx="14" fill="#e8f1ff"/>
+<g font-family="Georgia,serif" fill="#27324a" font-size="23" text-anchor="middle"><text x="373" y="491">This shorthand can be read as implying</text><text x="373" y="524">a physical, global instantaneous collapse.</text><text x="373" y="558" font-weight="bold">That interpretation is not required here.</text></g>
+<line x1="830" y1="581" x2="1406" y2="581" stroke="#26324c" stroke-width="3" marker-end="url(#axis)"/><line x1="850" y1="591" x2="850" y2="286" stroke="#26324c" stroke-width="3" marker-end="url(#axis)"/>
+<text x="1416" y="608" font-family="Georgia,serif" font-size="28" font-style="italic">x</text><text x="829" y="285" font-family="Georgia,serif" font-size="28" font-style="italic">t</text>
+<path d="M910 551L1046 448L1175 355L1371 287L1215 546Z" fill="#eadaf8" opacity="0.65" stroke="#b590d6" stroke-width="1.5"/>
+<path d="M965 545L1091 448L1215 345" stroke="#5d2a92" stroke-width="5" fill="none" marker-end="url(#arrow)"/>
+<g fill="#6e329f" stroke="#43146d" stroke-width="2"><circle cx="965" cy="545" r="11"/><circle cx="1091" cy="448" r="11"/><circle cx="1215" cy="345" r="11"/></g>
+<g fill="#242b43" font-family="Georgia,serif"><text x="930" y="530" font-size="28" font-style="italic">S₁</text><text x="1111" y="442" font-size="28" font-style="italic">S₂</text><text x="1233" y="340" font-size="28" font-style="italic">S₃</text><text x="908" y="616" font-size="18">Before measurement</text><text x="1058" y="398" font-size="20">Local interaction</text><text x="1058" y="421" font-size="20">+ outcome record</text><text x="1244" y="308" font-size="20">Later memory</text></g>
+<path d="M1091 462L1091 544L1257 544" fill="none" stroke="#9865bf" stroke-width="2" stroke-dasharray="7 6"/><text x="1266" y="539" font-size="18" font-family="Georgia,serif" fill="#66338e">record persists</text>
+<text x="1124" y="651" text-anchor="middle" font-family="Georgia,serif" font-size="19" font-style="italic" fill="#5f2b87">No global collapse boundary is drawn.</text>
+<rect x="18" y="691" width="1464" height="112" rx="14" fill="#fff5e5" stroke="#e4c89e"/>
+<rect x="40" y="714" width="241" height="64" rx="11" fill="#fbe2ba"/>
+<text x="160" y="754" text-anchor="middle" font-family="Georgia,serif" font-weight="bold" font-size="26" fill="#222b3d">Key takeaway</text>
+<path d="M311 710V786" stroke="#8e5949" stroke-width="2"/>
+<g font-family="Georgia,serif" font-size="24" fill="#222b3d"><text x="337" y="735">The measurement changes the apparatus and observer locally; the observer's record</text><text x="337" y="768">changes along the worldline. A universal instantaneous collapse is not required.</text></g>
+</svg>
