@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="1120" viewBox="0 0 1672 1120" role="img" aria-labelledby="title desc">
+<title id="title">Figure A.3 — An explicit measurement-dependent local hidden-variable construction</title>
+<desc id="desc">Three four-state probability tables for hidden variables lambda-one and lambda-two at angles zero, ninety and one hundred eighty degrees. The individual probabilities change with the measurement settings, while each local outcome remains equally likely. Correlations are minus one, zero and plus one. This mathematical construction is not an explanation of the physical origin of setting dependence.</desc>
+<rect width="1672" height="1120" fill="#ffffff"/>
+<rect x="28" y="25" width="1616" height="112" rx="16" fill="#122744"/>
+<text x="836" y="76" fill="white" font-size="38" font-family="Georgia,serif" font-weight="bold" text-anchor="middle">An Explicit Measurement-Dependent Model</text>
+<text x="836" y="112" fill="#e4eefb" font-size="21" font-family="Arial,Helvetica,sans-serif" text-anchor="middle">Four hidden-variable states · setting-dependent probabilities · local responses</text>
+<rect x="43" y="154" width="1586" height="91" rx="12" fill="#f2f6fc" stroke="#b9cbe1"/>
+<text x="65" y="191" fill="#122744" font-size="25" font-family="Arial,Helvetica,sans-serif">Local outcomes: A = λ₁     B = λ₂</text>
+<text x="65" y="226" fill="#122744" font-size="25" font-family="Arial,Helvetica,sans-serif">Conditional probability: ρ(λ₁, λ₂ | x, y) = [1 − λ₁λ₂ cos θ] / 4</text>
+<rect x="43" y="266" width="511" height="604" rx="15" fill="white" stroke="#a9bfd9" stroke-width="1.6"/>
+<path d="M58 266H539Q554 266 554 281V351H43V281Q43 266 58 266Z" fill="#eef4fb"/>
+<text x="69" y="310" font-size="30" font-family="Arial,Helvetica,sans-serif" font-weight="bold" fill="#122744">θ = 0°</text>
+<text x="69" y="339" font-size="20" font-family="Arial,Helvetica,sans-serif" fill="#536680">x · y = +1</text>
+<text x="69" y="394" font-size="20" font-family="Arial,Helvetica,sans-serif" fill="#122744" font-weight="bold">λ = (λ₁, λ₂)</text>
+<text x="379" y="394" font-size="20" font-family="Arial,Helvetica,sans-serif" fill="#122744" font-weight="bold">ρ(λ | x,y)</text>
+<rect x="62" y="421" width="472" height="69" rx="8" fill="#f6f9fc"/>
+<text x="72" y="464" fill="#122744" font-size="23" font-family="Arial,Helvetica,sans-serif">(+1, +1)</text>
+<rect x="280" y="443" width="170" height="23" rx="7" fill="#e3eaf3"/>
+<rect x="280" y="443" width="0" height="23" rx="7" fill="#116ac5"/>
+<text x="503" y="464" fill="#122744" text-anchor="end" font-size="25" font-family="Arial,Helvetica,sans-serif" font-weight="bold">0</text>
+<rect x="62" y="503" width="472" height="69" rx="8" fill="#fff"/>
+<text x="72" y="546" fill="#122744" font-size="23" font-family="Arial,Helvetica,sans-serif">(+1, −1)</text>
+<rect x="280" y="525" width="170" height="23" rx="7" fill="#e3eaf3"/>
+<rect x="280" y="525" width="170" height="23" rx="7" fill="#116ac5"/>
+<text x="503" y="546" fill="#122744" text-anchor="end" font-size="25" font-family="Arial,Helvetica,sans-serif" font-weight="bold">½</text>
+<rect x="62" y="585" width="472" height="69" rx="8" fill="#f6f9fc"/>
+<text x="72" y="628" fill="#122744" font-size="23" font-family="Arial,Helvetica,sans-serif">(−1, +1)</text>
+<rect x="280" y="607" width="170" height="23" rx="7" fill="#e3eaf3"/>
+<rect x="280" y="607" width="170" height="23" rx="7" fill="#116ac5"/>
+<text x="503" y="628" fill="#122744" text-anchor="end" font-size="25" font-family="Arial,Helvetica,sans-serif" font-weight="bold">½</text>
+<rect x="62" y="667" width="472" height="69" rx="8" fill="#fff"/>
+<text x="72" y="710" fill="#122744" font-size="23" font-family="Arial,Helvetica,sans-serif">(−1, −1)</text>
+<rect x="280" y="689" width="170" height="23" rx="7" fill="#e3eaf3"/>
+<rect x="280" y="689" width="0" height="23" rx="7" fill="#116ac5"/>
+<text x="503" y="710" fill="#122744" text-anchor="end" font-size="25" font-family="Arial,Helvetica,sans-serif" font-weight="bold">0</text>
+<path d="M67 761H529" stroke="#b8cbe0"/>
+<text x="70" y="803" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#122744">P(A = +1) = P(B = +1) = ½</text>
+<text x="70" y="845" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="bold" fill="#116ac5">Correlation E(AB) = -1</text>
+<rect x="580" y="266" width="511" height="604" rx="15" fill="white" stroke="#a9bfd9" stroke-width="1.6"/>
+<path d="M595 266H1076Q1091 266 1091 281V351H580V281Q580 266 595 266Z" fill="#eef4fb"/>
+<text x="606" y="310" font-size="30" font-family="Arial,Helvetica,sans-serif" font-weight="bold" fill="#122744">θ = 90°</text>
+<text x="606" y="339" font-size="20" font-family="Arial,Helvetica,sans-serif" fill="#536680">x · y = 0</text>
+<text x="606" y="394" font-size="20" font-family="Arial,Helvetica,sans-serif" fill="#122744" font-weight="bold">λ = (λ₁, λ₂)</text>
+<text x="916" y="394" font-size="20" font-family="Arial,Helvetica,sans-serif" fill="#122744" font-weight="bold">ρ(λ | x,y)</text>
+<rect x="599" y="421" width="472" height="69" rx="8" fill="#f6f9fc"/>
+<text x="609" y="464" fill="#122744" font-size="23" font-family="Arial,Helvetica,sans-serif">(+1, +1)</text>
+<rect x="817" y="443" width="170" height="23" rx="7" fill="#e3eaf3"/>
+<rect x="817" y="443" width="85" height="23" rx="7" fill="#008875"/>
+<text x="1040" y="464" fill="#122744" text-anchor="end" font-size="25" font-family="Arial,Helvetica,sans-serif" font-weight="bold">¼</text>
+<rect x="599" y="503" width="472" height="69" rx="8" fill="#fff"/>
+<text x="609" y="546" fill="#122744" font-size="23" font-family="Arial,Helvetica,sans-serif">(+1, −1)</text>
+<rect x="817" y="525" width="170" height="23" rx="7" fill="#e3eaf3"/>
+<rect x="817" y="525" width="85" height="23" rx="7" fill="#008875"/>
+<text x="1040" y="546" fill="#122744" text-anchor="end" font-size="25" font-family="Arial,Helvetica,sans-serif" font-weight="bold">¼</text>
+<rect x="599" y="585" width="472" height="69" rx="8" fill="#f6f9fc"/>
+<text x="609" y="628" fill="#122744" font-size="23" font-family="Arial,Helvetica,sans-serif">(−1, +1)</text>
+<rect x="817" y="607" width="170" height="23" rx="7" fill="#e3eaf3"/>
+<rect x="817" y="607" width="85" height="23" rx="7" fill="#008875"/>
+<text x="1040" y="628" fill="#122744" text-anchor="end" font-size="25" font-family="Arial,Helvetica,sans-serif" font-weight="bold">¼</text>
+<rect x="599" y="667" width="472" height="69" rx="8" fill="#fff"/>
+<text x="609" y="710" fill="#122744" font-size="23" font-family="Arial,Helvetica,sans-serif">(−1, −1)</text>
+<rect x="817" y="689" width="170" height="23" rx="7" fill="#e3eaf3"/>
+<rect x="817" y="689" width="85" height="23" rx="7" fill="#008875"/>
+<text x="1040" y="710" fill="#122744" text-anchor="end" font-size="25" font-family="Arial,Helvetica,sans-serif" font-weight="bold">¼</text>
+<path d="M604 761H1066" stroke="#b8cbe0"/>
+<text x="607" y="803" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#122744">P(A = +1) = P(B = +1) = ½</text>
+<text x="607" y="845" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="bold" fill="#008875">Correlation E(AB) = 0</text>
+<rect x="1117" y="266" width="511" height="604" rx="15" fill="white" stroke="#a9bfd9" stroke-width="1.6"/>
+<path d="M1132 266H1613Q1628 266 1628 281V351H1117V281Q1117 266 1132 266Z" fill="#eef4fb"/>
+<text x="1143" y="310" font-size="30" font-family="Arial,Helvetica,sans-serif" font-weight="bold" fill="#122744">θ = 180°</text>
+<text x="1143" y="339" font-size="20" font-family="Arial,Helvetica,sans-serif" fill="#536680">x · y = −1</text>
+<text x="1143" y="394" font-size="20" font-family="Arial,Helvetica,sans-serif" fill="#122744" font-weight="bold">λ = (λ₁, λ₂)</text>
+<text x="1453" y="394" font-size="20" font-family="Arial,Helvetica,sans-serif" fill="#122744" font-weight="bold">ρ(λ | x,y)</text>
+<rect x="1136" y="421" width="472" height="69" rx="8" fill="#f6f9fc"/>
+<text x="1146" y="464" fill="#122744" font-size="23" font-family="Arial,Helvetica,sans-serif">(+1, +1)</text>
+<rect x="1354" y="443" width="170" height="23" rx="7" fill="#e3eaf3"/>
+<rect x="1354" y="443" width="170" height="23" rx="7" fill="#7653b2"/>
+<text x="1577" y="464" fill="#122744" text-anchor="end" font-size="25" font-family="Arial,Helvetica,sans-serif" font-weight="bold">½</text>
+<rect x="1136" y="503" width="472" height="69" rx="8" fill="#fff"/>
+<text x="1146" y="546" fill="#122744" font-size="23" font-family="Arial,Helvetica,sans-serif">(+1, −1)</text>
+<rect x="1354" y="525" width="170" height="23" rx="7" fill="#e3eaf3"/>
+<rect x="1354" y="525" width="0" height="23" rx="7" fill="#7653b2"/>
+<text x="1577" y="546" fill="#122744" text-anchor="end" font-size="25" font-family="Arial,Helvetica,sans-serif" font-weight="bold">0</text>
+<rect x="1136" y="585" width="472" height="69" rx="8" fill="#f6f9fc"/>
+<text x="1146" y="628" fill="#122744" font-size="23" font-family="Arial,Helvetica,sans-serif">(−1, +1)</text>
+<rect x="1354" y="607" width="170" height="23" rx="7" fill="#e3eaf3"/>
+<rect x="1354" y="607" width="0" height="23" rx="7" fill="#7653b2"/>
+<text x="1577" y="628" fill="#122744" text-anchor="end" font-size="25" font-family="Arial,Helvetica,sans-serif" font-weight="bold">0</text>
+<rect x="1136" y="667" width="472" height="69" rx="8" fill="#fff"/>
+<text x="1146" y="710" fill="#122744" font-size="23" font-family="Arial,Helvetica,sans-serif">(−1, −1)</text>
+<rect x="1354" y="689" width="170" height="23" rx="7" fill="#e3eaf3"/>
+<rect x="1354" y="689" width="170" height="23" rx="7" fill="#7653b2"/>
+<text x="1577" y="710" fill="#122744" text-anchor="end" font-size="25" font-family="Arial,Helvetica,sans-serif" font-weight="bold">½</text>
+<path d="M1141 761H1603" stroke="#b8cbe0"/>
+<text x="1144" y="803" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#122744">P(A = +1) = P(B = +1) = ½</text>
+<text x="1144" y="845" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="bold" fill="#7653b2">Correlation E(AB) = +1</text>
+<rect x="43" y="892" width="1586" height="98" rx="12" fill="#f5f8fd" stroke="#b8cbe0"/>
+<text x="68" y="932" font-family="Arial,Helvetica,sans-serif" fill="#122744" font-size="25" font-weight="bold">What changes:</text>
+<text x="276" y="932" font-family="Arial,Helvetica,sans-serif" fill="#122744" font-size="24">The four joint probabilities depend on the angle between x and y.</text>
+<text x="68" y="972" font-family="Arial,Helvetica,sans-serif" fill="#122744" font-size="25" font-weight="bold">What stays fixed:</text>
+<text x="300" y="972" font-family="Arial,Helvetica,sans-serif" fill="#122744" font-size="24">Local responses use only λ₁ or λ₂, and both marginals remain ½.</text>
+<text x="48" y="1034" font-family="Georgia,serif" font-size="28" font-weight="bold" fill="#122744">Figure A.3.</text>
+<text x="222" y="1034" font-family="Georgia,serif" font-size="26" font-style="italic" fill="#122744">The conditional probabilities of a measurement-dependent local hidden-variable model.</text>
+<text x="48" y="1072" font-family="Georgia,serif" font-size="23" fill="#122744">This construction reproduces singlet correlations for these angles, but does not explain the physical origin</text>
+<text x="48" y="1101" font-family="Georgia,serif" font-size="23" fill="#122744">of measurement dependence. A single trial has one recorded outcome; columns describe ensembles.</text>
+</svg>
