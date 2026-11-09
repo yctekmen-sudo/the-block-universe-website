@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="1190" viewBox="0 0 1672 1190" role="img" aria-labelledby="figure-title figure-desc">
+<title id="figure-title">Figure 6.1: The chronological past of departure event A</title>
+<desc id="figure-desc">A Minkowski spacetime diagram with time upward and space to the right. Departure event A is at the apex of its blue-grey, shaded past light cone. Event B lies strictly within that past light cone. An orange arrow runs upward from B to A, representing an allowed future-directed timelike path from B to A, not a proposed backward-time journey from A to B. Dashed light-cone boundaries and the ct and x axes are shown.</desc>
+<defs>
+<marker id="arrow-axis" markerWidth="11" markerHeight="11" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#10213D"/></marker>
+<marker id="arrow-future" markerWidth="15" markerHeight="15" refX="11" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M 0 0 L 13 5 L 0 10 Z" fill="#D97818"/></marker>
+</defs>
+<rect width="1672" height="1190" fill="#FFFFFF"/>
+<text x="48" y="56" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#10213D" font-weight="bold">Causal geometry: B lies in A’s chronological past</text>
+<text x="50" y="95" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#536680">A future-directed timelike path from B to A does not depict travel backward in time</text>
+<rect x="48" y="130" width="1576" height="741" rx="14" fill="#FFFFFF" stroke="#C5D0DE" stroke-width="1.6"/>
+<rect x="49" y="131" width="1574" height="58" rx="13" fill="#EAF1F9"/>
+<rect x="49" y="174" width="1574" height="15" fill="#EAF1F9"/>
+<text x="76" y="168" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#10213D" font-weight="bold">Minkowski diagram · chronological past of A</text>
+<path d="M 830 279 L 332 777 L 1328 777 Z" fill="#DCE8F6" fill-opacity="0.68"/>
+<path d="M 830 279 L 332 777" stroke="#8198B6" stroke-width="3.5" stroke-dasharray="15 12" fill="none"/>
+<path d="M 830 279 L 1328 777" stroke="#8198B6" stroke-width="3.5" stroke-dasharray="15 12" fill="none"/>
+<path d="M 830 279 L 747 196 M 830 279 L 913 196" stroke="#B9CBE1" stroke-width="2.6" stroke-dasharray="11 12" fill="none"/>
+<line x1="830" y1="810" x2="830" y2="211" stroke="#10213D" stroke-width="3.4" stroke-linecap="round" marker-end="url(#arrow-axis)"/>
+<line x1="172" y1="777" x2="1529" y2="777" stroke="#10213D" stroke-width="3.4" stroke-linecap="round" marker-end="url(#arrow-axis)"/>
+<text x="832" y="199" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#10213D" font-style="italic" text-anchor="start">ct</text>
+<text x="1555" y="784" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#10213D" font-style="italic">x</text>
+<line x1="657" y1="600" x2="796" y2="339" stroke="#D97818" stroke-width="12" stroke-linecap="round"/>
+<path d="M 810 300 L 764 344 L 804 358 Z" fill="#D97818"/>
+<circle cx="830" cy="279" r="14" fill="#D97818" stroke="#FFFFFF" stroke-width="3"/>
+<circle cx="648" cy="619" r="13" fill="#1C65BD" stroke="#FFFFFF" stroke-width="3"/>
+<text x="860" y="272" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#10213D" font-weight="bold">A (departure)</text>
+<text x="606" y="643" font-family="Arial, Helvetica, sans-serif" font-size="29" fill="#10213D" font-weight="bold" text-anchor="end">B</text>
+<text x="944" y="557" font-family="Arial, Helvetica, sans-serif" font-size="25" fill="#1C65BD" font-weight="bold">Past light cone</text>
+<text x="944" y="586" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#1C65BD">of event A</text>
+<text x="689" y="451" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#D97818" font-weight="bold" transform="rotate(-61 689 451)">Future-directed</text>
+<text x="711" y="463" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#D97818" transform="rotate(-61 711 463)">timelike path</text>
+<rect x="1268" y="364" width="303" height="162" rx="12" fill="#F4F7FB" stroke="#D4DFEB" stroke-width="1.5"/>
+<text x="1287" y="400" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#D97818" font-weight="bold">B → A arrow</text>
+<text x="1287" y="433" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#10213D">Permitted causal path;</text>
+<text x="1287" y="460" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#10213D">locally future-directed</text>
+<text x="1287" y="489" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#10213D" font-weight="bold">NOT travel A → B</text>
+<rect x="48" y="896" width="1576" height="74" rx="10" fill="#F4F7FB" stroke="#DFE7F0" stroke-width="1.2"/>
+<text x="72" y="925" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#10213D" font-weight="bold">Key distinction:</text>
+<text x="256" y="925" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#10213D">B lies in the chronological past of A; the orange arrow points toward increasing proper time.</text>
+<text x="72" y="953" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#536680">The figure does not show how a traveler could depart at A and arrive at the earlier event B.</text>
+<line x1="50" y1="990" x2="1622" y2="990" stroke="#DDE6F0" stroke-width="1.5"/>
+<text x="51" y="1031" font-family="Liberation Serif, Georgia, serif" font-size="25" fill="#10213D" font-weight="bold">Figure 6.1.</text>
+<text x="198" y="1031" font-family="Liberation Serif, Georgia, serif" font-size="25" fill="#10213D" font-style="italic">The chronological past of departure event A.</text>
+<text x="51" y="1074" font-family="Liberation Serif, Georgia, serif" font-size="24" fill="#10213D">Event B lies within the past light cone of A, so a future-directed timelike path can connect B to A. The orange arrow shows</text>
+<text x="51" y="1108" font-family="Liberation Serif, Georgia, serif" font-size="24" fill="#10213D">this B → A causal path, not the traveler’s proposed backward-time journey from A to B. The diagram is a schematic local</text>
+<text x="51" y="1142" font-family="Liberation Serif, Georgia, serif" font-size="24" fill="#10213D">spacetime representation; it does not establish the physical possibility of travel to the past.</text>
+</svg>
