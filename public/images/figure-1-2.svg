@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941" role="img" aria-labelledby="figtitle figdesc">
 <title id="figtitle">Figure 1.2: The extension from local physical reality to a complete four-dimensional history</title>
-<desc id="figdesc">Two panels. Panel A shows observer D's timelike worldline containing event X and an alternative spatially separated observer B at event Y, simultaneous in F. Panel B shows timelike-separated P and Q and a spacelike chain through R, with orange F1 and teal F2 simultaneity lines. The legend uses colored line samples and names the light cone of P.</desc>
+<desc id="figdesc">Two panels. Panel A shows observer D's timelike worldline containing event E and an alternative spatially separated observer B at event Y, simultaneous in F. Panel B shows timelike-separated P and Q and a spacelike chain through R, with orange F1 and teal F2 simultaneity lines. The legend uses colored line samples and names the light cone of P.</desc>
 <defs><marker id="axis-arrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0L9 4.5L0 9Z" fill="#091a3e"/></marker>
 <marker id="small-arrow" markerWidth="7" markerHeight="7" refX="5.4" refY="3.5" orient="auto-start-reverse"><path d="M0 0L6 3.5L0 7" stroke="#8fa2bd" fill="none" stroke-width="1.3"/></marker></defs>
 <rect x="0" y="0" width="1672" height="941" fill="#fff"/>
@@ -16,7 +16,7 @@
 <text x="185" y="174" font-family="Arimo, Arial, sans-serif" font-size="21" fill="#0866c6" font-weight="normal" font-style="normal" text-anchor="start" >D's worldline</text>
 <circle cx="167" cy="503" r="7.2" fill="#dc792e" stroke="white" stroke-width="1.2"/>
 <circle cx="381" cy="503" r="6.4" fill="#008b80" stroke="white" stroke-width="1.2"/>
-<text x="127" y="472" font-family="Tinos, Georgia, serif" font-size="28" fill="#091a3e" font-weight="normal" font-style="italic" text-anchor="start" >X</text>
+<text x="127" y="472" font-family="Tinos, Georgia, serif" font-size="28" fill="#091a3e" font-weight="normal" font-style="italic" text-anchor="start" >E</text>
 <text x="391" y="553" font-family="Tinos, Georgia, serif" font-size="25" fill="#091a3e" font-weight="normal" font-style="italic" text-anchor="start" >Y</text>
 <text x="412" y="553" font-family="Arimo, Arial, sans-serif" font-size="21" fill="#091a3e" font-weight="normal" font-style="normal" text-anchor="start" >(B here)</text>
 <text x="359" y="476" font-family="Arimo, Arial, sans-serif" font-size="20" fill="#008b80" font-weight="normal" font-style="normal" text-anchor="start" >simultaneous in F</text>
@@ -24,7 +24,7 @@
 <text x="261" y="570" font-family="Tinos, Georgia, serif" font-size="25" fill="#091a3e" font-weight="normal" font-style="italic" text-anchor="start" >Δx</text>
 <rect x="232" y="246" width="283" height="56" rx="9" fill="#f6f8fb" stroke="#c6d2e2" stroke-width="1.2"/>
 <text x="373" y="269" font-family="Arimo, Arial, sans-serif" font-size="20" fill="#091a3e" font-weight="normal" font-style="normal" text-anchor="middle" >Alternative observer location,</text>
-<text x="373" y="289" font-family="Arimo, Arial, sans-serif" font-size="20" fill="#091a3e" font-weight="normal" font-style="normal" text-anchor="middle" >not B traveling from X to Y</text>
+<text x="373" y="289" font-family="Arimo, Arial, sans-serif" font-size="20" fill="#091a3e" font-weight="normal" font-style="normal" text-anchor="middle" >not B traveling from E to Y</text>
 <line x1="911" y1="597" x2="911" y2="146" stroke="#091a3e" stroke-width="2.5" stroke-linecap="round" marker-end="url(#axis-arrow)"/>
 <line x1="899" y1="592" x2="1596" y2="592" stroke="#091a3e" stroke-width="2.5" stroke-linecap="round" marker-end="url(#axis-arrow)"/>
 <text x="869" y="135" font-family="Tinos, Georgia, serif" font-size="30" fill="#091a3e" font-weight="normal" font-style="italic" text-anchor="start" >ct</text>
@@ -59,8 +59,8 @@
 <line x1="1363" y1="713" x2="1414" y2="713" stroke="#777777" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="11 9" />
 <text x="1451" y="706" font-family="Tinos, Times New Roman, serif" font-size="22" fill="#050505" font-weight="normal" font-style="normal" text-anchor="start" >Light cone of P</text>
 <text x="1451" y="733" font-family="Tinos, Times New Roman, serif" font-size="21" fill="#050505" font-weight="normal" font-style="normal" text-anchor="start" >( |Δt| = |Δx| )</text>
-<text x="28" y="797" font-family="Tinos, Times New Roman, serif" font-size="27" fill="#090909"><tspan font-weight="bold" font-style="normal">Figure 1.2. </tspan><tspan font-weight="normal" font-style="italic">The extension from local physical reality to a complete four-dimensional history.</tspan><tspan font-weight="normal" font-style="normal"> (A) An event X on observer D’s worldline and a</tspan></text>
-<text x="28" y="830" font-family="Tinos, Times New Roman, serif" font-size="27" fill="#090909"><tspan font-weight="normal" font-style="normal">nearby event B that is spacelike-separated from X, which can be simultaneous with X in a suitable inertial frame. (B) A spacelike chain P – R – Q</tspan></text>
+<text x="28" y="797" font-family="Tinos, Times New Roman, serif" font-size="27" fill="#090909"><tspan font-weight="bold" font-style="normal">Figure 1.2. </tspan><tspan font-weight="normal" font-style="italic">The extension from local physical reality to a complete four-dimensional history.</tspan><tspan font-weight="normal" font-style="normal"> (A) An event E on observer D’s worldline and a</tspan></text>
+<text x="28" y="830" font-family="Tinos, Times New Roman, serif" font-size="27" fill="#090909"><tspan font-weight="normal" font-style="normal">nearby event B that is spacelike-separated from E, which can be simultaneous with E in a suitable inertial frame. (B) A spacelike chain P – R – Q</tspan></text>
 <text x="28" y="861" font-family="Tinos, Times New Roman, serif" font-size="27" fill="#090909"><tspan font-weight="normal" font-style="normal">in which P and Q are timelike-separated, while P – R and R – Q are spacelike-separated. By connecting such pairs and </tspan><tspan font-weight="normal" font-style="italic">adopting transitivity of</tspan></text>
 <text x="28" y="893" font-family="Tinos, Times New Roman, serif" font-size="27" fill="#090909"><tspan font-weight="normal" font-style="italic">co-reality, the construction extends to a complete four-dimensional history.</tspan></text>
 </svg>
