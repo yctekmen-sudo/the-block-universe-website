@@ -39,7 +39,7 @@ jobs:
           titles = [
               "6. The Block Universe and Time Travel",
               "Concluding Synthesis: The Block Universe",
-              "Appendix A: CHSH and the Explicit Measurement-Dependent Local Hidden-Variable Model",
+              "Appendix A",
               "Further Reading and Foundational Works",
           ]
           positions = [text.find(title) for title in titles]
