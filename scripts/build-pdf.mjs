@@ -166,7 +166,7 @@ if (preview) {
       '--no-pdf-header-footer', '--print-to-pdf=' + outputPath,
       '--virtual-time-budget=5000', '--window-size=1280,900'
     ]
-    if (process.platform !== 'win32' && process.getuid?.() === 0) chromeArgs.push('--no-sandbox')
+    if (process.platform !== 'win32' && (process.env.CI === 'true' || process.getuid?.() === 0)) chromeArgs.push('--no-sandbox')
     chromeArgs.push(url)
     console.log('Generating PDF from', chapters.length, 'chapters and', imageCount, 'illustrations...')
     const exitCode = await new Promise((resolve, reject) => {
