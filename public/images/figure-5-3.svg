@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="800" viewBox="0 0 1500 800">
+<defs><marker id="arrowB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#225f9b"/></marker><marker id="arrowP" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#7446a3"/></marker></defs>
+<rect width="1500" height="800" fill="#ffffff"/>
+<rect x="75" y="18" width="1350" height="74" rx="14" fill="#20365f"/>
+<text x="750" y="64" text-anchor="middle" font-family="Georgia,serif" font-weight="bold" font-size="34" fill="white">Two Meanings of “Could Have Chosen Differently”</text>
+<rect x="20" y="112" width="712" height="559" rx="16" fill="#f5faff" stroke="#3b78b3" stroke-width="2"/><rect x="768" y="112" width="712" height="559" rx="16" fill="#fbf7ff" stroke="#7c4ca5" stroke-width="2"/>
+<rect x="20" y="112" width="712" height="62" rx="14" fill="#1f639d"/><rect x="768" y="112" width="712" height="62" rx="14" fill="#743f9e"/>
+<text x="376" y="153" text-anchor="middle" fill="white" font-size="27" font-family="Georgia,serif" font-weight="bold">(a) Alternative Possible Histories</text><text x="1124" y="153" text-anchor="middle" fill="white" font-size="27" font-family="Georgia,serif" font-weight="bold">(b) One Actual History</text>
+<text x="376" y="216" text-anchor="middle" font-family="Georgia,serif" font-size="22" fill="#25314b">Different complete histories may share</text><text x="376" y="243" text-anchor="middle" font-family="Georgia,serif" font-size="22" fill="#25314b">the same earlier physical conditions.</text>
+<text x="1124" y="216" text-anchor="middle" font-family="Georgia,serif" font-size="22" fill="#25314b">Only one choice is part of the</text><text x="1124" y="243" text-anchor="middle" font-family="Georgia,serif" font-size="22" fill="#25314b">actual complete spacetime history.</text>
+<rect x="60" y="292" width="635" height="282" rx="12" fill="white" stroke="#c5d8eb"/>
+<text x="376" y="321" text-anchor="middle" font-family="Georgia,serif" font-size="18" fill="#5a6477">Schematic alternatives in the space of possible histories</text>
+<rect x="803" y="292" width="640" height="282" rx="12" fill="white" stroke="#dbcbe8"/>
+<text x="1124" y="321" text-anchor="middle" font-family="Georgia,serif" font-size="18" fill="#5a6477">Actual observer states along one worldline</text>
+<path d="M110 521H650" stroke="#8aa0bc" stroke-width="2"/><path d="M154 535V350" stroke="#8aa0bc" stroke-width="2"/>
+<path d="M190 522 Q250 492 302 455" fill="none" stroke="#3d6ea4" stroke-width="5"/>
+<path d="M302 455Q372 413 535 358" fill="none" stroke="#1f639d" stroke-width="5" marker-end="url(#arrowB)"/>
+<path d="M302 455Q393 468 546 493" fill="none" stroke="#7446a3" stroke-width="5" marker-end="url(#arrowP)"/>
+<circle cx="302" cy="455" r="11" fill="#274b79"/><text x="285" y="443" text-anchor="end" font-family="Georgia,serif" font-size="20" fill="#22324a">Decision</text>
+<text x="540" y="348" font-family="Georgia,serif" font-size="23" fill="#1f639d" font-weight="bold">History Hₐ: A</text><text x="546" y="522" font-family="Georgia,serif" font-size="23" fill="#7446a3" font-weight="bold">History Hᵦ: B</text>
+<text x="182" y="557" font-family="Georgia,serif" font-size="19" fill="#49596d">Shared past</text>
+<path d="M854 520H1395" stroke="#8aa0bc" stroke-width="2"/><path d="M898 534V349" stroke="#8aa0bc" stroke-width="2"/>
+<path d="M939 524Q1015 484 1090 458Q1210 412 1326 361" fill="none" stroke="#7446a3" stroke-width="5" marker-end="url(#arrowP)"/>
+<circle cx="970" cy="511" r="10" fill="#7446a3"/><circle cx="1090" cy="458" r="10" fill="#7446a3"/><circle cx="1295" cy="372" r="10" fill="#7446a3"/>
+<text x="953" y="549" font-family="Georgia,serif" font-size="20">S₁</text><text x="1080" y="444" font-family="Georgia,serif" font-size="20">S₂: choice A</text><text x="1282" y="352" font-family="Georgia,serif" font-size="20">S₃: record A</text>
+<text x="1124" y="607" text-anchor="middle" font-family="Georgia,serif" font-size="21" fill="#6a388c">The actual history contains A, not A and B.</text>
+<text x="376" y="607" text-anchor="middle" font-family="Georgia,serif" font-size="21" fill="#285989">Alternative histories are possibilities, not simultaneous actual events.</text>
+<rect x="20" y="688" width="1460" height="94" rx="15" fill="#fff4e5" stroke="#ead0aa"/>
+<rect x="47" y="710" width="242" height="51" rx="10" fill="#f9e0bb"/><text x="168" y="743" text-anchor="middle" font-family="Georgia,serif" font-weight="bold" font-size="25" fill="#283143">Key distinction</text>
+<text x="323" y="723" font-family="Georgia,serif" font-size="23" fill="#273244">“Another physically possible history” is not the same as “changing the outcome</text><text x="323" y="755" font-family="Georgia,serif" font-size="23" fill="#273244">while holding the actual complete history fixed.”</text>
+</svg>
