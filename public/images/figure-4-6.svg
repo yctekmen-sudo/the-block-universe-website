@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 760" role="img" aria-labelledby="title description">
-<title id="title">Figure 4.6: Ontically Random Hidden Variables in the Block Universe</title>
+<title id="title">Figure 4.5: Ontically Random Hidden Variables in the Block Universe</title>
 <desc id="description">Two-panel diagram. Left: identical initial physical conditions can produce genuinely random outcomes A, B, or C with probabilities 0.5, 0.3, and 0.2. Right: the actual spacetime history includes one realized outcome B and its later observational record. A definite history does not require deterministic laws.</desc>
 <defs><linearGradient id="navy" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#15274a"/><stop offset="1" stop-color="#2b426f"/></linearGradient><linearGradient id="blue" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#07518c"/><stop offset="1" stop-color="#2475b5"/></linearGradient><linearGradient id="purple" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#5a247f"/><stop offset="1" stop-color="#813bac"/></linearGradient><marker id="arrow" viewBox="0 0 10 10" markerWidth="8" markerHeight="8" refX="9" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#652899"/></marker><marker id="blackArrow" viewBox="0 0 10 10" markerWidth="8" markerHeight="8" refX="9" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#151515"/></marker></defs>
 <rect width="1500" height="760" fill="#fff"/>
 <rect x="130" y="10" width="1240" height="64" rx="13" fill="url(#navy)"/>
-<text x="750" y="54" fill="#fff" text-anchor="middle" font-family="Georgia,serif" font-weight="bold" font-size="35">Figure 4.6: Ontically Random Hidden Variables in the Block Universe</text>
+<text x="750" y="54" fill="#fff" text-anchor="middle" font-family="Georgia,serif" font-weight="bold" font-size="35">Figure 4.5: Ontically Random Hidden Variables in the Block Universe</text>
 <rect x="10" y="92" width="730" height="492" rx="14" fill="#f8fbff" stroke="#2b73b1" stroke-width="2"/>
 <rect x="760" y="92" width="730" height="492" rx="14" fill="#fcf9ff" stroke="#8140ab" stroke-width="2"/>
 <path d="M10 107Q10 92 25 92H725Q740 92 740 107V148H10Z" fill="url(#blue)"/>

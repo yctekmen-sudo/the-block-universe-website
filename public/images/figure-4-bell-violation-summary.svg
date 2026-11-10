@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 760" role="img" aria-labelledby="fig-title fig-desc">
-<title id="fig-title">Why Bell Inequalities Can Be Violated</title>
+<title id="fig-title">Figure 4.3: Why Bell Inequalities Can Be Violated</title>
 <desc id="fig-desc">Three-panel summary: Bell locality and measurement independence imply the CHSH bound of two; quantum correlations can reach two square root two; violations show that the full assumptions cannot all hold, and measurement dependence is one possible alternative to rejecting Bell locality.</desc>
 <defs>
 <linearGradient id="navy" x2="0" y2="1"><stop stop-color="#17294f"/><stop offset="1" stop-color="#273f6e"/></linearGradient>
@@ -9,7 +9,7 @@
 </defs>
 <rect width="1500" height="760" fill="#fff"/>
 <rect x="134" y="12" width="1232" height="66" rx="13" fill="url(#navy)"/>
-<text x="750" y="57" fill="white" text-anchor="middle" font-family="Georgia,serif" font-weight="bold" font-size="37">Why Bell Inequalities Can Be Violated</text>
+<text x="750" y="57" fill="white" text-anchor="middle" font-family="Georgia,serif" font-weight="bold" font-size="34">Figure 4.3: Why Bell Inequalities Can Be Violated</text>
 <rect x="12" y="94" width="478" height="559" rx="15" fill="#f6faff" stroke="#2a70ad" stroke-width="2"/>
 <rect x="510" y="94" width="478" height="559" rx="15" fill="#fbf7ff" stroke="#7941a2" stroke-width="2"/>
 <rect x="1008" y="94" width="480" height="559" rx="15" fill="#f9fbff" stroke="#2a70ad" stroke-width="2"/>
