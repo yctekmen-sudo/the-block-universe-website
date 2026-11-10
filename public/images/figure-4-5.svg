@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
-<title id="title">Figure 4.5. Measurement independence versus measurement dependence</title>
+<title id="title">Figure 4.4. Measurement independence versus measurement dependence</title>
 <desc id="desc">Two side-by-side panels compare setting-independent and setting-dependent hidden-variable distributions. Both panels retain local response functions. Dashed purple links in the right panel represent statistical correlation rather than causal influence.</desc>
 <rect width="1200" height="720" fill="#ffffff"/>
 <rect x="24" y="16" width="1152" height="66" rx="14" fill="#24365f"/>
-<text x="600" y="58" fill="#ffffff" font-family="Georgia,serif" font-weight="bold" font-size="30" text-anchor="middle">Measurement Independence vs. Measurement Dependence</text>
+<text x="600" y="58" fill="#ffffff" font-family="Georgia,serif" font-weight="bold" font-size="27" text-anchor="middle">Figure 4.4: Measurement Independence vs. Measurement Dependence</text>
 <rect x="24" y="96" width="565" height="555" rx="15" fill="#f1f7ff" stroke="#3870ad" stroke-width="2"/>
 <rect x="611" y="96" width="565" height="555" rx="15" fill="#faf3ff" stroke="#793ba3" stroke-width="2"/>
 <path d="M24 111 Q24 96 39 96 H574 Q589 96 589 111 V146 H24Z" fill="#2868a7"/>
