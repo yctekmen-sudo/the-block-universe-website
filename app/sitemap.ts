@@ -15,6 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/read/section-5",
     "/read/section-6",
     "/read/appendix-a",
+    "/read/further-reading",
   ];
 
   return paths.map((path) => ({

@@ -54,5 +54,12 @@
     "file": "chapters/appendix-a.html",
     "subsections": 31,
     "images": 0
+  },
+  {
+    "slug": "further-reading",
+    "title": "Further Reading and Foundational Works",
+    "file": "chapters/further-reading.html",
+    "subsections": 5,
+    "images": 0
   }
 ]
