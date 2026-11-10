@@ -1,0 +1,49 @@
+name: Regenerate book PDF (feature branch)
+
+on:
+  push:
+    branches:
+      - feature/html-to-pdf-publishing
+    paths:
+      - 'content/chapters/**'
+      - 'content/chapters.json'
+      - 'public/images/**'
+      - 'public/book-print.css'
+      - 'scripts/build-pdf.mjs'
+      - '.github/workflows/book-pdf-preview.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render-book:
+    if: github.ref == 'refs/heads/feature/html-to-pdf-publishing'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Setup Chrome
+        id: chrome
+        uses: browser-actions/setup-chrome@v2
+      - name: Render and validate PDF
+        env:
+          CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
+        run: |
+          node scripts/build-pdf.mjs
+          node scripts/build-pdf.mjs --check
+      - name: Commit generated PDF to feature branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "public/The Block Universe.pdf"
+          if ! git diff --cached --quiet; then
+            git commit -m "Build book PDF from authoritative HTML [skip ci]"
+            git push
+          fi
