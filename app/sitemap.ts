@@ -14,6 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/read/section-4",
     "/read/section-5",
     "/read/section-6",
+    "/read/concluding-synthesis",
     "/read/appendix-a",
     "/read/further-reading",
   ];
