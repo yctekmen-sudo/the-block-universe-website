@@ -1,0 +1,61 @@
+name: One-time PDF refresh for concluding synthesis
+
+on:
+  push:
+    branches: [editorial/concluding-synthesis]
+    paths:
+      - 'content/chapters/**'
+      - 'content/chapters.json'
+      - '.github/workflows/synthesis-pdf-build.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  publish-draft-pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout feature branch
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Setup Chrome
+        id: chrome
+        uses: browser-actions/setup-chrome@v2
+      - name: Install PDF inspection tools
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+      - name: Render and validate PDF from HTML
+        env:
+          CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
+        run: |
+          node scripts/build-pdf.mjs
+          node scripts/build-pdf.mjs --check
+          pdftotext -layout "public/The Block Universe.pdf" "$RUNNER_TEMP/book.txt"
+          python3 - "$RUNNER_TEMP/book.txt" <<'PY'
+          import pathlib, re, sys
+          text = re.sub(r'\s+', ' ', pathlib.Path(sys.argv[1]).read_text())
+          titles = [
+              "6. The Block Universe and Time Travel",
+              "Concluding Synthesis: The Block Universe",
+              "Appendix A: CHSH and the Explicit Measurement-Dependent Local Hidden-Variable Model",
+              "Further Reading and Foundational Works",
+          ]
+          positions = [text.find(title) for title in titles]
+          print("Chapter order positions:", list(zip(titles, positions)))
+          assert all(p >= 0 for p in positions), "Chapter title missing from generated PDF"
+          assert positions == sorted(positions), "Chapter order is incorrect"
+          assert text.count("Concluding Synthesis: The Block Universe") >= 2, "Synthesis main text missing (only TOC appears)"
+          assert "Fundamental limitation:" in text, "Synthesis concluding limitation missing"
+          print("New synthesis and publication order: PASS")
+          PY
+      - name: Commit regenerated PDF
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "public/The Block Universe.pdf"
+          if ! git diff --cached --quiet; then
+            git commit -m "Regenerate book PDF with concluding synthesis [skip ci]"
+            git push
+          fi
