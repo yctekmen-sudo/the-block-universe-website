@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1672" height="1180" viewBox="0 0 1672 1180" role="img" aria-labelledby="figtitle figdesc">
-<title id="figtitle">Figure 4.4: Delayed-choice quantum eraser, records and conditional detection patterns</title>
+<title id="figtitle">Figure 4.9: Delayed-choice quantum eraser, records and conditional detection patterns</title>
 <desc id="figdesc">Panel A: a sequence of events in a representative delayed-choice quantum-eraser arrangement: correlated signal-idler preparation, signal detection and permanent record, later idler measurement, and comparison of two records. Panel B: smooth unconditioned signal-detector distribution. Panels C and D: complementary conditional interference patterns after sorting the earlier signal detections by the later idler records in an eraser basis. The weighted sum of these two conditional distributions equals the unconditioned distribution. No earlier event is changed.</desc>
 <defs>
 <marker id="arrowblue" viewBox="0 0 10 10" refX="8.7" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10Z" fill="#1C65BD"/></marker>
@@ -103,7 +103,7 @@
 <text x="836" y="940" fill="#10213D" font-size="19" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">Eraser-basis example with equally weighted outcomes:</text>
 <text x="836" y="966" fill="#10213D" font-size="22" font-family="Arial, Helvetica, sans-serif" font-weight="bold" text-anchor="middle">½ P(x | +)  +  ½ P(x | −)  =  P(x)     —     the original unsorted distribution</text>
 <path d="M51 995 L1621 995" stroke="#DDE6F0" stroke-width="1.4" fill="none" stroke-linecap="round"/>
-<text x="51" y="1032" fill="#10213D" font-size="24" font-family="Liberation Serif, Georgia, serif" font-weight="bold">Figure 4.4.</text>
+<text x="51" y="1032" fill="#10213D" font-size="24" font-family="Liberation Serif, Georgia, serif" font-weight="bold">Figure 4.9.</text>
 <text x="196" y="1032" fill="#10213D" font-size="24" font-family="Liberation Serif, Georgia, serif" font-style="italic">Delayed-choice quantum eraser: records and conditional detection patterns.</text>
 <text x="51" y="1071" fill="#10213D" font-size="24" font-family="Liberation Serif, Georgia, serif">In a delayed-choice arrangement, the signal is recorded before the idler measurement. Sorting the fixed earlier detections by later idler records can reveal</text>
 <text x="51" y="1105" fill="#10213D" font-size="24" font-family="Liberation Serif, Georgia, serif">complementary interference patterns in selected subsets. Their weighted sum reproduces the unchanged unsorted distribution; no earlier event is modified.</text>
