@@ -49,6 +49,13 @@
     "images": 1
   },
   {
+    "slug": "concluding-synthesis",
+    "title": "Concluding Synthesis: The Block Universe",
+    "file": "chapters/concluding-synthesis.html",
+    "subsections": 7,
+    "images": 0
+  },
+  {
     "slug": "appendix-a",
     "title": "Appendix\nA. CHSH and the Explicit Measurement-Dependent Local Hidden-Variable\nModel",
     "file": "chapters/appendix-a.html",
